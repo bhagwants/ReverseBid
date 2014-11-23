@@ -16,6 +16,8 @@ public class User {
 	String email;
 	
 	String phoneNumber;
+	
+	String roleId;
 
 	public String getId() {
 		return id;
@@ -55,6 +57,14 @@ public class User {
 
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
+	}
+
+	public String getRoleId() {
+		return roleId;
+	}
+
+	public void setRoleId(String roleId) {
+		this.roleId = roleId;
 	}
 
 }

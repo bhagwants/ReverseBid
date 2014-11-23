@@ -16,7 +16,8 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 "name",
 "password",
 "email",
-"phoneNumber"
+"phoneNumber",
+"role"
 })
 public class RegisterUserForm {
 
@@ -28,6 +29,9 @@ public class RegisterUserForm {
 	private String email;
 	@JsonProperty("phoneNumber")
 	private String phoneNumber;
+	@JsonProperty("role")
+	private String role;
+	
 	/**
 	* 
 	* @return
@@ -86,6 +90,16 @@ public class RegisterUserForm {
 	@JsonProperty("phoneNumber")
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
+	}
+
+	@JsonProperty("role")
+	public String getRole() {
+		return role;
+	}
+
+	@JsonProperty("role")
+	public void setRole(String role) {
+		this.role = role;
 	}
 
 }
