@@ -1,0 +1,75 @@
+[
+    {
+    "id": "",
+    "name": "",
+    "label": "My Trackers",
+    "trackerColumns": [
+        "Name",
+        "Target Value",
+        "Current Value",
+        "Status",
+        " ",
+        " "
+    ],
+    "trackerRows": [
+        {
+            "id": "tracker0001",
+            "name": "Blood sugar tracker",
+            "targetValue": "70-130",
+            "currentValue": 100,
+            "command": {
+                "name": "Check In",
+                "action": "stopTracker"
+            },
+            "evaluation": {
+                "icon": "_assets/img/u1009.png",
+                "message": "Doing Great",
+                "css": "color:green"
+            },
+            "detail": {
+                "text": "CTA - Track",
+                "action": "track"
+            }
+        },
+        {
+            "id": "tracker0002",
+            "name": "A1C tracker",
+            "targetValue": "Less than 7%",
+            "currentValue": "9%",
+            "command": {
+                "name": "Check In",
+                "action": "stopTracker"
+            },
+            "evaluation": {
+                "icon": "_assets/img/u113.png",
+                "message": "Can Improve",
+                "css": "color:red"
+            },
+            "detail": {
+                "text": "CTA - Track",
+                "action": "track"
+            }
+        },
+        {
+            "id": "tracker0002",
+            "name": "Carb Counter",
+            "targetValue": "320 grams/day",
+            "currentValue": "453 grams/day",
+            "command": {
+                "name": "Check In",
+                "action": "stopTracker"
+            },
+            "evaluation": {
+                "icon": "_assets/img/u113.png",
+                "message": "Can Improve",
+                "css": "color:red"
+            },
+            "detail": {
+                "text": "CTA - Track",
+                "action": "track"
+            }
+        }
+
+    ]
+}
+]

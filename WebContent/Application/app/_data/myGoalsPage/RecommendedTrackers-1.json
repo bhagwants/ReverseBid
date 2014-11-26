@@ -1,0 +1,54 @@
+[{
+    "id": "",
+    "label": "Recommended Trackers",
+    "trackerColumns": [
+        "Name",
+        " ",
+        " "
+    ],
+    "trackerRows": [
+        {
+            "id": "tracker0002",
+            "name": "Blood sugar tracker",
+            "targetValue": "",
+            "currentValue": "",
+            "command": {
+                "name": "Start Tracking",
+                "action": "startTracker"
+            },
+            "detail": {
+                "text": "CTA - Track",
+                "action": "track"
+            }
+        },
+        {
+            "id": "tracker0002",
+            "name": "A1C tracker",
+            "targetValue": "",
+            "currentValue": "",
+            "command": {
+                "name": "Start Tracking",
+                "action": "startTracker"
+            },
+            "detail": {
+                "text": "CTA - Track",
+                "action": "track"
+            }
+        },
+        {
+            "id": "tracker0002",
+            "name": "Carb Counter",
+            "targetValue": "",
+            "currentValue": "",
+            "command": {
+                "name": "Start Tracking",
+                "action": "startTracker"
+            },
+            "detail": {
+                "text": "CTA - Track",
+                "action": "track"
+            }
+        }
+
+    ]
+}]

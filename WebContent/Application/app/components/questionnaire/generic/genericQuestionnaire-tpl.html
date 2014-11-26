@@ -1,0 +1,109 @@
+<div class="container-detail container-questionnaire" ng-model="currentPage" ng-init="currentPage=1" >
+    <button class="button-dismiss2" ng-if="!content.closeButton" ng-click="$parent.$parent.execute('cancel')">x</button>
+    <div ng-if="content.title" class="container-detail-header">
+        <h2 class="title-detail" ng-class="{true:'first'}[content.title=='Getting Ready']">{{content.title | unsafe}}</h2>
+    </div>
+    <div class="divider2"></div>
+    <div class="container-detail-inner" style="margin: 25px 0" ng-if="!noTitle">
+        <div class="row">
+            <div class="col-xs-12">{{content.subTitle}}</div>
+        </div>
+    </div>
+    <h3>{{content.formSections[0].title}}</h3>
+    <h4>{{content.formSections[0].desc}}</h4>
+    <div ng-if="showSidePicture">
+        <div class="pull-left text-left" style="width: 261px;">
+            <img ng-src="{{showSidePicture}}" alt="">
+        </div>
+        <div class="pull-left" style="width: 443px;">
+            <div class="container-detail-inner">
+                <div ng-repeat="item in content.formSections[0].items" ng-show="($index<1 )|| (!hidequestion)">{{answer}}
+                    <span input-Component-Dir item="item" ng-model="questions.answers" ></span>
+                </div>
+            </div>
+            <div ng-bind-html="content.text | unsafe" class="container-detail-inner"></div>
+        </div>
+    </div>
+    <div ng-if="!showSidePicture">
+        <div class="container-detail-inner">
+            <div ng-repeat="item in content.formSections[0].items" ng-show="($index<1 )|| (!hidequestion)">{{answer}}
+                <span input-Component-Dir item="item" ng-model="item.answers" ></span>
+            </div>
+        </div>
+        <div ng-bind-html="content.text | unsafe" class="container-detail-inner"></div>
+    </div>
+    <div class="text-right" style="padding: 20px 30px 20px 0;">
+        <button class="button cancel" ng-if="commandGoalAssessment" ng-click="$parent.$parent.execute('cancel')">Cancel</button>
+        <button class="button" ng-if="commandGoalAssessment" ng-click="assessment()">Submit</button>
+        <button class="button" ng-click="$parent.execute(command)" ng-repeat="command in content.bottomCommands">{{command.title}}</button>
+        <button class="button" ng-click="execute(command)" ng-repeat="command in content.commands">{{command.title}}</button>
+        <button class="button" ng-if="content.closeButton && page.id!='6'" ng-click="$parent.$parent.execute('cancel')" >Close</button>
+        <button class="button" ng-if="content.closeButton && page.id==6" ng-click="$parent.$parent.execute('refresh')" >Close</button>
+        <button class="button" ng-if="showClose && ! showGetStarted" ng-click="$parent.$parent.execute('cancel')">Click to Continue</button>
+        <button class="button" ng-if="showClose && showGetStarted" ng-click="$parent.$parent.execute('cancel')">Get Started</button>
+        <button class="button cancel" ng-if="content.sendBack" ng-click="$parent.$parent.execute('cancel')">Cancel</button>
+        <button class="button" ng-if="content.sendBack" ng-click="sendBack()">Submit</button>
+        <button class="button cancel" ng-if="content.confirmButton" ng-click="$parent.$parent.execute('cancel')">No</button>
+        <button class="button" ng-if="content.confirmButton" ng-click="$parent.$parent.execute('showNovoActionReminder')">Yes</button>
+        <button class="button cancel" ng-if="content.showYesNo" ng-click="$parent.$parent.execute('cancel')">No</button>
+        <button class="button" ng-if="content.showYesNo" ng-click="$parent.$parent.execute('refresh')">Yes</button>
+
+    </div>
+
+        <!-- Jason parts
+        <div ng-repeat="item in questions.items" class="panel-heading">{{answer}}
+            {{$index+1}}. <span input-Component-Dir item="item" ng-model="questions.answers"></span>
+        </div>
+        <br>
+        <input type="radio" class="radio-default" value="" name="radio1"> <label>Not at all</label><br>
+        <input type="radio" class="radio-default" value="" name="radio1"> <label>A bit</label>
+    </div>
+
+    <div class="container-cta">
+        <button class="button" ng-click="fetchPage(currentPage-1)" ng-if="currentPage > 1">Previous</button>
+        <button class="button" ng-click="fetchPage(currentPage+1)" ng-if="currentPage < 3">Next</button>
+        <button class="button" ng-click="submitQuestionnaire()" ng-if="currentPage == 3">Submit</button>
+    </div>
+     -->
+
+    <style>
+        label {
+            display: inline;
+        }
+        .radio-default+label {
+            padding-left: 35px;
+        }
+    </style>
+
+
+
+<!--
+
+ <div class="container-detail-inner">
+        <div style="width:400px;overflow: hidden">{{content}}</div>
+
+        {{questions.text}}
+
+        <div>
+            <h3> Step {{questions.Page}} - {{questions.title}}
+            </h3>
+            <h4>{{questions.label}}
+            </h4>
+            this line is just for test: {{answers}}
+            <div ng-repeat="item in questions.items" class="panel-heading">{{answer}}
+                {{$index+1}}. <span input-Component-Dir item="item" ng-model="questions.answers"></span>
+            </div>
+            <br>
+            <input type="radio" class="radio-default" value="" name="radio1"> <label>Not at all</label><br>
+            <input type="radio" class="radio-default" value="" name="radio1"> <label>A bit</label>
+        </div>
+
+        <div class="container-cta">
+            <button class="button" ng-click="fetchPage(currentPage-1)" ng-if="currentPage > 1">Previous</button>
+            <button class="button" ng-click="fetchPage(currentPage+1)" ng-if="currentPage < 3">Next</button>
+            <button class="button" ng-click="submitQuestionnaire()" ng-if="currentPage == 3">Submit</button>
+        </div>
+    </div>
+
+ -->
+</div>

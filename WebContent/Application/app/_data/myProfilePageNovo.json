@@ -1,0 +1,77 @@
+{
+    "title": "<span style='font-weight: normal'>About</span> Me",
+    "MyDiabetesProfile": {
+        "title": "My Diabetes Profile",
+        "text": "Keep the Diabetes Health Coach digital program up to date with how things are going with your diabetes management.",
+        "command": {
+            "title": "Update Diabetes Profile",
+            "uniqueIdentifier": "updateDiabetesProfile"
+        }
+    },
+    "myAchievements":{
+    	"title":"My Achievements Board",
+    	"headers":["Achievement Type", "Number of Achievements", "Detail"],
+    	"items":[{"title":"My Mastered Actions","number":"","type":"action"},
+    			 {"title":"My Completed e-Coaching Sessions","number":"","type":"esession"}
+    	]	
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "title": "Overview: What is the Diabetes Health Coach digital program?",
+                "description": "<p>The Diabetes Health Coach digital program is an online coaching program that helps you to build healthy habits for managing your diabetes. This program serves up customized e-coaching sessions based on your needs and interests. Like a live health coach, the Diabetes Health Coach digital program gets to know your needs and preferences and offers motivation and information tailored to your needs and your health goals.</p><p>The Diabetes Health Coach is a tailored, convenient, and easy-to-use digital tool for organizing and tracking your progress on building healthy habits related to managing diabetes. Built on clinically reviewed information, the Diabetes Health Coach digital program can supplement the support you get from your trusted diabetes care team of doctors, pharmacists, family, and friends.</p>"
+            },
+            {
+                "title": "About me: What is in the About Me section?",
+                "description": "<p>About Me is where you can store and update your personal information.</p><p>In About Me, the Diabetes Health Coach digital program will ask you to answer specific questions about your health and your lifestyle. The answers you give will help the Diabetes Health Coach program to provide you with health information and suggestions that are suited to your needs and health goals. </p>"
+            },
+            {
+                "title": "My Dashboard: What is on My Dashboard?",
+                "description": "<p>My Dashboard is where you track your progress with the Diabetes Health Coach digital program. It's where you can go to get a quick and useful overview of all the Trackers and Actions that you are working on. </p>"
+            },
+            {
+                "title": "My Plan: What is in My Plan?",
+                "description": "<p>My Plan is where the action really happens on the Diabetes Health Coach digital program! My Plan is where you will use the Diabetes Health Coach tool to build the Healthy Habits that are most important to you. </p><p>To help you build and practice Healthy Habits, the Diabetes Health Coach digital program focuses on 3 key activities: </p><ul><li><strong>LEARNING:</strong> The Diabetes Health Coach digital program will recommend a series of quick and convenient e-Coaching Sessions to help you learn practical health management skills.</li><li><strong>TAKING ACTION:</strong>The Diabetes Health Coach digital program will encourage you to pick a variety of small, achievable health-related Actions to try. These Actions will give you a chance to practice useful health management skills and see how they can fit into your daily life.</li><li><strong>TRACKING:</strong>The Diabetes Health Coach digital program provides a selection of Trackers to for monitoring progress on important health measurements, such as A1C and blood sugar levels. You can choose the Trackers that Diabetes Health Coach recommends or select ones that interest you. </li></ul>"
+            },
+            {
+                "title": "How do I use My Diabetes Coaching Program?",
+                "description": "<p>The Diabetes Health Coach digital program will select e-coaching sessions that you may be interested in based on your answers to the assessment. We recommend that you try one session per week for 12 weeks.</p>"
+            },
+            {
+                "title": "How do I choose a new Healthy Habit to work on?",
+                "description": "<p>Visit My Plan and click on the button labeled +ADD MORE HEALTHY HABITS. The Diabetes Health Coach digital program will recommend the top Healthy Habits for you to work on. You can choose one of the recommended Healthy Habits - or you can explore and pick what most interests you. Follow your instincts and choose the Healthy Habits that make you feel the most excited and motivated! The Diabetes Health Coach digital program encourages you to focus on 1 or 2 Healthy Habits at a time. </p>"
+            },
+            {
+                "title": "How do I access my e-Coaching Sessions? ",
+                "description": "<p>You can always access your e-Coaching Sessions by clicking on the navigation item labeled \"My Diabetes Coaching Program\", which you will find on the left side of any page within the Diabetes Health Coach. </p>"
+            },
+            {
+                "title": "How do I check in on my Actions or pick new Actions to try? ",
+                "description": "<p>On My Plan, each Healthy Habit you're working on features an Actions box. There you will see a tab labeled \"My Actions\" and a tab labeled \"Recommended Actions\".  </p><ul><li><strong>\"My Actions\"</strong> includes a list of the Actions you're currently practicing. Click the button labeled \"Check In\" to tell the Diabetes Health Coach digital program how you're doing on any of your Actions.  </li><li><strong>\"Recommended Actions\" </strong> provides a list of Actions that Diabetes Health Coach suggests you try. Click on the button labeled \"Do it\" to practice any of the Recommended Actions. </li></ul>"
+            },
+            {
+                "title": "How do I update my Trackers or start using new Trackers? ",
+                "description": "<p>On My Plan, each Healthy Habit you're working on features a Trackers box. There you will see a tab labeled \"My Trackers\" and a tab labeled \"Recommended Trackers\". </p><ul><li><strong>\"My Trackers\" </strong> includes a list of your active Trackers. Click the button labeled \"Update\" to add new information to any of your Trackers.  </li><li><strong>\"Recommended Trackers\" </strong>provides a list of Trackers that the Diabetes Health Coach digital program suggests you try. Click on the button labeled \"Start Tracking\" to start using any of the recommended Trackers.  </li></ul>"
+            },
+            {
+                "title": "How do I add a new Medicine Tracker?",
+                "description": "<p>The list of Medicine Trackers shown on the Diabetes Health Coach digital program is based on the medicines you said you were taking when you registered for Cornerstones4Care. If you have started a new medicine that you would like to track, return to Cornerstones4Care and update your profile to add the new medicine. The medicine tracker will then appear on Diabetes Health Coach.</p>"
+            },
+            {
+                "title": "How do I change the answers to the questions asked in My Diabetes Profile? ",
+                "description": "<p>The questions you answer while using the Diabetes Health Coach digital program help us to build a customized plan for you and make recommendations that are tailored to your unique needs. Because your needs and priorities can change, you can also update the answers in your Diabetes Profile at any time. To do this, go to the About Me page, which you can access from the left side of any page within the Diabetes Health Coach digital program. </p><p>On the About Me page, you will see an item labeled \"My Diabetes Profile\". Here you will see the My Diabetes Profile questions and your most recent answers. When you change and submit your new responses, the Diabetes Health Coach digital program will update our recommendations to you &ndash; all to meet your new needs and priorities. </p>"
+            },
+            {
+                "title": "How do I manage my reminders? ",
+                "description": "<p>Visit the About Me page, which you can access from the left side of any page within the Diabetes Health Coach digital program. On the About Me page, you will see a section labeled \"My Preferences\", and within this, \"Manage My Reminders\". From here, you can edit your reminder preferences for action reminders, tracker reminders, and coaching reminders.</p>"
+            },
+            {
+                "title": "What if I forget my login information or password, or have a question about using the program?",
+                "description": "<p>Click <a href=\"https://cornerstones4care.qa.nnittest.com/forgot-password.html\" target=\"_self\">Forgot password</a> if you forget your login information or password. Click <a href=\"https://cornerstones4care.qa.nnittest.com/contact-us.html\" target=\"_self\">Contact Us</a> for help with the program.</p>"
+            }
+        ]
+
+    }
+
+}

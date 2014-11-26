@@ -1,0 +1,223 @@
+{
+    "readinessQuestionnaire":{
+
+        "id":"action-xxxx",
+        "text": "readiness Module Title",
+        "topCommands": [],
+        "title": "<Questions group's description> [Boilerplate text] + <object text>",
+        "answers":{},
+        "questions":[
+            {
+                "id":"1001",
+                "type":"radio",
+                "label": "How confident are you than you can <object text> [e.g shop at the edge]?",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Moderately","value":2},{"text":"Very","value":3}]
+            },
+            {
+                "id":"1002",
+                "type":"radio",
+                "label": " How important is it to you to <object text> ? [e.g shop at the edge]",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Moderately","value":2},{"text":"Very","value":3}]
+            }],
+        "graphs": [],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": true
+    },
+    "actionCheckin": {
+        "id":"action-xxxx",
+        "text": "Go to the market and hunt for 3 types of snackes that contain  about 15 grams of carb per serving",
+        "topCommands": [],
+        "answers":{},
+        "questions":[
+            {
+                "id":"1001",
+                "type":"radio",
+                "label": "How  are you progressing with this activity?",
+                "options": [{"text":"Really well","value":0}, {"text":"Ok","value":1}, {"text":"Bad","value":2}]
+            },
+            {
+                "id":"1002",
+                "type":"radio",
+                "label": "Another question for a sale model?",
+                "options": [{"text":"Really well","value":0}, {"text":"Ok","value":1}, {"text":"Bad","value":2}]
+            }],
+        "graphs": [],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": true
+    },
+    "submitReminder":{
+        "id":"action-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questions":[],
+        "subTitle":"",
+        "graphs": [],
+        "bodyContent": "The reminder has been set on this action.",
+        "trackers": [],
+        "bottomCommands":[{"text":"Close","action":"cancel"}],
+        "modal": true
+    },
+    "termsAndConditions":{
+        "id":"terms",
+        "text": "",
+        "topCommands": [],
+        "questions":[],
+        "subTitle":"",
+        "graphs": [],
+        "bodyContent": "<p>ATTENTION: PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THIS SITE. BY USING OR ACCESSING THIS SITE, YOU ACKNOWLEDGE THAT YOU: HAVE READ AND UNDERSTOOD THE TERMS OF USE AND RELATED PRIVACY POLICY; ARE AT LEAST 18 YEARS OLD AND HAVE THE LEGAL AUTHORITY TO ACCEPT THE TERMS OF USE; AND AGREE TO BE LEGALLY BOUND BY THE TERMS OF USE. IF YOU DO NOT ACCEPT THESE TERMS OF USE, DO NOT USE THIS SITE. YOU SHOULD REVIEW THESE TERMS OF USE PERIODICALLY AS THEY MAY BE REVISED FROM TIME TO TIME.</p><p>Thank you for reviewing these terms of use (\"Terms of Use\") for My Digital Health Coach (this \"Site\"). This Site and the information and tools provided through this Site are not intended as a substitute for professional medical advice, diagnosis, or treatment. While this Site may provide general wellness and health information, the information provided to you on this Site is not intended to be \"medical advice\" and you should not rely or act upon this advice without first consulting your physician directly. Please contact your physician directly about any medical questions or concerns, as determinations of the need for medical services and the types of health care to provide a patient are decisions that should only be made by a physician or other licensed health care provider. The pharmacy does not recommend or endorse any specific tests, physicians, products, procedures, opinions, or other information that may be mentioned on this Site.</p><p>Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this Site.</p><p>If you think you may have a medical emergency, call your doctor or 911 immediately.</p><p>Due to our dependence on information provided by outside sources, the pharmacy and its suppliers and content providers do not and cannot warranty or guarantee the accuracy or availability of the content on this Site or on any other website to which this Site links. Any information or resources provided by or through this Site (or any links) is provided as is without any warranties of any kind. Further, use of this Site or any information or resources provided by or through this Site by any person or organization shall constitute agreement by that person or organization to hold harmless the pharmacy and its suppliers and content providers for any claim relating to this Site, use of the materials provided by or through this Site or attributable to errors, omissions or other inaccuracies in, or destructive properties of any information provided by or through this Site.</p><p>You may download, use and copy the materials found on this Site for your personal, noncommercial use only, provided that all copies of the material that you make must bear any copyright, trademark or other proprietary notice located on this Site that pertain to the material being copied. Except as authorized in this paragraph, you are not being granted a license under any copyright, trademark, patent or other intellectual property right found or described herein.</p><p>If you have any questions or concerns about this policy or the use of your information, or to modify or update any information we have received, please contact us through our website, in person or by mail addressed to: directed to [Insert Contact Info]</p><p>Effective:</p>",
+        "trackers": [],
+        "bottomCommands":[{"text":"DECLINE","action":"cancel"},{"text":"ACCEPT","action":"accept"}],
+        "modal": true
+    },
+    "motivationalMessage":{
+        "id":"action-xxxx",
+        "text": "Motivational Message",
+        "topCommands": [],
+        "questions":[],
+        "subTitle":"",
+        "image":"_assets/img/u6.jpg",
+        "graphs": [],
+        "bodyContent": "<p>Keep up the good work </p><p>(Motivational message for \"really well\")</p><br><p>Don't give up </p><p>(Motivational message for \"ok\")</p><p>Don't panic </p><p>(Motivational message for \"bad\")</p>",
+        "trackers": [],
+        "bottomCommands":[{"text":"Close","action":"cancel"}],
+        "modal": true
+    },
+
+    "setReminderConfirmation":{
+        "id":"action-xxxx",
+        "text": "Go to the market and hunt for 3 types of snacks that contain about 15 grans od carb per serving.",
+        "topCommands": [],
+        "questions":[],
+        "subTitle":"",
+        "graphs": [],
+        "bodyContent": "Has been added  to your list of started actions. Do you want to set a reminder?",
+        "trackers": [],
+        "bottomCommands":[{"text":"No, don't set a reminder","action":"cancel"},{"text":"Yes, set a reminder","action":"setReminder"}],
+        "modal": true
+    },
+    "actionReminder": {
+        "id":"action-xxxx",
+        "text": "Set a reminder",
+        "topCommands": [],
+        "questions":[
+            {
+                "id":"1001",
+                "type":"radio",
+                "label": "How  are you progressing with this activity?",
+                "options": [{"text":"Really well","value":0}, {"text":"Ok","value":1}, {"text":"Bad","value":2}]
+            },
+            {
+                "id":"1002",
+                "type":"radio",
+                "label": "Another question for a sale model?",
+                "options": [{"text":"Really well","value":0}, {"text":"Ok","value":1}, {"text":"Bad","value":2}]
+            }],
+        "graphs": [],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": true
+    },
+    "removeAction": {
+
+        "id":"action-xxxx",
+        "text": "Go to the market and hunt for 3 types of snacks that contain about 15 grans od carb per serving.",
+        "topCommands": [],
+        "questions":[],
+        "subTitle":"",
+        "graphs": [],
+        "bodyContent": "You've chosen to stop doing this action. Do you want to remove it from your personalized list of actions?",
+        "trackers": [],
+        "bottomCommands":[{"text":"No, don't remove","action":"cancel"},{"text":"Yes, remove action","action":"removeAction"}],
+        "modal": true
+    },
+    "challengeJoin": {
+
+    "id":"action-xxxx",
+    "text": "This challenge has been added to your list of challenges. Good luck!",
+    "topCommands": [],
+    "questions":[],
+    "subTitle":"",
+    "graphs": [],
+    "bodyContent": "",
+    "trackers": [],
+    "bottomCommands":[{"text":"ok","action":"cancel"}],
+    "modal": true
+},
+    "masterAction": {
+
+        "id":"action-xxxx",
+        "text": "Go to the market and hunt for 3 types of snacks that contain about 15 grans od carb per serving.",
+        "topCommands": [],
+        "questions":[],
+        "subTitle":"",
+        "graphs": [],
+        "bodyContent": "<Confirmation text> e.g. Congratulations on mastering this action.",
+        "trackers": [],
+        "bottomCommands":[{"text":"Continue","action":"cancel"}],
+        "modal": true
+    },
+    "startTracker": {
+
+        "id":"Track-xxxx",
+        "text": "Check In",
+        "topCommands": [],
+        "questions":[],
+        "graphs": [],
+        "subTitle":"Track this value",
+        "bodyContent": " Weight tracker has been added to the list of values I want to track regularly.",
+        "trackers": [],
+        "bottomCommands":[{"text":"Close","action":"cancel"}],
+        "modal": true
+    },
+    "abandonChallenge":{
+
+        "id":"Track-xxxx",
+        "text": " Eat 5 portions of vegetables and fruit a day and loose 10 pounds in a month",
+        "topCommands": [],
+        "questions":[],
+        "graphs": [],
+        "subTitle":"Are you sure you abandon this challenge ?",
+        "bodyContent": "NB: What should we do with this challenge? Show it from the list of â€œOther Challengesâ€�?",
+        "trackers": [],
+        "bottomCommands":[{"text":"No, don't remove","action":"cancel"},{"text":"Yes, remove challenge","action":"removeChallenge"}],
+        "modal": true
+    }
+    ,
+    "stopTracker": {
+
+        "id":"Track-xxxx",
+        "text": "Check In",
+        "topCommands": [],
+        "questions":[],
+        "graphs": [],
+        "subTitle":"Track this value",
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"No","action":"cancel"},{"text":"Yes, remove","action":"removeTrack"}],
+        "modal": true
+    },
+    "stopCoaching": {
+
+        "id":"Track-xxxx",
+        "text": "Check In",
+        "topCommands": [],
+        "questions":[],
+        "graphs": [],
+        "subTitle":"Track this value",
+        "bodyContent": "You've chosen to stop being coached on Eating Healthy. You'll no longer receive personalized lists of actions and articles on this topic.",
+        "trackers": [],
+        "bottomCommands":[{"text":"No don't remove","action":"cancel"},{"text":"Yes, remove","action":"removeTopic"}],
+        "modal": true
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,73 @@
+{
+    "track": {
+
+        "id":"track-xxxx",
+        "name": "ActionAction",
+        "title": "Go to the market and hunt for 3 types of snackes that contain about 15 grams of carb per serving",
+        "topCommands": [
+            {
+                "name":"Checkin",
+                "action":"actionCheckin",
+                "badge":"",
+                "icon": "",
+                "status": ""
+            },
+            {
+                "name":"Add or Remove Tracker",
+                "action":"addRemoveTracker",
+                "badge":"",
+                "icon": "",
+                "status": ""
+            }
+        ],
+        "graphs": [],
+        "bodyContent": "",
+        "bodyContentWhyLabel": "Why it matters",
+        "bodyContentWhyDescription": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui neque, luctus quis vehicula ac, consequat sit amet urna. Sed elit arcu, facilisis et condimentum ac, elementum eget lorem. Praesent fringilla iaculis sapien quis posuere. Morbi consequat, tortor eu iaculis faucibus, nunc metus auctor metus, sit amet euismod odio nisi vitae sem. Praesent molestie in nibh a tristique. Fusce venenatis nisi sit amet mauris interdum, lacinia porttitor nisi tempor. Mauris tempor nec ipsum a sollicitudin. Cras nec sem eget enim rhoncus gravida et at tellus. Nulla molestie erat quis facilisis malesuada. Cras eget lectus ac dui gravida condimentum quis id est. Ut ut auctor orci. Aenean placerat massa vel dolor consequat, volutpat suscipit felis tempor.</p>",
+        "bodyContentTipsLabel": "Tips for doing it",
+        "bodyContentTipsDescription": "<p>Morbi rutrum ligula ac nibh accumsan feugiat. Curabitur vitae justo convallis, faucibus elit sed, euismod urna. Nunc pulvinar fermentum metus id commodo. Donec vitae purus a tortor dignissim mattis eget sed lacus. Nullam tortor nulla, lobortis eget dolor a, congue convallis diam. Nam a velit tempus, euismod libero ut, tempor purus. Maecenas scelerisque et lorem ut interdum. Suspendisse tempor, dui ut ornare dictum, est lacus iaculis justo, a volutpat lectus sapien at justo. Etiam a lobortis est. Cras quis tincidunt arcu.</p>",
+        "bodyContentHelpLabel": "",
+        "bodyContentHelpDescription": "",
+        "trackersTitle":"Model Tracker's details values",
+        "trackers": {
+            "title":"My Trackers",
+            "trackerColumns":[
+                "Name",
+                "Target Value",
+                "Current Value",
+                "Status",
+                " ",
+                " "
+            ],
+            "trackerRows":[{
+                "id":"tracker0001",
+                    "name":"Weight",
+                    "targetValue":55,
+                    "currentValue":61,
+                    "command":{
+                        "name":"Stop",
+                        "Command":"stop"
+                    },
+                    "evaluation": {
+                        "icon":"_assets/img/u1009.png",
+                        "message":"Doing Great",
+                        "css":"color:green"
+                    },
+                    "detail":true
+                },
+                {
+                    "id":"tracker0002",
+                    "name":"Height",
+                    "targetValue":"--",
+                    "currentValue":"--",
+                    "command":{"name":"Checkin","Command":"actionCheckin"},
+                    "evaluation":{"icon":"_assets/img/u108.png","message":"Missing","css":"color:grey"},
+                    "detail":true
+                }
+            ]
+        },
+        "bottomCommands":[{}],
+        "modal": true
+    }
+
+}

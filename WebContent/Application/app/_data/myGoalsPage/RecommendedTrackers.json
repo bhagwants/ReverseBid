@@ -1,0 +1,22 @@
+[
+        {"id":"",
+            "label":"Recommended Trackers",
+            "trackerColumns":["Tracker Item Name","","","CTA-cmd","","Detail"],
+            "trackerRows":[
+                {"id":"tracker0001",
+                    "name":"Height",
+                    "targetValue":"--",
+                    "currentValue":"--",
+                    "command":{"name":"Start","action":"startTracker"},
+                    "detail":true
+                },
+                {"id":"tracker0002",
+                    "name":"B.M.I",
+                    "targetValue":"--",
+                    "currentValue":"--",
+                    "command":{"name":"Start","action":"startTracker"},
+                    "detail":true
+                }
+            ]
+        }
+    ]

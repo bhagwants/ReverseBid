@@ -1,0 +1,35 @@
+<div class="container-detail container-assessment" ng-model="currentPage" >
+    <button class="button-dismiss2 pull-right" ng-if="currentPage!='Alert'" ng-click="fetchPage('stop')">x</button>
+    <button class="button-dismiss2 pull-right" ng-if="currentPage=='Alert'" ng-click="fetchPage('exit')">x</button>
+    <form>
+        <h2 class="title-detail">{{pageContent.title}}</h2>
+        <div class="container-detail-inner">
+            <div ng-bind-html="pageContent.text1 | unsafe"></div>
+            <h3 ng-if="pageContent.subTitle">{{pageContent.subTitle}}</h3>
+            <div class="divider-complex-tracker" ng-if="pageContent.subTitle"></div>
+            <div class="container-detail-inner">
+                <label input-Component-Dir item="item" ng-model="questions.answers" ng-show="currentPage==1" ng-repeat="item in pageContent.Step1"></label>
+                <label input-Component-Dir item="item" ng-model="questions.answers" ng-show="currentPage==2" ng-repeat="item in pageContent.Step2"></label>
+                <label input-Component-Dir item="item" ng-model="questions.answers" ng-show="currentPage==3" ng-repeat="item in pageContent.Step3"></label>
+                <label input-Component-Dir item="item" ng-model="questions.answers" ng-show="currentPage>3 && currentPae!='Alert'" ng-repeat="item in pageContent.formSections[0].items"></label>
+                
+                
+                
+            </div>
+        </div>
+        <div class="container-cta">
+            <button class="button cancel" ng-click="fetchPage('stop')" ng-if="currentPage != 'End' && currentPage!='Alert'">Cancel</button>
+            <button type="button" class="button cancel" ng-click="fetchPage('prev')" ng-if="currentPage >1 && currentPage <4">Previous
+            </button>
+            <button type="submit" class="button" ng-click="fetchPage('next')" ng-if="currentPage < 3 && currentPage > 0">Next</button>
+            <button type="submit" class="button" ng-click="fetchPage('next')" ng-if="currentPage==0">Continue</button>
+            <button class="button" ng-click="executeAssessment({'id':'111'})" ng-if="currentPage == 3">Submit</button>
+            <button class="button" ng-click="executeAssessment({'id':'222'})" ng-if="currentPage > 3 && currentPage != 'End' && currentPage!='Alert'">Submit</button>
+            <button class="button" ng-click="showGoalListModal()" ng-if="currentPage == 'End'">Continue</button>
+            <button class="button cancel" ng-click="fetchPage('exit')" ng-if="currentPage == 'Alert'">No</button>
+            <button class="button" ng-click="fetchPage('stay')" ng-if="currentPage == 'Alert'">Yes</button>
+        </div>
+    </form>
+</div>
+
+

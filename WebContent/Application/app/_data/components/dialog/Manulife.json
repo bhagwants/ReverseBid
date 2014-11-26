@@ -1,0 +1,13 @@
+{
+"Congrats":
+	{
+		"title":"Congratulations on mastering this action!",
+		"text":"<p style='color:#0a8546;font-size: 24px;font-weight:bold;line-height: 27px;padding: 0 0 20px 0;'><strong>You've taken a strong, positive step toward improving your health and building lifelong healthy habits.</strong></p><p> This action will now be moved from <strong>My Actions</strong> to <strong>My Achievements</strong> board. View all your achievements by going to <strong>About me</strong></p>"
+	},
+"Kindness":
+	{
+		"title":"The Share the Kindness Challenge Tracker",
+		"text":"<p style='color:#0a8546;font-size: 24px;font-weight:bold;line-height: 27px;padding: 0 0 20px 0;'><strong>Way to go!<br> Take a moment to look ahead to your next opportunity to share kindness. Walk through your day ahead and think about the times you encounter others - at breakfast, at your morning coffee stop, on your commute, in the elevator - and anticipate the chances you might have to do something nice for another person.</strong></p><p>And by practicing kindness like this, you're also building a habit of positive thinking and behavior into your life. Imagine the ways this could impact your wellbeing in the long run. </p>"
+	}
+
+}

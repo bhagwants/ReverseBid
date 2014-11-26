@@ -1,0 +1,15 @@
+{
+    "id": "",
+    "name": "",
+    "title": "My Goals",
+    "descTitle":"Digital Health Coach:",
+    "descBoldText": "",
+    "descText": "Way to go! Together with Digital Health Coach, you have built a customized plan to help you improve your health.  Your plan includes the Goals you want to work on and all of the learning resources, healthy actions, and health trackers that Digital Health Coach has recommended just for you. ",
+    "subTitle": "My Goals ",
+    "message": "",
+    "mainCommand": {
+        "text": "ADD MORE GOALS",
+        "icon": "_assets/img/u37.png",
+        "action": "action"
+    }
+}

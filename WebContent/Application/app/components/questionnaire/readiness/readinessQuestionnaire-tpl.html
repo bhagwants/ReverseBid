@@ -1,0 +1,37 @@
+<div>
+    <!-- command: {{page}}, idx:{{idx}} -->
+    <div ng-show="step==1">
+          <div class="row container-main-header">
+        <div class="col-xs-12" >
+            <h1 class="title-main">Readiness Questionnaire</h1>
+            <span class="title-main-description"></span>
+        </div>
+    </div> <!-- // header -->
+    <div class="row container-main-inner">
+        <div class="col-xs-12">
+            <div ng-repeat="quest in content.questionSets">
+                <h3>{{quest.title}}</h3>
+                {{quest.text}}
+                <div ng-repeat="item in quest.questions">
+                    {{$index+1}}. <span input-Component-Dir></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="button {{command.action}}" ng-click="execute(command.action)" ng-repeat="command in content.bottomCommands">{{command.text}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div ng-if="step==2">
+        <div  dialog-Dir page="page" idx="idx"></div>
+    </div>
+    <div ng-if="step==3">
+        <div  reminder-configuration-dir="page" idx="idx"></div>
+    </div>
+    <div ng-if="step==4">
+        <div  dialog-Dir page="page" idx="idx"></div>
+    </div>
+
+</div>

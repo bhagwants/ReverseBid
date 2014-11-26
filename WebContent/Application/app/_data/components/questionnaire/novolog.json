@@ -1,0 +1,100 @@
+{"Step1": {
+    "uniqueIdentifier": "ECS_T1_MEDICINE_TRACKER_NOVOLOG",
+    "text1": "<p>Talk to your doctor if you have any questions about your medicine or dosing instructions.</p><p>This tracker is for your own personal use and is not monitored. It is not possible for anyone but you to see what has been entered into the tracker. Consult your health care provider for any questions you may have regarding your own medical condition, including the management of your diabetes.</p>",
+    "title": "NovoLog® <span style='font-weight:normal'>(insulin aspart [rDNA origin] injection)</span> Tracker",
+    "subTitle": "NovoLog® (insulin aspart [rDNA origin] injection)",
+    "items": [
+        {
+            "id": "howOften",
+            "type": "select",
+            "label": "How Often You Take It:",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": ""
+                },
+                {
+                    "text": "Once a day",
+                    "value": 1
+                },
+                {
+                    "text": "Twice a day",
+                    "value": 2
+                },
+                {
+                    "text": "Three times a day",
+                    "value": 3
+                }
+            ]
+        }
+    ],
+    "timers": [
+        {
+            "type": "time",
+            "id": "timer1",
+            "value": "2014-08-02T12:00:54.933Z",
+            "label": "Dose 1 Time"
+        },
+        {
+            "type": "time",
+            "id": "timer2",
+            "value": "2014-08-02T16:00:54.933Z",
+            "label": "Dose 2 Time"
+        },
+        {
+            "type": "time",
+            "id": "timer3",
+            "value": "2014-08-02T21:00:54.933Z",
+            "label": "Dose 3 Time"
+        }
+
+    ],
+    "text2": "<p>Note: NovoLog® should be taken immediately (5-10 minutes) before a meal. NovoLog® should not be taken without a meal. Each dose should be followed by a meal within 5-10 minutes.</p>",
+    "errorMessage": "Please select how often you take it"
+},
+    "Step2": {
+        "uniqueIdentifier": "ECS_T1_MEDICINE_TRACKER_NOVOLOG",
+        "text1": "<p>The Diabetes Health Coach recommends setting up a reminder to take and track your NovoLog® doses. Check the boxes next to the time(s) indicated to set up a reminder by text and/or email.</p>",
+        "title": "Add reminder",
+        "subTitle": "Set a reminder for NovoLog®",
+        "errorMessage": "Please select at least one item."
+    },
+    "Step3": {
+        "uniqueIdentifier":"ECS_T1_MEDICINE_TRACKER_NOVOLOG",
+        "title": "Add reminder",
+        "items": [
+            {
+                "id": "agreeReceiveMarketingEmail",
+                "type": "checkbox",
+                "label": "By checking this box, I AGREE to receive marketing text messages from Novo Nordisk Inc. at the mobile number I have provided."
+            },
+            {
+                "type": "note",
+                "label": "<p>I understand that I am not required to provide my consent as a condition of purchasing any goods or services.</p><br><p>You will receive text messages as frequently as you choose.</p><p>Message and data rates may apply.</p><p>To unsubscribe, go to <a href='#'>My Preferences</a>.</p><p>For help, visit <a href='#'>Contact us</a>.</p><br><p>Please print for your records.</p>"
+            },
+            {
+                "id": "telephone",
+                "type": "telephone",
+                "label": "Update my mobile phone number:",
+                "value1": 111,
+                "value2": 222,
+                "value3": 4444
+            }
+
+        ]
+    },
+    "Step4": {
+        "uniqueIdentifier":"ECS_T1_MEDICINE_TRACKER_NOVOLOG",
+        "text11": "Your Reminder text will be sent to: ",
+        "title": "Add reminder",
+        "text12": ". To change your mobile phone reminders, please go to <a href='#myProfile'>About Me</a>"
+    },
+    "Step5": {
+        "uniqueIdentifier":"ECS_T1_MEDICINE_TRACKER_NOVOLOG",
+        "text1": "Your Reminder e-mail will be sent to: [email@email.com]. Remember to add jeff@Cornerstones4Care.com to your contacts list so your reminders do not end up in your spam folder. To change your reminders, go to <a href='#myProfile'>About Me</a>. ",
+        "title": "Add reminder"
+    }
+
+}
+
+

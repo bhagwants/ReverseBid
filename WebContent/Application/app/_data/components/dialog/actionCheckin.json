@@ -1,0 +1,45 @@
+{
+    "id": "action-xxxx",
+    "title": "Check In",
+    "text": "Make a carb-counting meal plan using my favourite restaurant's menu.",
+    "topCommands": [],
+    "answers": "",
+    "questions": [
+        {
+            "id": "activity",
+            "name":"activity",
+            "type": "radio",
+            "value":"",
+            "label": "How are you doing with this activity?",
+            "options": [
+                {
+                    "text": "It's going great!",
+                    "value": 0
+                },
+                {
+                    "text": "It's going okay. I've had my ups and downs. ",
+                    "value": 1
+                },
+                {
+                    "text": "It's not going well. I could use some help.",
+                    "value": 2
+                }
+            ]
+        }
+
+    ],
+    "graphs": [],
+    "bodyContent": "",
+    "trackers": [],
+    "bottomCommands": [
+        {
+            "text": "Cancel",
+            "action": "cancel"
+        },
+        {
+            "text": "Submit",
+            "action": "submit_weight"
+        }
+    ],
+    "modal": true
+}

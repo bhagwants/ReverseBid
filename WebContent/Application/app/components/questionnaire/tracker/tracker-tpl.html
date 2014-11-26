@@ -1,0 +1,76 @@
+<div class="container-detail container-complex-tracker" ng-model="currentPage" ng-init="currentPage=1">
+    <button class="button-dismiss2 pull-right" ng-click="execute('cancel')">x</button>
+    
+    <div ng-include="'_assets/isi/novolog-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOG' && !hideISI"></div>
+    <div ng-include="'_assets/isi/novolog7030-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030' && !hideISI"></div>
+    <div ng-include="'_assets/isi/victoza-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_VICTOZA' && !hideISI"></div>
+    <div ng-include="'_assets/isi/levemir-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR' && !hideISI"></div>
+    <style ng-if="!hideISI">
+        .contentwidth {
+            width:495px;
+        }
+    </style>
+    <form style="float:left;" class="contentwidth">
+        
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOG' && !hideISI">
+            <p>Please <a href="http://www.novo-pi.com/novolog.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030' && !hideISI">
+            <p>Please <a href="http://www.novo-pi.com/novologmix7030.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_VICTOZA' && !hideISI">
+            <p>Please <a href="http://www.novo-pi.com/victoza.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR' && !hideISI">
+            <p>Please <a href="http://www.novo-pi.com/levemir.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-header">
+            <h2 class="title-detail" ng-bind-html="pageContent.title | unsafe"></h2>
+        </div>
+        <div class="container-detail-inner">
+        	<div ng-if="!(smsDoubleOptIn && currentPage==4)">
+	            <div ng-bind-html="pageContent.text1 | unsafe"></div>
+	            <div ng-bind-html="pageContent.subTitle | unsafe" style="font-weight:bold"></div>
+	            <div class="divider-complex-tracker"></div>
+	            <label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in pageContent.items"></label>
+	            <div class="clearfix"></div>
+				<!-- <p>{{pageContent.errorMessage}}</p> -->
+				
+	            <label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in pageContent['timers'+answers['howOften']]" ng-if="$index < answers['howOften']" ></label>
+	            
+	            <div class="clearfix"></div>
+	            <div ng-if="currentPage==2" ng-repeat="reminder in reminderOptions" style="margin-bottom:10px">
+	                <p style="font-weight:bold"><span  ng-bind-html="reminder.label | date:'shortTime' | unsafe"></span>:</p>
+	                <span input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in reminder.items"></span>
+	            </div>
+	        </div>    
+			<div style="padding:10px" ng-if="smsDoubleOptIn && currentPage==4">
+				<div  ng-if="globalOptOut">
+               		You have globally opted out of all communications from Novo Nordisk Inc. This means that you will not receive reminders from the Diabetes Health Coach digital program, even if you set them up.   
+               	</div>
+               	<div  ng-if="smsDoubleOptIn && !globalOptOut">
+               		You have not opted in to receive text messages from NNI. No text messages will be sent until you have opted in. <a style="cursor: pointer" ng-click='sendOptSMS()'>Click here</a> to opt in for text messages.
+               	</div>                                	
+            </div>
+            <div ng-bind-html="pageContent.text2 | unsafe" ng-if="answers['howOften'] && pageContent.text2 && uniqueIdentifier!='ECS_T1_MEDICINE_TRACKER_LEVEMIR'"></div>
+            <div ng-bind-html="pageContent.text2 | unsafe" ng-if="answers['howOften']==2 && pageContent.text2 && uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR'"></div>
+            <div ng-bind-html="pageContent.text3 | unsafe" ng-if="answers['howOften']==1 && pageContent.text2 && uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR'"></div>
+            <div class="alert-danger top" ng-if="pageContent.showMessage">{{pageContent.errorMessage}}</div>
+        </div>
+    </form>
+     
+    <div class="container-cta">
+    
+        <button class="button cancel" ng-click="$parent.execute('cancel')" ng-if="currentPage < 4 && currentPage != lastStep">Cancel</button>
+        <button type="submit" class="button" ng-click="fetchPage()" ng-if="currentPage < 4 && currentPage != lastStep">Submit</button>
+        <button type="submit" class="button cancel" ng-click="fetchPage()" ng-if="currentPage >= 4 && currentPage != lastStep">Close</button>
+        <button class="button cancel" ng-click="execute()" ng-if="currentPage == lastStep && !hideClose">Close</button>
+    </div>
+   
+    <div ng-include="'_assets/isi/novolog-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOG' && !hideISI"></div>
+    <div ng-include="'_assets/isi/novolog7030-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030' && !hideISI"></div>
+    <div ng-include="'_assets/isi/victoza-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_VICTOZA' && !hideISI"></div>
+    <div ng-include="'_assets/isi/levemir-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR' && !hideISI"></div>
+</div>
+
+

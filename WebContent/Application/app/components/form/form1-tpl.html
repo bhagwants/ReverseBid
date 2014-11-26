@@ -1,0 +1,27 @@
+<div ng-init="answer={}">
+    <div class="container-detail">
+       <span ng-if="!isInline">
+        <button class="button-dismiss2 pull-right" ng-click="$parent.execute('cancel')" >x</button>
+        <div class="container-detail-header">
+            <h2 class="title-detail">{{content.title}}</h2>
+        </div>
+       
+        <div class="divider2"></div>
+       </span> 
+      
+        <div class="container-detail-inner">
+            <div ng-bind-html="bodyContent"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div input-Component-Dir ng-repeat="item in content.questionItems"></div>
+                    <aside class="aside1" ng-if="content.hint">{{content.hint}}</aside>
+					<div class="alert-danger top" ng-if="content.errorMessage">{{content.errorMessage}}</div>
+                    <div class="container-cta">
+                    	<button class="button cancel" ng-click="$parent.$parent.collapseSetting=!$parent.$parent.collapseSetting" >Cancel</button>
+                        <button class="button {{command.action}}" ng-click="execute(command.action,sendBackUrl)" ng-repeat="command in [content.bottomCommands[1]]">{{command.text}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

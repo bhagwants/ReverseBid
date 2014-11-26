@@ -1,0 +1,39 @@
+ {
+    "type":"appintro",
+    "id":"iddd",
+    "name":"iddd",
+    "appId":"myPatients",
+    "title":"My Patients",
+    "label": "Select a location",
+    "addressColumns": [
+        "Name",
+        "Address",
+        "Phone",
+        "# of Patients",
+        " "
+    ],
+    "addressRows": [
+        {
+            "name":"Pharmacy #123",
+            "address":"123 Street, City PROV A1B 2C3",
+            "phone":"(780) 852-1111",
+            "patientCount":"15"
+        },
+        {
+            "name":"Pharmacy #456",
+            "address":"456 Road, City PROV A1B 2C3",
+            "phone":"(711) 836-2092",
+            "patientCount":"15"
+        },
+        {
+            "name":"Pharmacy #789",
+            "address":"789 Lane, City PROV A1B 2C3",
+            "phone":"(353) 373-9999",
+            "patientCount":"15"
+        }
+    ],
+    "command": {
+         "action": "selectStore",
+         "text": "Select Store"
+     }
+}

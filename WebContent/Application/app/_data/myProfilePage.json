@@ -1,0 +1,267 @@
+{
+    "profile": {
+        "id": "",
+        "name": "",
+        "title": "Personal Information",
+        "image": "_assets/img/profile-picture.jpg",
+        "items": [
+            {
+                "label": "DATE OF BIRTH",
+                "text": "05/06/1971"
+            },
+            {
+                "label": "ADDRESS",
+                "text": "123 Main Street, Toronto ON"
+            }
+        ],
+        "showMore": {
+            "text": "Show more",
+            "action": "showMoreProfileItems"
+        },
+        "showLess": {
+            "text": "Show less",
+            "action": "showMoreProfileItems"
+        },
+        "editButton": {
+            "text": "EDIT PERSONAL INFO",
+            "action": "editProfile"
+        }
+
+    },
+    "coachingTopics": {
+        "label": "Coaching Topics",
+        "topicList": {
+            "label": "Recommended Topics",
+            "items": [
+                {
+                    "id": "idddd",
+                    "name": "name",
+                    "title": "Coaching topics",
+                    "recommIcon": "_assets/img/u18.png",
+                    "statusIcon": "_assets/img/u113.png",
+                    "desc": "Diabetes",
+                    "command": {
+                        "text": "Stop Coaching",
+                        "action": "stopCoaching"
+                    },
+                    "teaser": "Get guidance on how to manage your diabetes",
+                    "previewTitle": "Why it matters",
+                    "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "viewDetail"
+                    },
+                    "previewCommands": [{
+                        "text": "CTA - Start Coaching",
+                        "badge": "",
+                        "action": "startCoaching"
+                    }]
+                },
+                {
+                    "id": "idddd",
+                    "name": "name",
+                    "recommIcon": "",
+                    "statusIcon": "_assets/img/u113.png",
+                    "desc": "Eat Healthy",
+                    "command": {
+                        "text": "Start Coaching",
+                        "action": "startCoaching"
+                    },
+                    "teaser": "Make better food choices and manage your portions",
+                    "previewTitle": "Why it matters",
+                    "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "viewDetail"
+                    },
+                    "previewCommands": [{
+                        "text": "CTA - Start Coaching",
+                        "badge": "",
+                        "action": "startCoaching"
+                    }]
+                },
+                {
+                    "id": "idddd",
+                    "name": "name",
+                    "recommIcon": "",
+                    "statusIcon": "_assets/img/u1009.png",
+                    "desc": "Physical Activity",
+                    "command": {
+                        "text": "Start Coaching",
+                        "action": "startCoaching"
+                    },
+                    "teaser": "Start small and work towards your goals",
+                    "previewTitle": "Why it matters",
+                    "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "viewDetail"
+                    },
+                    "previewCommands": [{
+                        "text": "CTA - Stop Coaching",
+                        "badge": "",
+                        "action": "stopCoaching"
+                    }]
+                },
+                {
+                    "id": "idddd",
+                    "name": "name",
+                    "recommIcon": "",
+                    "statusIcon": "_assets/img/u1009.png",
+                    "desc": "Stress",
+                    "command": {
+                        "text": "Start Coaching",
+                        "action": "startCoaching"
+                    },
+                    "teaser": "Learn the tricks and practice stress-free living",
+                    "previewTitle": "Why it matters",
+                    "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "viewDetail"
+                    },
+                    "previewCommands": [{
+                        "text": "CTA - Stop Coaching",
+                        "badge": "",
+                        "action": "stopCoaching"
+                    }]
+                }
+            ]
+        }
+    },
+    "healthMeasurements": {
+        "title": "Health Measurements",
+        "tableHeader": [
+            "Name",
+            "Items added",
+            "Details"
+        ],
+        "tableRows": [
+            {
+                "id": "physicalMeasures",
+                "name": "Physical measures",
+                "itemsAdded": 3
+            },
+            {
+                "id": "cholesterolMeasures",
+                "name": "Cholesterol measures",
+                "itemsAdded": 3
+            },
+            {
+                "id": "diabetesMeasures",
+                "name": "Diabetes measures",
+                "itemsAdded": 2
+            },
+            {
+                "id": "heartMeasures",
+                "name": "Heart Measures",
+                "itemsAdded": 2
+            }
+        ]
+    },
+    "settings":[
+        {
+            "id": "",
+            "name": "",
+            "label": "Account Settings",
+
+            "settingItems":[
+
+                
+                {
+                    "id": "changeEmail",
+                    "label": "Change My Email Address",
+                    "templateName": "changeEmail"
+
+                }
+                
+            ]
+
+        }
+    ],
+    "goalsProgress": {
+        "title": "Goals Progress",
+        "tableHeader": [
+            "GOALS",
+            "STATUS",
+            "Details"
+        ],
+        "tableRows": [
+            {
+                "id": "healthyEating",
+                "name": "Healthy Eating",
+                "statusIcon": "_assets/img/u113.png"
+            },
+            {
+                "id": "physicalActivity",
+                "name": "Physical activity",
+                "statusIcon": "_assets/img/u1009.png"
+            },
+            {
+                "id": "physicalActivity",
+                "name": "Using alcohol in moderation",
+                "statusIcon": "_assets/img/u1009.png"
+            },
+            {
+                "id": "physicalActivity",
+                "name": "Medication management",
+                "statusIcon": "_assets/img/u1009.png"
+            },
+            {
+                "id": "healthyEating",
+                "name": "Managing stress",
+                "statusIcon": "_assets/img/u113.png"
+            },
+            {
+                "id": "physicalActivity",
+                "name": "Learning to manage your blood pressure",
+                "statusIcon": "_assets/img/u1009.png"
+            },
+            {
+                "id": "physicalActivity",
+                "name": "Building your support network",
+                "statusIcon": "_assets/img/u1009.png"
+            },
+            {
+                "id": "physicalActivity",
+                "name": "Being an effective health \"self manager\"",
+                "statusIcon": "_assets/img/u1009.png"
+            }
+        ]
+    },
+    "moreProfile": [
+        {
+            "label": "PHONE NUMBER",
+            "text": "416-582-8569"
+        },
+        {
+            "label": "EMAIL ADDRESS",
+            "text": ""
+        },
+        {
+            "label": "PRIMARY LANGUAGE",
+            "text": "English"
+        },
+        {
+            "label": "GENDER",
+            "text": "female"
+        },
+        {
+            "label": "HEIGHT",
+            "text": "5ft 12in"
+        },
+        {
+            "label": "WEIGHT",
+            "text": "130 lbs"
+        }
+    ],
+    "profileSubItems": [
+        {"text": "Item 1"},
+        {"text": "Item 2"},
+        {"text": "Item 3"}
+    ]
+}

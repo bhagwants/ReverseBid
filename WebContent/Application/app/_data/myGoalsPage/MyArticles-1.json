@@ -1,0 +1,139 @@
+[
+        {"id":"",
+            "name":"",
+            "label":"My Readings - Group XYZ",
+            "items":[
+                {
+                    "id":"reading-001",
+                    "name":"reading-001",
+                    "desc": "8 stumbling blocks to steady blood glucose control",
+                    "recommIcon":"_assets/img/u18.png",
+                    "command":
+                    {
+                        "text":"Read It",
+                        "badge":"",
+                        "action":"readIt"
+                    },
+                    "previewTitle":"Why it matters",
+                    "previewText": "A person with diabetes may be asked to monitor their blood glucose levels or watch their sugars. Getting their blood glucose numbers in control becomes a part of their daily life and oftentimes a point of stress and worry. That's because the swings from low to high or high to low can take a toll on the body. Low glucose levels (called hypoglycemia) need to be treated immediately. And over time, elevated blood glucose levels may lead to complications....",
+                    "previewTextLimit":200,
+                    "previewTextCommand":
+                    {
+                        "text":"Read It",
+                        "action":"readIt"
+                    },
+                    "primaryCTACommands": [
+                        {
+                            "text":"Read it",
+                            "action":"readIt",
+                            "badge": "",
+                            "icon": "",
+                            "status": ""
+                        }],
+                    "previewCommands":[
+                        {
+                            "text":"Don't show this again",
+                            "action":"dontShowAgain",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        },
+                        {
+                            "text":"Remove Bookmark",
+                            "action":"removeBookmark",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "id":"reading-002",
+                    "name":"reading-002",
+                    "desc": "Blood glucose testing (home testing)",
+                    "command":
+                    {
+                        "text":"Read It",
+                        "badge": "",
+                        "action":"readIt"
+                    },
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":
+                    {
+                        "text":"Read It",
+                        "action":"readIt"
+                    },
+                    "primaryCTACommands": [
+                        {
+                            "text":"Read it",
+                            "action":"readIt",
+                            "badge": "",
+                            "icon": "",
+                            "status": ""
+                        }],
+                    "previewCommands":[
+                        {
+                            "text":"Don't show this again",
+                            "action":"dontShowAgain",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        },
+                        {
+                            "text":"Remove Bookmark",
+                            "action":"removeBookmark",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "id":"reading-003",
+                    "name":"reading-003",
+                    "desc": "Monitoring blood glucose levels",
+                    "command":
+                    {
+                        "text":"Read It",
+                        "badge":"",
+                        "action":"readIt"
+                    },
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":
+                    {
+                        "text":"Read It",
+                        "action":"readIt"
+                    },
+                    "primaryCTACommands": [
+                        {
+                            "text":"Read it",
+                            "action":"readIt",
+                            "badge": "",
+                            "icon": "",
+                            "status": ""
+                        }],
+                    "previewCommands":[
+                        {
+                            "text":"Don't show this again",
+                            "action":"dontShowAgain",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        },
+                        {
+                            "text":"Remove Bookmark",
+                            "action":"removeBookmark",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        }
+                    ]
+                }
+            ],
+            "command":{"status":true, "action":"showMoreMyArticles","text":"Show more"}
+        }
+    ]

@@ -1,0 +1,30 @@
+{
+    "title": "My Digital Health Coach",
+    "image":"_assets/img/login.jpg",
+    "promotionImage":"_assets/img/promotionImage.jpg",
+    "items":[{
+        "id":"userNameId",
+        "name":"userNameId",
+        "label":"PLEASE LOGIN TO ENTER YOUR ACCOUNT",
+        "type":"text",
+        "value":"",
+        "placeHolder":"Username",
+        "required":"required",
+        "hint": ""
+    },
+        {
+            "id":"userPasswordId",
+            "name":"userPasswordId",
+            "label":"",
+            "type":"password",
+            "value":"",
+            "placeHolder":"Password",
+            "required":"required",
+            "hint": ""
+        }],
+    "forgotPasswordCommand": {"id":"","text":"Can't access your account?","action":"forgotPassword"},
+    "loginCommand": {"id":"","text":"Login","action":"login"},
+    "createAccountTitle": "New to My Digital Health Coach?",
+    "createAccountCommand": {"id":"","text":"Create account","action":"signUp"},
+    "promotionTitle": "What is My Digital Health Coach?"
+}

@@ -1,0 +1,97 @@
+{"Step1": {
+    "uniqueIdentifier": "ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030",
+    "text1": "<p>Talk to your doctor if you have any questions about your medicine or dosing instructions.</p><p>This tracker is for your own personal use and is not monitored. Consult your health care provider for any questions you may have regarding your own medical condition, including the management of your diabetes.</p>",
+    "title": "NovoLog<sup>&reg;</sup> Mix 70/30 <span style='font-weight:normal'>(70% insulin aspart protamine suspension and 30% insulin aspart injection [rDNA origin])</span> Tracker",
+    "subTitle": "NovoLog<sup>&reg;</sup> Mix 70/30 (70% insulin aspart protamine suspension and 30% insulin aspart injection [rDNA origin])",
+    "items": [
+        {
+            "id": "howOften",
+            "type": "select",
+            "label": "How Often You Take It:",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": ""
+                },
+                {
+                    "text": "Twice daily",
+                    "value": 2
+                }
+            ]
+        }
+    ],
+    "timers2": [
+        {
+            "type": "time",
+            "id": "timer1",
+            "value": "2014-08-02T12:00:54.933Z",
+            "label": "Dose 1 Time"
+        },
+        {
+            "type": "time",
+            "id": "timer2",
+            "value": "2014-08-02T16:00:54.933Z",
+            "label": "Dose 2 Time"
+        }
+
+    ],
+    
+    "timers1": [
+        {
+            "type": "time",
+            "id": "timer1",
+            "value": "2014-08-02T12:00:54.933Z",
+            "label": "Dose Time"
+        }
+
+    ],
+    "text2": "<p>Note: Each dose of NovoLog<sup>&reg;</sup> Mix 70/30 should be taken within 15 minutes before or after starting a meal.</p>",
+    "errorMessage": "Please select how often you take it"
+},
+    "Step2": {
+        "uniqueIdentifier": "ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030",
+        "text1": "<p>The Diabetes Health Coach recommends setting up a reminder to take and track your NovoLog<sup>&reg;</sup> Mix 70/30 doses. Check the boxes next to the time(s) indicated to set up a reminder by text and/or email.</p>",
+        "title": "<img src='_assets/img/novo/bell.jpg'> Add Reminder",
+        "subTitle": "Set reminder for NovoLog<sup>&reg;</sup> Mix 70/30 (insulin detemir [rDNA origin] injection)",
+        "errorMessage": "Please select at least one item."
+    },
+    "Step3": {
+        "uniqueIdentifier":"ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030",
+        "title": "<img src='_assets/img/novo/bell.jpg'> Add Reminder",
+        "items": [
+{
+                "id": "agreeReceiveMarketingText",
+                "type": "checkbox",
+                "label": "By checking this box, I AGREE to receive automatically sent text message reminders from Novo Nordisk Inc. as part of its Diabetes Health Coach program at the mobile number below."
+            },
+            {
+                "type": "note",
+                "label": "<p>I understand that I am not required to provide my consent as a condition of participation in the Diabetes Health Coach program. </p><br><p>You will receive text messages as frequently as you choose.</p><p>Message and data rates may apply.</p><p>For more information about our Terms of Use go to <a>Terms of Use</a>.</p><p>To view Novo Nordisk's Privacy Policy go to <a href='https://cornerstones4care.qa.nnittest.com/privacy-policy.html' target='_blank'>Privacy Policy</a>.</p><p>To unsubscribe, go to <a>My Preferences</a> to manage your reminders.<p>For help, visit <a href='https://cornerstones4care.qa.nnittest.com/contact-us.html' target='_blank'>Contact Us</a>.</p><br><p>Please print for your records.</p>"
+            },            {
+                "id": "telephone",
+                "type": "telephone",
+                "label": "My mobile phone number:",
+                "value1": "",
+                "value2": "",
+                "value3": ""
+            }
+
+        ]
+    },
+    "Step4": {
+        "uniqueIdentifier":"ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030",
+        "text11": "Your Reminder text will be sent to: ",
+        "title": "<img src='_assets/img/novo/bell.jpg'> Add Reminder",
+        "text12": ". To change your mobile phone number for text messages or reminders, please go to <a href='#myProfile' target='_blank'>My Preferences</a>."
+        
+
+    },
+    "Step5": {
+        "uniqueIdentifier":"ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030",
+        "text1": "Your Reminder e-mail will be sent to: [email@email.com]. Remember to add customercarecenter@cornerstones4care.com to your contacts list so your reminders do not end up in your spam folder. To change your reminders, go to <a href='#myProfile' target='_blank'>My Preferences</a>. ",
+        "title": "<img src='_assets/img/novo/bell.jpg'> Add Reminder"
+    }
+
+}
+
+

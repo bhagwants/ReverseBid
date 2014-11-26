@@ -1,0 +1,91 @@
+{
+    "id": "id00",
+    "name": "",
+    "title": "Get Started on a Health Goal",
+    "text": "With the help of the information you have provided, Digital Health Coach would like to recommend the top 3 health goals you should consider working on. Choose based on which goal really interests and motivates you. When you’ve decided, click the “Get Started” button next to your selected goal and Digital Health Coach will add it to your plan. Digital Health Coach suggests focusing on one goal at a time.",
+    "topCommand": {
+        "text": "Add a Coaching Topic",
+        "action": "pickAnotherCoachingTopic"
+    },
+    "goalCollection": {
+        "id": "",
+        "name": "",
+        "label": "Digital Health Coach Recommended Goals",
+        "items": [
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "_assets/img/u18.png",
+                "desc": "Control my blood sugar ",
+                "command": {
+                    "text": "Get Started",
+                    "action": "bypass"
+                },
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Start this Action",
+                    "badge": "",
+                    "action": "bypass"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "desc": "Manage my medications",
+                "command": {
+                    "text": "Get Started",
+                    "action": "bypass"
+                },
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Start this Action",
+                    "badge": "",
+                    "action": "bypass"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "desc": "Be physically active",
+                "command": {
+                    "text": "Get Started",
+                    "action": "bypass"
+                },
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Start this Action",
+                    "badge": "",
+                    "action": "bypass"
+                }]
+            }
+        ],
+        "command": {
+            "text": "VIEW OTHER GOALS",
+            "action": "showMoreGoals"
+        }
+    },
+    "bottomCommand": [{
+        "name": "Cancel",
+        "action": "cancel"
+    }]
+}

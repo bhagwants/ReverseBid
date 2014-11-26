@@ -1,0 +1,44 @@
+{	"chartType":"table",
+	"dateSelector":[{
+            "id": "whatever",
+            "type": "select",
+            "label": "View",
+            "options": [
+                {
+                    "text": "Last month",
+                    "value": "Last month"
+                }
+            ]
+        }],
+     "taken":"16",
+     "notTaken":"3",
+     "NotReported":"2",
+     
+     "header":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+     "monthLength":"31",
+     "calendar":[
+			     	[		  ["1st Dose","","","","T","N","U",""],
+			     	 		  ["2nd Dose","","","","","T","N","U"],
+			     	 		  ["3rd Dose","","","","T","N","U",""]
+			     	 		],
+			     	[		  ["1st Dose","","T","N","U","","",""],
+			     	 		  ["2nd Dose","","U","","","T","N","U"],
+			     	 		  ["3rd Dose","","N","","T","N","U",""]
+			     	 		],
+			     	[		  ["1st Dose","","T","","T","N","U",""],
+			     	 		  ["2nd Dose","","T","","","T","N","U"],
+			     	 		  ["3rd Dose","","T","N","T","N","U",""]
+			     	 		],
+			     	[		  ["1st Dose","T","","T","N","U","",""],
+			     	 		  ["2nd Dose","","T","","","T","N","U"],
+			     	 		  ["3rd Dose","U","T","N","T","N","U",""]
+			     	 		],
+			     	[		  ["1st Dose","T","","T","","","",""],
+			     	 		  ["2nd Dose","","T","","","","",""],
+			     	 		  ["3rd Dose","U","T","N","","","",""]
+			     	 		]
+			     	
+     
+     
+     ]   
+}

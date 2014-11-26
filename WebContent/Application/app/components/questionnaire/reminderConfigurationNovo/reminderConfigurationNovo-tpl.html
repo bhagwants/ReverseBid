@@ -1,0 +1,67 @@
+<div class="container-detail container-complex-tracker container-timepicker" ng-model="currentPage" >
+    <style>
+
+    </style>
+    <button class="button-dismiss2" ng-click="$parent.execute('cancel')" style="float:right">x</button>
+    <form>
+    
+    <!-- 
+     Here is the data-id relationship:<br>
+     
+     -->
+        <div class="container-detail-header">
+            <h2 class="title-detail" ng-bind-html="pageContent.title | unsafe" ></h2>
+        </div>
+        <div class="container-detail-inner">
+            <div ng-bind-html="pageContent.text1 | unsafe" ng-if="!(smsDoubleOptIn && currentPage==3)"></div>
+            <p ng-if="pageContent.subTitle"><strong>{{pageContent.subTitle}}</strong></p>
+            <div ng-if="pageContent.items">
+	            <div><label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in [pageContent.items[0]]"></label></div>
+	            <div class="divider-complex-tracker"></div>
+	            <div><label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in [pageContent.items[5]]"></label></div>
+	            <div ng-show="showMore">
+	            
+		            <div ><label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in [pageContent.items[1]]"></label></div>
+		            <div ng-show="answers['howOften']==2" ><label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in [pageContent.items[2]]" ></label></div>
+		            <div ng-show="answers['howOften'] >=1"><label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in [pageContent.items[3]]" ></label></div>
+		            <div ng-show="answers['howOften']>=2"><label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in [pageContent.items[4]]" ></label></div>
+		            <!-- <div ng-show="answers['howOften']>=3">Reminder will be sent at 2<small>AM</small> on selected date.</div>
+		             -->
+		        </div>    
+	            <div class="clearfix"></div>
+	            
+			</div>
+			<div style="padding:10px" ng-if="smsDoubleOptIn && currentPage==3">
+				
+				<div  ng-if="!globalOptOut">
+               		You have globally opted out of all communications from Novo Nordisk Inc. This means that you will not receive reminders from the Diabetes Health Coach digital program, even if you set them up.   
+               	</div>
+               	<div  ng-if="smsDoubleOptIn && globalOptOut">
+               		You have not opted in to receive text messages from NNI. No text messages will be sent until you have opted in. <a style="cursor: pointer" ng-click='sendOptSMS()'>Click here</a> to opt in for text messages.
+               	</div>
+               	
+				                                	
+            </div>
+            <label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in pageContent.items2"></label>
+            <div class="clearfix"></div>
+
+            
+
+            <div ng-bind-html="pageContent.text2 | unsafe" ng-if="answers['howOften'] && pageContent.text2"></div>
+            <div class="alert-danger top" ng-if="pageContent.errorMessage">{{pageContent.errorMessage}}</div>
+        </div>
+    </form>
+    <div class="alert-danger top" style="height: 50px" ng-show="showError">Wrong phone number format. Please use ANN-NNN-NNNN, where A is a number between 2 and 9 and N is a number between 0 and 9.</div>
+    <div class="container-cta">
+        <button class="button cancel" ng-click="$parent.$parent.execute('cancel')" ng-if="currentPage>0 && currentPage<3">Cancel</button>
+        <button class="button cancel" ng-click="$parent.$parent.execute('refresh')" ng-if="currentPage ==0">No</button>
+        <button type="submit" class="button" ng-click="fetchPage(page)" ng-if="currentPage <= 2 && currentPage>0">Submit</button>
+        <button type="submit" class="button cancel" ng-click="fetchPage(page)" ng-if="currentPage>2 && currentPage<4 && !hideClose">Close</button>
+        <button type="submit" class="button" ng-click="fetchPage(page)" ng-if="currentPage == 0">Yes</button>
+        <button class="button cancel" ng-click="execute(page)" ng-if="currentPage == 4 && !hideClose">Close</button>
+    </div>
+   
+ 
+</div>
+
+

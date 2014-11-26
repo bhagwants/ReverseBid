@@ -1,0 +1,30 @@
+{
+    "id": "challenge-xxxx",
+    "name": "challenge-xxxx",
+    "title": "Beat the Zombies!",
+    "subTitle":"How am I doing?",
+    "dataType": "Personal Challenge",
+    "topCommands": [
+        {
+            "name": "Check in now!",
+            "action": "challengeCheckin"
+        },
+        {
+            "name": "Quit Challenge",
+            "action": "challengeAbandon"
+        }
+    ],
+    "graph": false,
+    "zombieGraph": true,
+    "bodyContent": "",
+    "bodyContentWhyLabel": "Why it matters",
+    "bodyContentWhyDescription": "<p>By doing this challenge, you're taking an important step towards being more active. Walking every day is a great way to add some physical activity into your daily routine. And small steps can add up to big results! You may find that when the 21 days are up, you want to keep up your daily walk, and even add to the distance.</p>",
+    "bodyContentTipsLabel": "Tips for doing it",
+    "bodyContentTipsDescription": "<p>Set aside some time each day for a walk. Choose a time that's convenient for you, such as after dinner. Find a place where you will enjoy walking, like around your neighbourhood or in a local park. You may also want to ask a friend or family member to be your \"walking buddy\".</p>",
+    "bodyContentHelpLabel": "What to do when I'm stuck",
+    "bodyContentHelpDescription": "<p>On days when you don't feel like going for a walk, just remember that getting started is often the biggest hurdle. Just slip on your shoes and head out the door. And remember, the zombies are catching up!</p>",
+    "trackersTitle": "",
+    "trackers": "",
+    "bottomCommands": [],
+    "modal": false
+}

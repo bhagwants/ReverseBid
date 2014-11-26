@@ -1,0 +1,43 @@
+{
+"addtoMyAchievements":
+	{
+		"title":"",
+		"text":"<p>Congratulations! You have practiced this healthy action and now it\\'s part of your healthy lifestyle. Diabetes Health Coach will now add it to your Achievements Board. You can see your Achievements Board at any time by going to About Me. </p>"
+	},
+"RemoveTracker":
+	{
+		"title":"",
+		"text":"<h3><img src='_assets/img/novo/delete.png'>Remove Tracker</h3><p>If you remove this tracker, you will no longer be able to see or access your tracked values. Do you want to continue?</p>"
+	},
+"updatePhone":
+	{
+		"title":"",
+		"text":"<p>Phone number is updated successfully!</p>"
+	},	
+"RemoveAction":
+	{
+		"title":"",
+		"text":"<h3><img src='_assets/img/novo/delete.png'>Remove Action</h3><p>If you remove this action, you will no longer be able to see or access your tracked values. Do you want to continue?</p>"
+	},
+"takeActionReminderMessage":
+	{
+		"title":"",
+		"text":"<p><strong>Great!</strong> To work on this action, go to My Actions in the Dashboard.</p><p>The Diabetes Health Coach digital program recommends setting a reminder to do this action. Do you want to set a reminder?</p>"
+	},
+
+"addedAction":
+	{
+		"title":"Step 3 - Take Action",
+		"text":"<p style='color:#002878;font-size: 15px;line-height: 27px;padding: 0 0 20px 0;'><strong>Great!</strong> By choosing to work on this action, you've shown a real commitment to managing your diabetes.</p><p> This action has been added to your My Plan page. To work on this action, go to dashboard in the left-hand menu and click on my Action.</p>"
+	},
+"Kindness":
+	{
+		"title":"The Share the Kindness Challenge Tracker",
+		"text":"<p style='color:#0a8546;font-size: 24px;font-weight:bold;line-height: 27px;padding: 0 0 20px 0;'><strong>Way to go!<br> Take a moment to look ahead to your next opportunity to share kindness. Walk through your day ahead and think about the times you encounter others - at breakfast, at your morning coffee stop, on your commute, in the elevator - and anticipate the chances you might have to do something nice for another person.</strong></p><p>And by practicing kindness like this, you're also building a habit of positive thinking and behavior into your life. Imagine the ways this could impact your wellbeing in the long run. </p>"
+	},
+"comingSoon":
+	{
+		"text":"Coming Soon."
+	}	
+
+}

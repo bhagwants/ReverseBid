@@ -1,0 +1,10 @@
+{
+    "image":"_assets/img/manulife/u54.png",
+    "businessObject":"Article",
+    "title":"How to eat 5 vegetables portions a day",
+    "command":{"name":"CTA - Learn","action":"healthyEating->Learn"},
+    "selection":[
+        {"icon":"_assets/img/u103.png","name":"My Articles","action":"MyArticles","badge":false},
+        {"icon":"","name":"Recommended","action":"RecommendedArticles","badge":"15"}
+    ]
+}

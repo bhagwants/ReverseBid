@@ -1,0 +1,38 @@
+{
+    "id":"terms",
+    "text": "Send a Message",
+    "messageFields":[
+        {
+        "id":"toId",
+        "name":"toId",
+        "label":"To:",
+        "type":"email",
+        "value":"currentPatent@example.com",
+        "placeHolder":"",
+        "required":"required",
+        "hint": ""
+    },
+        {
+            "id":"titleId",
+            "name":"titleId",
+            "label":"Title:",
+            "type":"text",
+            "value":"",
+            "placeHolder":"Message Title",
+            "required":"required",
+            "hint": ""
+        },
+        {
+            "id":"messageBodyId",
+            "name":"messageBodyId",
+            "label":"",
+            "type":"textarea",
+            "value":"",
+            "placeHolder":"",
+            "required":"required",
+            "hint": ""
+        }
+    ],
+    "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Send Message","action":"sendMessage"}],
+    "modal": true
+}

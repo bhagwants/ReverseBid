@@ -1,0 +1,42 @@
+
+            [
+                {
+                    "id":"action-101",
+                    "name":"action-101",
+                    "desc":"Scan the pantry for tricky serving size indicators on food packages",
+                    "recommIcon":"_assets/img/u18.png",
+                    "command":{"text":"Do It","badge":false,"action":"readinessQuestionnaire"},
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":{"text":"View Detail","action":"viewDetail"},
+                    "previewCommands":[{"text":"CTA - Start this Action","badge":false,"action":"readinessQuestionnaire"}
+                    ]
+                },
+                {
+                    "id":"action-102",
+                    "name":"action-102",
+                    "desc":"Shop only in the perimeter aisles at the supermarket",
+                    "recommIcon":"_assets/img/u18.png",
+                    "command":{"text":"Do It","badge":false,"action":"readinessQuestionnaire"},
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":{"text":"View Detail","action":"viewDetail"},
+                    "previewCommands":[{"text":"CTA - Start this Action","badge":false,"action":"readinessQuestionnaire"}
+                    ]
+                },
+                {
+                    "id":"action-103",
+                    "name":"action-103",
+                    "desc":"Lear the 5-and-20 Rule when reading food labels",
+                    "recommIcon":"_assets/img/u18.png",
+                    "command":{"text":"Do It","badge":false,"action":"readinessQuestionnaire"},
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":{"text":"View Detail","action":"viewDetail"},
+                    "previewCommands":[{"text":"CTA - Start this Action","badge":false,"action":"readinessQuestionnaire"}
+                    ]
+                }
+            ]

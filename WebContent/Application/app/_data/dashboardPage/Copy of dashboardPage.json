@@ -1,0 +1,297 @@
+ {
+    "type":"appintro",
+    "id":"iddd",
+    "name":"iddd",
+    "appId":"dashboard",
+    "title":"Dashboard",
+
+    "subTitle":"This is your starting point for taking charge of your health",
+    "desc": "",
+    "image":"",
+    "text":"",
+    "command":{"name":""},
+    "modal":false,
+    "contents":[
+        {
+            "id": "",
+            "name": "",
+            "label": "My Input Messages",
+            "messageColumns": [
+                "Message",
+                "Date",
+                "Sender",
+                "Status",
+
+                "Detail"
+            ],
+            "messageRows": [
+                {
+                    "id": "message0002",
+                    "title": "<item Title>",
+                    "date": "dd/mm/yyyy",
+                    "sender": "Dr Name",
+                    "status":"Read",
+                    "bold":false
+                },
+                {
+                    "id": "message0001",
+                    "title": "<item Title>",
+                    "date": "dd/mm/yyyy",
+                    "sender": "Dr Name",
+                    "status":"Not Read",
+                    "bold":true
+                },
+                {
+                    "id": "message0002",
+                    "title": "<item Title>",
+                    "date": "dd/mm/yyyy",
+                    "sender": "Dr Name",
+                    "status":"Read",
+                    "bold":false
+                }
+
+            ],
+            "command": {
+                "status": true,
+                "action": "showMoreMessages",
+                "text": "Show more"
+            }
+
+        },
+        {
+            "id": "",
+            "name": "",
+            "label": "My Trackers",
+            "trackerColumns": [
+                "Name",
+                "Target Value",
+                "Current Value",
+                "Status",
+                " ",
+                " "
+            ],
+            "trackerRows": [
+                {
+                    "id": "tracker0001",
+                    "name": "Blood sugar tracker",
+                    "targetValue": "70-130",
+                    "currentValue": 100,
+                    "command": {
+                        "name": "Check In",
+                        "action": "stopTracker"
+                    },
+                    "evaluation": {
+                        "icon": "_assets/img/u1009.png",
+                        "message": "Doing Great",
+                        "css": "color:green"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                },
+                {
+                    "id": "tracker0002",
+                    "name": "A1C tracker",
+                    "targetValue": "Less than 7%",
+                    "currentValue": "9%",
+                    "command": {
+                        "name": "Check In",
+                        "action": "stopTracker"
+                    },
+                    "evaluation": {
+                        "icon": "_assets/img/u113.png",
+                        "message": "Can Improve",
+                        "css": "color:red"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                },
+                {
+                    "id": "tracker0002",
+                    "name": "Carb Counter",
+                    "targetValue": "320 grams/day",
+                    "currentValue": "453 grams/day",
+                    "command": {
+                        "name": "Check In",
+                        "action": "stopTracker"
+                    },
+                    "evaluation": {
+                        "icon": "_assets/img/u113.png",
+                        "message": "Can Improve",
+                        "css": "color:red"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                }
+
+            ]
+        },
+        {
+            "id": "",
+            "name": "",
+            "label": "My Actions",
+            "items": [
+                {
+                    "id": "action-001",
+                    "name": "action-001",
+                    "desc": "Make a carb-counting meal plan using my favourite restaurant's menu.",
+                    "recommIcon": "_assets/img/u18.png",
+                    "command": {
+                        "text": "Check In",
+                        "badge": false,
+                        "action": "actionCheckin"
+                    },
+                    "previewTitle": "Why it matters",
+                    "previewText": "Planning ahead and knowing what is safe for you will make your dining experience much more enjoyable. ",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "act"
+                    },
+                    "primaryCTACommands" : [
+                        {
+                            "text": "Check In",
+                            "action": "actionCheckin",
+                            "badge": "",
+                            "icon": "",
+                            "status": ""
+                        }
+                    ],
+                    "previewCommands": [
+                        {
+                            "text": "Add Reminder",
+                            "action": "actionReminder",
+                            "badge": "",
+                            "icon": "iconAdd",
+                            "status": ""
+                        },
+                        {
+                            "text": "Add to My Achievements ",
+                            "action": "masterAction",
+                            "badge": "",
+                            "icon": "iconAdd",
+                            "status": ""
+                        },
+                        {
+                            "text": "Remove",
+                            "action": "removeAction",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "action-002",
+                    "name": "action-002",
+                    "desc": "On my next 3 market visits, find a new, different food I've never tried and check the label to see if it would fit into my eating plan",
+                    "command": {
+                        "text": "Check In",
+                        "badge": "",
+                        "action": "actionCheckin"
+                    },
+                    "previewTitle": "Why it matters",
+                    "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "act"
+                    },
+                    "primaryCTACommands" : [
+                        {
+                            "text": "Check In",
+                            "action": "actionCheckin",
+                            "badge": "",
+                            "icon": "",
+                            "status": ""
+                        }
+                    ],
+                    "previewCommands": [
+                        {
+                            "text": "Add Reminder",
+                            "action": "actionReminder",
+                            "badge": "",
+                            "icon": "iconAdd",
+                            "status": ""
+                        },
+                        {
+                            "text": "Add to My Achievements ",
+                            "action": "masterAction",
+                            "badge": "",
+                            "icon": "iconAdd",
+                            "status": ""
+                        },
+                        {
+                            "text": "Remove",
+                            "action": "removeAction",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "action-003",
+                    "name": "action-003",
+                    "desc": "Practice my measuring skills and for one day this week, weighting and ...",
+                    "command": {
+                        "text": "Check In",
+                        "badge": "",
+                        "action": "actionCheckin"
+                    },
+                    "previewTitle": "Why it matters",
+                    "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit": 200,
+                    "previewTextCommand": {
+                        "text": "View Detail",
+                        "action": "act"
+                    },
+                    "primaryCTACommands" : [
+                        {
+                            "text": "Check In",
+                            "action": "actionCheckin",
+                            "badge": "",
+                            "icon": "",
+                            "status": ""
+                        }
+                    ],
+                    "previewCommands": [
+                        {
+                            "text": "Add Reminder",
+                            "action": "actionReminder",
+                            "badge": "",
+                            "icon": "iconAdd",
+                            "status": ""
+                        },
+                        {
+                            "text": "Add to My Achievements ",
+                            "action": "masterAction",
+                            "badge": "",
+                            "icon": "iconAdd",
+                            "status": ""
+                        },
+                        {
+                            "text": "Remove",
+                            "action": "removeAction",
+                            "badge": "",
+                            "icon": "iconDelete",
+                            "status": ""
+                        }
+                    ]
+                }
+            ],
+            "command": {
+                "status": true,
+                "action": "showMoreMyAction",
+                "text": "Show more"
+            }
+        }
+
+    ]
+
+}

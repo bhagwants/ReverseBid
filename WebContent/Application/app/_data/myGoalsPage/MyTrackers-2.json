@@ -1,0 +1,31 @@
+[
+        {"id":"",
+            "name":"",
+            "label":"My Trackers",
+            "trackerColumns":["Name","Target Value","Current Value","Status"," "," "],
+            "trackerRows":[
+                {"id":"tracker0001",
+                    "name":"Weight",
+                    "targetValue":55,
+                    "currentValue":61,
+                    "command":{"name":"Stop","action":"stopTracker"},
+                    "evaluation":{"icon":"_assets/img/u1009.png","message":"Doing Great","css":"color:green"},
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                },
+                {"id":"tracker0002",
+                    "name":"B.M.I",
+                    "targetValue":20,
+                    "currentValue":30,
+                    "command":{"name":"Stop","action":"stopTracker"},
+                    "evaluation":{"icon":"_assets/img/u113.png","message":"Can Improve","css":"color:red"},
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                }
+            ]
+        }
+]

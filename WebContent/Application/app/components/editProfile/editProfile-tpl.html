@@ -1,0 +1,39 @@
+<div>
+    <div class="container-detail">
+        <button class="button-dismiss2 pull-right" ng-click="$parent.$parent.execute('cancel')">x</button>
+        <div ng-if="content">
+        	<div class="container-detail-header">
+            	<h2 class="title-detail" ng-if="content.title">{{content.title}}</h2>
+	        </div>
+	        <div class="divider2"></div>
+	        <div class="container-detail-inner">
+				<form>
+	                <div class="row">
+	                    <div class="col-xs-12">
+	                        <div class="pull-right">{{content.requiredItem.symbol}}{{content.requiredItem.label}}</div>
+	                        <div input-Component-Dir ng-repeat="item in content.nameAddressfields"></div>
+	                    </div>
+	                    <div class="col-xs-12" ng-repeat="segment in content.formSections">
+	                    	<h3>{{segment.title}}</h3>
+	                    	<div class="divider-complex-tracker"></div>
+	                    	<label>{{segment.desc}}</label>
+	                    	<div input-Component-Dir ng-repeat="item in segment.items"></div>
+	                    </div>
+	                    
+	                    
+	                </div>
+	            </form>
+	            <div class="container-cta">
+	                <button ng-repeat="command in content.bottomCommands" class="button {{command.title|lowercase}}" type="{{command.type}}" ng-click="execute(command)">{{command.title}}</button>
+	            </div>
+	        </div>
+        </div>
+        <div ng-if="finalMessage">
+        	<div class="container-detail-header">
+            	<h2 class="title-detail" >{{finalMessage}}</h2>
+	        </div>
+	        <div class="container-cta">
+	                <button class="button" ng-click="$parent.$parent.execute('cancel')">Close</button>
+	            </div>
+    	</div>
+</div>

@@ -1,0 +1,1147 @@
+{
+    "success": true,
+    "msg": "",
+    "data": [
+        {
+            "type": "form",
+            "id": "",
+            "topic": null,
+            "name": "",
+            "title": null,
+            "subTitle": null,
+            "cssName": "",
+            "imageUrl": "",
+            "commands": null,
+            "items": [],
+            "modal": false,
+            "hidden": false,
+            "disabled": false,
+            "requiredItem": null,
+            "validUser": false,
+            "formSections": [
+                {
+                    "title": null,
+                    "desc": null,
+                    "example": null,
+                    "items": [
+                        {
+                            "type": "radiohrz",
+                            "id": "1001",
+                            "name": "1001",
+                            "label": "I know when I need help with my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000101",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000102",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000103",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000104",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000105",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1002",
+                            "name": "1002",
+                            "label": "I am comfortable talking to a health care professional about any issue, including sensitive ones. ",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000106",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000107",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000108",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000109",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000110",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1003",
+                            "name": "1003",
+                            "label": "I must solve other problems first before I can focus on my own health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000111",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000112",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000113",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000114",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000115",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1004",
+                            "name": "1004",
+                            "label": "I believe I will be healthier if I follow the advice I am given.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000116",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000117",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000118",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000119",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000120",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1005",
+                            "name": "1005",
+                            "label": "I believe I will be healthier if I follow the advice I am given.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000121",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000122",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000123",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000124",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000125",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1006",
+                            "name": "1006",
+                            "label": "I try new approaches to find the best way to manage my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000126",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000127",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000128",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000129",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000130",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1007",
+                            "name": "1007",
+                            "label": "I know what I need to measure regularly in order to be healthy.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000131",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000132",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000133",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000134",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000135",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1008",
+                            "name": "1008",
+                            "label": "I can maintain all the lifestyle changes needed to improve my health, even under stress.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000136",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000137",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000138",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000139",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000140",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1009",
+                            "name": "1009",
+                            "label": "I have someone close to me to help me manage my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000141",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000142",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000143",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000144",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000145",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1010",
+                            "name": "1010",
+                            "label": "I know when something gets in the way of improving my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000146",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000147",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000148",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000149",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000150",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1011",
+                            "name": "1011",
+                            "label": "I believe family and friends will adapt their lifestyles to support changes I make.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000151",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000152",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000153",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000154",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000155",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1012",
+                            "name": "1012",
+                            "label": "I am able to maintain my actions to improve my health over the long term.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000156",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000157",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000158",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000159",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000160",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1013",
+                            "name": "1013",
+                            "label": "I always understand the reason(s) why I'm prescribed a medication.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000161",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000162",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000163",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000164",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000165",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1014",
+                            "name": "1014",
+                            "label": "I believe I can find the best solutions for my health condition(s).",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000166",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000167",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000168",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000169",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000170",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1015",
+                            "name": "1015",
+                            "label": "I come prepared to my medical appointments with questions to ask.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000171",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000172",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000173",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000174",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000175",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1016",
+                            "name": "1016",
+                            "label": "I understand the cause(s) of my health condition(s).",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000176",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000177",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000178",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000179",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000180",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1017",
+                            "name": "1017",
+                            "label": "I feel certain of how I can improve my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000181",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000182",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000183",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000184",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000185",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1018",
+                            "name": "1018",
+                            "label": "I use a tracker to record and measure my progress.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000186",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000187",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000188",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000189",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000190",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1019",
+                            "name": "1019",
+                            "label": "I see how I should adjust my lifestyle to improve my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000191",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000192",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000193",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000194",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000195",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1020",
+                            "name": "1020",
+                            "label": "I am most responsible for managing my health.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000196",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000197",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000198",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000199",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000200",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "type": "radiohrz",
+                            "id": "1021",
+                            "name": "1021",
+                            "label": "I take medication exactly as directed, whenever it is prescribed for me.",
+                            "text": null,
+                            "value": null,
+                            "checked": false,
+                            "tooltip": null,
+                            "placeholder": null,
+                            "hint": null,
+                            "css": null,
+                            "options": [
+                                {
+                                    "text": "Disagree",
+                                    "value": "1000201",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree slightly",
+                                    "value": "1000202",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Agree somewhat",
+                                    "value": "1000203",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Mostly agree",
+                                    "value": "1000204",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                },
+                                {
+                                    "text": "Fully agree",
+                                    "value": "1000205",
+                                    "additionalProperties": {},
+                                    "selected": false
+                                }
+                            ],
+                            "showLabel": null,
+                            "required": false,
+                            "hidden": null,
+                            "disabled": null,
+                            "errorMessage": null,
+                            "additionalProperties": {}
+                        }
+                    ],
+                    "additionalProperties": {}
+                }
+            ],
+            "captcha": null,
+            "bottomCommands": [
+                {
+                    "type": "command",
+                    "id": "41",
+                    "topic": "",
+                    "name": "41",
+                    "title": "Submit questionnaire",
+                    "subTitle": "",
+                    "cssName": null,
+                    "imageUrl": null,
+                    "commands": [],
+                    "items": [],
+                    "modal": false,
+                    "hidden": false,
+                    "disabled": false,
+                    "uniqueIdentifier": "0",
+                    "targetId": "0",
+                    "position": "0",
+                    "url": "",
+                    "isPrimary": false,
+                    "templateName": "",
+                    "showLabel": null,
+                    "label": null,
+                    "commandType": "4",
+                    "commandView": "4",
+                    "visualType": "0",
+                    "teaser1": "",
+                    "teaser2": "Submit questionnaire",
+                    "tooltip": null,
+                    "showBadge": false,
+                    "badgeNo": 0,
+                    "questionButtons": "0",
+                    "questionTitle": null,
+                    "questionMsg": "QUESTION MESSAGE",
+                    "confirmationButtons": "0",
+                    "confirmationTitle": null,
+                    "confirmationMsg": "COFNIRMATION MESSAGE",
+                    "businessObjectOwner": null
+                }
+            ],
+            "additionalProperties": {}
+        }
+    ],
+    "errors": []
+}

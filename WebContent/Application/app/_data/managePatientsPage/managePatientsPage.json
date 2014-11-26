@@ -1,0 +1,13 @@
+ {
+    "type":"appintro",
+    "id":"iddd",
+    "name":"iddd",
+    "appId":"myPatients",
+    "title":"Manage Patient Records",
+    "desc": "Add New Patient",
+    "image":"_assets/img/manage.png",
+    "command": {
+         "templateName": "sendRegistration",
+         "text": "Send Registration"
+     }
+}

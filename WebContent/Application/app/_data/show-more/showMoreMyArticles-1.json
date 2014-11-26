@@ -1,0 +1,30 @@
+
+            [
+            {
+                "id":"reading-001",
+                "name":"reading-001",
+                "desc":"How to hunt for 3 types of snacks that contain about 15 grams of carb per serving ....",
+                "recommIcon":"_assets/img/u18.png",
+                "command":{"text":"Read It","badge":false,"action":"readIt"},
+                "previewTitle":"Why it matters",
+                "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit":200,
+                "previewTextCommand":{"text":"Read It","action":"readIt"},
+                "previewCommands":[{"text":"CTA - Don't show this again","action":"dontShowAgain"},
+                    {"text":"CTA - Remove Bookmark","action":"removeBookmark"}
+                ]
+            },
+            {
+                "id":"reading-002",
+                "name":"reading-002",
+                "desc":"The Mediterranean Diet food project",
+                "command":{"text":"Read It","badge":false,"action":"readIt"},
+                "previewTitle":"Why it matters",
+                "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit":200,
+                "previewTextCommand":{"text":"Read It","action":"readIt"},
+                "previewCommands":[{"text":"CTA - Don't show this again","action":"dontShowAgain"},
+                    {"text":"CTA - Remove Bookmark","action":"removeBookmark"}
+                ]
+            }
+        ]

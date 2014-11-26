@@ -1,0 +1,110 @@
+<div ng-model="currentQuestion">
+    <!--Header-->
+
+	<!-- main questionnaire part -->
+    <div class="container-detail" ng-if="!showCancelMessage">
+        <div class="container-detail-header">
+            <h2 class="title-detail" style="text-transform: none;">{{title}} <span ng-if="!hideCounter && currentQuestion+1<= content.items.length">(Page {{currentQuestion+1}} of {{content.items.length}})</span>
+            </h2>
+        </div>
+        <div class="divider2"></div>
+        <div class="container-main-inner" style="margin-bottom: 20px;">
+            <div class="text-center" style="width:87px;float: left;">
+                <div class="logo-highlight"></div>
+            </div>
+            <div style="width: 586px;float:left;">
+                
+                <div class="container-rich-session-inner" ng-bind-html="text | unsafe"></div>
+
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="item && !showCancelMessage">
+        <div class="container-detail-inner">
+            <h3 style="font-family:'font1bold';font-weight: bold;font-size:24px;color:#eb333e;padding-left:40px;">
+                {{item.label}}</h3>
+
+            <div class="row">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4 text-left">
+                    <div ng-repeat="option in item.options" ng-init="$parent.answers=item.value">
+
+                        <div style="width: 600px;margin-left: -154px" ng-if="item.id==603">
+                            <input type="radio" ng-value="option.value" ng-model="item.answer" ng-click="$emit('Input',item.id,option.value)" class="radio-default">
+                            <label>{{option.text | unsafe}}</label>
+                        </div>
+                        <div ng-if="item.id!=603">
+                            <input type="radio" ng-value="option.value" ng-model="item.answer" ng-selected="option.selected" ng-click="$emit('Input',item.id,option.value)" class="radio-default">
+                            
+                            <label>{{option.text | unsafe}}</label>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a
+                    ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+        </div>
+        <div class="container-cta">
+            <button class="button cancel" ng-click="closePage()" class="cancel">Cancel</button>
+            <button class="button " ng-click="fetchPastQuestion(option.value,item.id)" class="button" ng-if="currentQuestion>0">Previous</button>
+            <button class="button " ng-click="fetchNextQuestion(option.value,item.id)" class="button" ng-if="currentQuestion+1< content.items.length">Next</button>
+            <button class="button " ng-click="fetchNextQuestion(option.value,item.id)" class="button" ng-if="currentQuestion+1 == content.items.length">Submit</button>
+        </div>
+    </div>
+    <!-- End of main questionnaire part -->
+    <!-- show Result -->
+    <div class="container-peaq-profile" ng-if="feedback">
+        <table class="table table-rich-item">
+            <thead>
+            <tr>
+                <th class="status0">Can Improve</th>
+                <th class="status1">Doing Fine</th>
+                <th class="status2">Doing Great</th>
+            </tr>
+            </thead>
+        </table>
+
+        <div ng-repeat="item in peaqskills" data="peaqskills"> <!-- peaqskills.json -->
+            <div class="container-rich-item pointer" ng-class="{true: 'active'}[collapseChild1=collapseChild1]"
+                 ng-click="fetchPreview($index);collapseChild1=!collapseChild1">
+                <div class="container-rich-item-description">
+                    <div style="display: block;width:307px;">
+                        {{item.value}}
+                    </div>
+                </div>
+
+                <div class="container-rich-item-cta">
+                    <div style="display: block;width: 340px;">
+                        <div ng-if="item.score==0">
+                            <img src="_assets/img/manulife/bar0.png" alt="Can Improve" class="bar"><img
+                        src="_assets/img/manulife/bar.png" alt="neutral" class="bar"><img
+                        src="_assets/img/manulife/bar.png" alt="neutral" class="bar">
+                        </div>
+                        <div ng-if="item.score==1">
+                            <img src="_assets/img/manulife/bar.png" alt="neutral" class="bar"><img
+                        src="_assets/img/manulife/bar1.png" alt="Can Improve" class="bar"><img
+                        src="_assets/img/manulife/bar.png" alt="neutral" class="bar">
+                        </div>
+                        <div ng-if="item.score==2">
+                            <img src="_assets/img/manulife/bar.png" alt="neutral" class="bar"><img
+                        src="_assets/img/manulife/bar.png" alt="neutral" class="bar"><img
+                        src="_assets/img/manulife/bar2.png" alt="Can Improve" class="bar">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container-cta">
+            <button class="button cancel" ng-click="closePage()">Cancel</button>
+            <button class="button" ng-click="closePage(feedbackCommand)">{{feedbackCommand.title}}</button>
+
+        </div>
+    </div>
+    <!-- end of show result -->
+</div>

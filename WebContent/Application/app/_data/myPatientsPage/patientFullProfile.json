@@ -1,0 +1,153 @@
+{
+    "image": "_assets/img/patient-picture.jpg",
+    "id": "iddd",
+    "name": "iddd",
+    "title": {
+        "label": "NAME:",
+        "text": "Janet Jones"
+    },
+    "closeFullProfile": {
+        "text": "Close full Profile",
+        "action": "closeFullProfile"
+    },
+    "informationFields": [
+        {
+            "label": "AGE:",
+            "text": "57"
+        },
+        {
+            "label": "DATE OF BIRTH:",
+            "text": "11 Jan  1957"
+        },
+        {
+            "label": "GENDER:",
+            "text": "Female"
+        },
+        {
+            "label": "PHONE:",
+            "text": "614-248-3005"
+        },
+        {
+            "label": "ADDRESS:",
+            "text": "7499 Barriester Street, Dubline, OH 43016"
+        }
+    ],
+    "sendMessageCommand": {
+        "text": "Send a Message",
+        "action": "sendMessage"
+    },
+    "items": [
+        {
+            "id": "",
+            "name": "",
+            "label": "Health Measurements",
+            "measurementColumns": [
+                "Measurement",
+                "Status",
+                "Details"
+
+            ],
+            "measurementRows": [
+                {
+                    "id": "m0001",
+                    "name": "Cholesterol",
+                    "evaluation": {
+                        "icon": "iconAlertLow",
+                        "message": "Doing great",
+                        "css": "iconAlertLow"
+                    },
+                    "detail": {
+                        "text": "",
+                        "action": "measureView"
+                    }
+                },
+                {
+                    "id": "m0002",
+                    "name": "Triglycerides",
+                    "evaluation": {
+                        "icon": "iconAlertHigh",
+                        "message": "Needs to improve",
+                        "css": "iconAlertHigh"
+                    },
+                    "detail": {
+                        "text": "",
+                        "action": "measureView"
+                    }
+                },
+                {
+                    "id": "m0003",
+                    "name": "other item",
+                    "evaluation": {
+                        "icon": "iconAlertHigh",
+                        "message": "Needs to improve",
+                        "css": "iconAlertHigh"
+                    },
+                    "detail": {
+                        "text": "",
+                        "action": "measureView"
+                    }
+                }
+
+            ]
+        },
+        {
+            "id": "",
+            "name": "",
+            "label": "Goals Progress",
+            "trackerColumns": [
+                "Goal",
+                "Status"
+
+            ],
+            "trackerRows": [
+                {
+                    "id": "g0001",
+                    "name": "Healthy eating",
+                    "evaluation": {
+                        "icon": "iconAlertMedium"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                },
+                {
+                    "id": "g0002",
+                    "name": "Physical activity",
+                    "evaluation": {
+                        "icon": "iconAlertHigh"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                },
+                {
+                    "id": "g0003",
+                    "name": "using alcohol in moderation",
+                    "evaluation": {
+                        "icon": "iconAlertHigh"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                },
+                {
+                    "id": "g0004",
+                    "name": "medication management",
+                    "evaluation": {
+                        "icon": "iconAlertHigh"
+                    },
+                    "detail": {
+                        "text": "CTA - Track",
+                        "action": "track"
+                    }
+                }
+
+
+            ]
+        }
+
+    ]
+}

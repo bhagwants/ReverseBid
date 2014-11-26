@@ -1,0 +1,62 @@
+{
+    "type":"appintro",
+    "id":"iddd",
+    "name":"iddd",
+    "appId":"mymessages",
+    "title":"My Messages",
+
+    "subTitle":"",
+    "desc": "",
+    "image":"",
+    "text":"",
+    "modal":false,
+    "contents":[
+        {
+            "id": "",
+            "name": "",
+            "label": "My Input Messages",
+            "messageColumns": [
+                "Message",
+                "Date",
+                "Sender",
+                "Status",
+
+                "Detail"
+            ],
+            "messageRows": [
+                {
+                    "id": "message0002",
+                    "title": "<item Title>",
+                    "date": "dd/mm/yyyy",
+                    "sender": "Dr Name",
+                    "status":"Read",
+                    "bold":false
+                },
+                {
+                    "id": "message0001",
+                    "title": "<item Title>",
+                    "date": "dd/mm/yyyy",
+                    "sender": "Dr Name",
+                    "status":"Not Read",
+                    "bold":true
+                },
+                {
+                    "id": "message0002",
+                    "title": "<item Title>",
+                    "date": "dd/mm/yyyy",
+                    "sender": "Dr Name",
+                    "status":"Read",
+                    "bold":false
+                }
+
+            ],
+            "command": {
+                "status": true,
+                "action": "showMoreMessages",
+                "text": "Show more"
+            }
+
+        }
+    ]
+
+}

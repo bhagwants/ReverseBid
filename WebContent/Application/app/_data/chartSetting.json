@@ -1,0 +1,28 @@
+{"TRACKER_MOOD":{
+					"Labels" : {
+					                "0": "Not at all happy",
+					                "1": "Not very happy",
+					                "2": "Neutral",
+					                "3": "Somewhat happy",
+					                "4": "Very happy"
+					            },
+					"xlabel":"Days"             
+					            
+				},
+"TRACKER_MEDICATION":{
+					"Labels" : {
+					                "0": "No",
+					                "1": "Yes"
+					            },
+					"symbols": {
+					                "0": "_assets/img/u1103.png",
+					                "1": "_assets/img/u1009.png"
+					            },
+					"xlabel":"Days",
+					"categories": ["Jan.", "Feb.", "Mar."],
+					"backgroundRegion":[{"startValue":0,"stopValue":0.5,"texture":"dot","color":"red"},
+								  {"startValue":0.5,"stopValue":1.1,"texture":"dash","color":"green"}
+					]                        
+				}				
+				
+}

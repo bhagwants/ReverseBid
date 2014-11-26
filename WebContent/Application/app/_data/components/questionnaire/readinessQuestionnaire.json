@@ -1,0 +1,45 @@
+{
+
+    "id":"action-xxxx",
+    "topCommands": [],
+    "answers":{},
+    "questionSets":[{
+        "title": "Readiness Module Title",
+        "text": "{Questions group's description} [Boilerplate text] + {object text}",
+        "questions":[
+            {
+                "id":"1001",
+                "type":"radio",
+                "label": "How confident are you than you can <object text> [e.g shop at the edge]?",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Moderately","value":2},{"text":"Very","value":3}]
+            },
+            {
+                "id":"1002",
+                "type":"radio",
+                "label": " How important is it to you to <object text> ? [e.g shop at the edge]",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Moderately","value":2},{"text":"Very","value":3}]
+            }
+        ]
+    },
+        {
+            "title": "Healthy Eating",
+            "text": "<Questions group's question> e.g. I'd like to eat healthier but...",
+            "questions":[
+                {
+                    "id":"2001",
+                    "type":"radio",
+                    "label": "<Action Blocker 1> e.g. I'm finding it hard to give up my favorite food?",
+                    "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Moderately","value":2},{"text":"Very","value":3}]
+                },
+                {
+                    "id":"3002",
+                    "type":"radio",
+                    "label": "<Action Blocker 2> e.g. I'm confused about carb and Carb counting",
+                    "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Moderately","value":2},{"text":"Very","value":3}]
+                }]}],
+    "graphs": [],
+    "bodyContent": "",
+    "trackers": [],
+    "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submitReadinessQuestionnaire"}],
+    "modal": true
+}

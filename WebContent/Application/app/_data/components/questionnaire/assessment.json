@@ -1,0 +1,615 @@
+{"Step1": {
+    "text1": "<p>Please answer 3 sets of questions to help the Diabetes Health Coach digital program build a customized  plan to meet your needs and goals.</p>",
+    "title": "My Diabetes Profile",
+    "subTitle": "Set 1: My Priorities",
+    "items": [
+        {
+        	"id":"",
+            "type": "note",
+            "label": "<h4>Right now, how important is it to you to...</h4>"
+        },
+        {
+            "id": "11001",
+            "type": "selectNovo",
+            "label": "Take your diabetes medicines and understand why you need them",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110011"
+
+                },
+                {
+                    "text": "A little",
+                    "value": "110012"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110013"
+                },
+                {
+                    "text": "Very",
+                    "value": "110014"
+                }
+            ]
+        },
+        {
+            "id": "11002",
+            "type": "selectNovo",
+            "label": "Check your blood sugar and understand why this is important",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110021"
+                },
+                {
+                    "text": "A little",
+                    "value": "110022"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110023"
+                },
+                {
+                    "text": "Very",
+                    "value": "110024"
+                }
+            ]
+        },
+        {
+            "id": "11003",
+            "type": "selectNovo",
+            "label": "Eat healthy",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110031"
+                },
+                {
+                    "text": "A little",
+                    "value": "110032"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110033"
+                },
+                {
+                    "text": "Very",
+                    "value": "110034"
+                }
+            ]
+        },
+        {
+            "id": "11004",
+            "type": "selectNovo",
+            "label": "Be active",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110041"
+                },
+                {
+                    "text": "A little",
+                    "value": "110042"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110043"
+                },
+                {
+                    "text": "Very",
+                    "value": "110044"
+                }
+            ]
+        },
+        {
+            "id": "11005",
+            "type": "selectNovo",
+            "label": "Manage your weight",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110051"
+                },
+                {
+                    "text": "A little",
+                    "value": "110052"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110053"
+                },
+                {
+                    "text": "Very",
+                    "value": "110054"
+                }
+            ]
+        },
+        {
+            "id": "11006",
+            "type": "selectNovo",
+            "label": "Cope with the stress of diabetes",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110061"
+                },
+                {
+                    "text": "A little",
+                    "value": "110062"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110063"
+                },
+                {
+                    "text": "Very",
+                    "value": "110064"
+                }
+            ]
+        },
+        {
+            "id": "11007",
+            "type": "selectNovo",
+            "label": "Create a plan to manage your diabetes",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": "NULL"
+                },
+                {
+                    "text": "Not at all",
+                    "value": "110071"
+                },
+                {
+                    "text": "A little",
+                    "value": "110072"
+                },
+                {
+                    "text": "Moderately",
+                    "value": "110073"
+                },
+                {
+                    "text": "Very",
+                    "value": "110074"
+                }
+            ]
+        }
+    ]
+},
+    "Step2": {
+        "text1": "<p>Please answer 3 sets of questions to help the Diabetes Health Coach digital program build a customized plan to meet your needs and goals.</p>",
+        "title": "My Diabetes Profile",
+        "subTitle": "Set 2: My Areas to Work On",
+        "items": [
+            {
+            	"id":"",
+                "type": "note",
+                "label": "<h4>In the last week, how much difficulty did you have with...</h4>"
+            },
+            {
+                "id": "11008",
+                "type": "selectNovo",
+                "label": "Taking your diabetes medicines or remembering to take your medicine",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text": "None",
+                        "value": "110081"
+                    },
+                    {
+                        "text": "A little",
+                        "value": "110082"
+                    },
+                    {
+                        "text": "Moderate",
+                        "value": "110083"
+                    },
+                    {
+                        "text": "A lot",
+                        "value": "110084"
+                    }
+                ]
+            },
+            {
+                "id": "11009",
+                "type": "selectNovo",
+                "label": "Checking your blood sugar",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text": "None",
+                        "value": "110091"
+                    },
+                    {
+                        "text": "A little",
+                        "value": "110092"
+                    },
+                    {
+                        "text": "Moderate",
+                        "value": "110093"
+                    },
+                    {
+                        "text": "A lot",
+                        "value": "110094"
+                    }
+                ]
+            },
+            {
+                "id": "11010",
+                "type": "selectNovo",
+                "label": "Healthy eating",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text": "None",
+                        "value": "110101"
+                    },
+                    {
+                        "text": "A little",
+                        "value": "110102"
+                    },
+                    {
+                        "text": "Moderate",
+                        "value": "110103"
+                    },
+                    {
+                        "text": "A lot",
+                        "value": "110104"
+                    }
+                ]
+            },
+            {
+                "id": "11011",
+                "type": "selectNovo",
+                "label": "Being physically active",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text": "None",
+                        "value": "110111"
+                    },
+                    {
+                        "text": "A little",
+                        "value": "110112"
+                    },
+                    {
+                        "text": "Moderate",
+                        "value": "110113"
+                    },
+                    {
+                        "text": "A lot",
+                        "value": "110114"
+                    }
+                ]
+            },
+            {
+                "id": "11012",
+                "type": "selectNovo",
+                "label": "Managing your weight",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text": "None",
+                        "value": "110121"
+                    },
+                    {
+                        "text": "A little",
+                        "value": "110122"
+                    },
+                    {
+                        "text": "Moderate",
+                        "value": "110123"
+                    },
+                    {
+                        "text": "A lot",
+                        "value": "110124"
+                    }
+                ]
+            },
+            {
+                "id": "11013",
+                "type": "selectNovo",
+                "label": "Coping with the stress of diabetes",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text": "None",
+                        "value": "110131"
+                    },
+                    {
+                        "text": "A little",
+                        "value": "110132"
+                    },
+                    {
+                        "text": "Moderate",
+                        "value": "110133"
+                    },
+                    {
+                        "text": "A lot",
+                        "value": "110134"
+                    }
+                ]
+            }
+        ]
+    },
+    "Step3": {
+        "text1": "<p>Please answer 3 sets of questions to help the Diabetes Health Coach digital program build a customized plan to meet your needs and goals.</p>",
+        "title": "My Diabetes Profile",
+        "subTitle": "Set 3: My Diabetes Management",
+        "items": [
+            {
+            	"id":"",
+                "type": "note",
+                "label": "<h4>In the last week, how many days did you...</h4>"
+            },
+            {
+                "id": "11014",
+                "type": "selectNovo",
+                "label": "Miss a dose of your diabetes medicine",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text":"0 Days",
+                        "value": "110141"
+                    },
+                    {
+                        "text":"1 Day",
+                        "value": "110142"
+                    },
+                    {
+                        "text":"2 Days",
+                        "value": "110143"
+                    },
+                    {
+                        "text":"3 Days",
+                        "value": "110144"
+                    },
+                    {
+                        "text":"4 Days",
+                        "value": "110145"
+                    },
+                    {
+                        "text":"5 Days",
+                        "value": "110146"
+                    },
+                    {
+                        "text":"6 Days",
+                        "value": "110147"
+                    },
+                    {
+                        "text":"7 Days",
+                        "value": "110148"
+                    }
+                ]
+            },
+            {
+                "id": "11015",
+                "type": "selectNovo",
+                "label": "Miss checking your blood sugar",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text":"0 Days",
+                        "value": "110151"
+                    },
+                    {
+                        "text":"1 Day",
+                        "value": "110152"
+                    },
+                    {
+                        "text":"2 Days",
+                        "value": "110153"
+                    },
+                    {
+                        "text":"3 Days",
+                        "value": "110154"
+                    },
+                    {
+                        "text":"4 Days",
+                        "value": "110155"
+                    },
+                    {
+                        "text":"5 Days",
+                        "value": "110156"
+                    },
+                    {
+                        "text":"6 Days",
+                        "value": "110157"
+                    },
+                    {
+                        "text":"7 Days",
+                        "value": "110158"
+                    }
+                ]
+            },
+            {
+                "id": "11016",
+                "type": "selectNovo",
+                "label": "Wish you had made healthier food choices",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text":"0 Days",
+                        "value": "110161"
+                    },
+                    {
+                        "text":"1 Day",
+                        "value": "110162"
+                    },
+                    {
+                        "text":"2 Days",
+                        "value": "110163"
+                    },
+                    {
+                        "text":"3 Days",
+                        "value": "110164"
+                    },
+                    {
+                        "text":"4 Days",
+                        "value": "110165"
+                    },
+                    {
+                        "text":"5 Days",
+                        "value": "110166"
+                    },
+                    {
+                        "text":"6 Days",
+                        "value": "110167"
+                    },
+                    {
+                        "text":"7 Days",
+                        "value": "110168"
+                    }
+                ]
+            },
+            {
+                "id": "11017",
+                "type": "selectNovo",
+                "label": "Do some physical activity",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text":"0 Days",
+                        "value": "110171"
+                    },
+                    {
+                        "text":"1 Day",
+                        "value": "110172"
+                    },
+                    {
+                        "text":"2 Days",
+                        "value": "110173"
+                    },
+                    {
+                        "text":"3 Days",
+                        "value": "110174"
+                    },
+                    {
+                        "text":"4 Days",
+                        "value": "110175"
+                    },
+                    {
+                        "text":"5 Days",
+                        "value": "110176"
+                    },
+                    {
+                        "text":"6 Days",
+                        "value": "110177"
+                    },
+                    {
+                        "text":"7 Days",
+                        "value": "110178"
+                    }
+                ]
+            },
+            {
+                "id": "11018",
+                "type": "selectNovo",
+                "label": "Feel frustrated or worried about your diabetes",
+                "options": [
+                    {
+                        "text": "- Select -",
+                        "value": "NULL"
+                    },
+                    {
+                        "text":"0 Days",
+                        "value": "110181"
+                    },
+                    {
+                        "text":"1 Day",
+                        "value": "110182"
+                    },
+                    {
+                        "text":"2 Days",
+                        "value": "110183"
+                    },
+                    {
+                        "text":"3 Days",
+                        "value": "110184"
+                    },
+                    {
+                        "text":"4 Days",
+                        "value": "110185"
+                    },
+                    {
+                        "text":"5 Days",
+                        "value": "110186"
+                    },
+                    {
+                        "text":"6 Days",
+                        "value": "110187"
+                    },
+                    {
+                        "text":"7 Days",
+                        "value": "110188"
+                    }
+                ]
+            }
+        ]
+    },
+    "StepEnd":{
+    	"subTitle":"",
+    	"text1": "Thank you for completing your Diabetes Profile. The system has been updated with your response. ",
+        "title": "My Diabetes Profile"
+    },
+    "StepAlert": {
+        "text1": "<p>If you don't answer all the questions in the Diabetes Profile, the Diabetes Health Coach digital program will not be able to provide a personalized plan for you.</p><p>Do you want to go back and finish answering the questions?</p>",
+        "title": "My Diabetes Profile"
+    }
+}
+
+

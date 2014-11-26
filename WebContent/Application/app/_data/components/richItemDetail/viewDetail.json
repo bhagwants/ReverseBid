@@ -1,0 +1,67 @@
+{
+
+    "id":"action-xxxx",
+    "name": "Action",
+    "graph":true,
+    "zombieGraph":false,
+    "title": "Make a carb-counting meal plan using my favourite restaurant's menu.",
+    "subTitle":"How am I doing?",
+    "topCommands": [
+        {
+            "name": "Set Reminder",
+            "action": "setReminder",
+            "badge": "",
+            "icon": "iconSwitch",
+            "status": ""
+        },
+        {
+            "name":"Edit",
+            "action":"edit",
+            "icon":"iconEdit",
+            "badge": "",
+            "status": ""
+        },
+        {
+            "name": "Delete",
+            "action": "delete",
+            "icon": "iconDelete",
+            "badge": "",
+            "status": ""
+        }
+    ],
+    "primaryCTACommands": [{
+        "name":"Check In",
+        "action":"actionCheckin",
+        "badge":false,
+        "icon":false,
+        "status":false
+    }],
+    //"graph": false,
+    "zombieGraph": false,
+    "bodyContent": "",
+    "bodyContentWhyLabel": "Why it matters",
+    "bodyContentWhyDescription": "<p>Planning ahead and knowing what is safe for you will make your dining experience much more enjoyable.</p>",
+    "bodyContentTipsLabel": "Tips for doing it",
+    "bodyContentTipsDescription": "<p>Sometimes it\u2019s hard to know where restaurants hide their sugars, so look out for sauces and salad dressings. You may even want to bring your own salad dressing!</p>",
+    "bodyContentHelpLabel": "What to do when I'm stuck",
+    "bodyContentHelpDescription": "<p>You can start by calling and asking to talk to managers or cooking staff. If you let them know you have diabetes and want to eat your favourite meal, they may be able to give suggestions to make it more diabetes friendly.</p>",
+    "trackersTitle":"Model Tracker's details values",
+    "trackers": {"title":"My Trackers",
+        "trackerColumns":["Name","Target Value","Current Value","Status"," "," "],
+        "trackerRows":[
+            {"id":"tracker0001",
+                "name":"A1C Tracker",
+                "targetValue":"Less than 7%",
+                "currentValue":"9%",
+                "command":{"name":"Check In","action":"stopTracker"},
+                "evaluation":{"icon": "_assets/img/u113.png","message":"Can Improve","css":"color:red"},
+                "detail":true
+            }
+
+        ]
+    }
+    ,
+    "bottomCommands":[],
+
+    "modal": false
+}

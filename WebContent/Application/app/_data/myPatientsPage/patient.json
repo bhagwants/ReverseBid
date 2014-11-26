@@ -1,0 +1,56 @@
+ {
+
+    "image":"_assets/img/patient-picture.jpg",
+    "id":"iddd",
+    "name":"iddd",
+    "title":{"label":"NAME:","text":"Janet Jones"},
+    "viewFullProfile":{"text":"View Full Profile","action":"viewFullProfile"},
+    "informationFields":[
+        {"label":"AGE:","text":"57"},
+        {"label":"DATE OF BIRTH:","text":"11 Jan  1957"},
+        {"label":"GENDER:","text":"Female"},
+        {"label":"PHONE:","text":"614-248-3005"},
+        {"label":"ADDRESS:","text":"7499 Barriester Street, Dubline, OH 43016"}
+    ],
+    "sendMessageCommand":{"text":"Send a Message","action":"sendMessage"},
+    "messagesTitle":"Messages",
+    "messageColumns":[
+        "Message",
+        "Date",
+        "Sender",
+        "Status",
+        "Detail"
+    ],
+     "messageRows": [
+         {
+             "id": "message0002",
+             "title": "<item Title>",
+             "date": "dd/mm/yyyy",
+             "sender": "Dr Name",
+             "status":"Read",
+             "bold":false
+         },
+         {
+             "id": "message0001",
+             "title": "<item Title>",
+             "date": "dd/mm/yyyy",
+             "sender": "Dr Name",
+             "status":"Not Read",
+             "bold":true
+         },
+         {
+             "id": "message0002",
+             "title": "<item Title>",
+             "date": "dd/mm/yyyy",
+             "sender": "Dr Name",
+             "status":"Read",
+             "bold":false
+         }
+
+     ],
+     "messageCommand": {
+         "status": true,
+         "action": "showMoreMessages",
+         "text": "Show more"
+     }
+}

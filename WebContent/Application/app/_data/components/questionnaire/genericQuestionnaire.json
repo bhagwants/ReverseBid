@@ -1,0 +1,145 @@
+{"Step1":
+    {
+    "id":"xx",
+    "name":"yy",
+    "questionnaireTitle":"My Diabetes Profile",
+    "text": "Please answer some brief questions to help the Diabetes Health Coach digital program build a customized plan to meet your needs and goals. You can update your answers to these question sets at any time by visiting your About Me page.",
+    "title":"What's important to you right now?",
+    "label":"Right now, how important is this to you...",
+    "Page":1,
+    "items":[
+        {
+            "id":"1001",
+            "type":"select",
+            "label": "Take your diabetes medicines and understand why you need them",
+            "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+        },
+        {
+            "id":"1002",
+            "type":"select",
+            "label": "Check your blood sugar and understand why this is importantr",
+            "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+        },
+        {
+            "id":"1003",
+            "type":"select",
+            "label": "Eat healthy",
+            "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+        },
+        {
+            "id":"1004",
+            "type":"select",
+            "label": "Be active",
+            "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+        },
+        {
+            "id":"1005",
+            "type":"select",
+            "label": "Manage your weight",
+            "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+        },
+        {
+            "id":"1006",
+            "type":"select",
+            "label": "Create a plan to manage your diabetes",
+            "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+        }
+    ]
+},
+ "Step2":
+    {
+        "questionnaireTitle":"Tell us a little about yourself",
+        "text": "Answer a few quick questions, and Diabetes Health Coach will help you build a plan that is personalized to your unique needs.",
+        "title":"How have you been doing lately?",
+        "label":"In the last week, how many days did you...",
+        "Page":2,
+        "answers":{},
+        "items":[
+            {
+                "id":"2001",
+                "type":"radio",
+                "label": "Miss checking your blood sugar",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"2002",
+                "type":"radio",
+                "label": "Miss a dose of your diabetes medicine",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"2003",
+                "type":"radio",
+                "label": "Eat foods not healthy for your diabetes",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"2004",
+                "type":"radio",
+                "label": "Overeat",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"2005",
+                "type":"radio",
+                "label": "Do some physical activity",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"2006",
+                "type":"radio",
+                "label": "Feel frustrated or worried about your diabetes",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            }
+        ]
+    },
+ "Step3":
+    {
+        "questionnaireTitle":"Tell us a little about yourself",
+        "text": "Answer a few quick questions, and Diabetes Health Coach will help you build a plan that is personalized to your unique needs.",
+        "title":"What's important to you right now?",
+        "label":"Right now, how important is this to you...",
+        "Page":3,
+        "answers":{},
+        "items":[
+            {
+                "id":"3001",
+                "type":"select",
+                "label": "Miss checking your blood sugar",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"3002",
+                "type":"select",
+                "label": "Miss a dose of your diabetes medicine",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"3003",
+                "type":"select",
+                "label": "Eat foods not healthy for your diabetes",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"3004",
+                "type":"select",
+                "label": "Overeat",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"3005",
+                "type":"select",
+                "label": "Do some physical activity",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            },
+            {
+                "id":"3006",
+                "type":"select",
+                "label": "Feel frustrated or worried about your diabetes",
+                "options": [{"text":"Not at all","value":0}, {"text":"A little","value":1}, {"text":"Mondetory","value":2}, {"text":"Very","value":3}]
+            }
+        ]
+    }
+}
+
+

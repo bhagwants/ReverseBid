@@ -1,0 +1,157 @@
+[
+
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Care for my feet",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    },
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Catch problems early",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    },
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Eat healthy",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    },
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Get support",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    },
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Quit smoking",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    },
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Stay positive and manage stress",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    },
+    {
+        "id": "idddd",
+        "name": "name",
+        "recommIcon": "",
+        "desc": "Work with my health care team",
+        "command": {
+            "text": "Get Started",
+            "action": "readinessQuestionnaire"
+        },
+        "previewTitle": "Why it matters",
+        "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+        "previewTextLimit": 200,
+        "previewTextCommand": {
+            "text": "View Detail",
+            "action": "viewDetail"
+        },
+        "previewCommands": [{
+            "text": "CTA - Start this Action",
+            "badge": "",
+            "action": "readinessQuestionnaire"
+        }]
+    }
+]

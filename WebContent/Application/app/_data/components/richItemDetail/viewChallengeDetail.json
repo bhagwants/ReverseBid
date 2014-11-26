@@ -1,0 +1,69 @@
+{
+
+    "id": "challenge--xxxx",
+    "name": "Challenges",
+    "title": "Beat the Zombies!",
+    "subTitle":"How am I doing?",
+    "banner": {
+        "source": "_assets/img/challenges-banners-zombies-2014.png",
+        "alt": ""
+    },
+    "primaryCTACommands": [
+        {
+            "name": "Check In",
+            "action": "challengeCheckin",
+            "badge": "",
+            "icon": "",
+            "status": ""
+        }
+    ],
+    "topCommands": [
+        {
+            "name": "Abandon",
+            "action": "abandonChallenge",
+            "badge": "",
+            "icon": "iconDelete",
+            "status": ""
+        }
+    ],
+    "graph":false,
+
+    "zombieGraph": true,
+    "bodyContent": "",
+    "bodyContentWhyLabel": "Why it matters",
+    "bodyContentWhyDescription": "<p>By doing this challenge, you're taking an important step towards being more active. Walking every day is a great way to add some physical activity into your daily routine. And small steps can add up to big results! You may find that when the 21 days are up, you want to keep up your daily walk, and even add to the distance.</p>",
+    "bodyContentTipsLabel": "Challenge Rules & Tips for doing it",
+    "bodyContentTipsDescription": "<h4>HOW TO WIN:</h4>Log how far you walk every day and then come back as often as possible to Check In and tell us how many kilometers you walked.  Try to enter your distance every day, if possible.  You will gain 20 points for every check in that you go further than the Zombies.  The Zombies can only walk 1KM a day, so make sure you walk further or they will bite!  <p><p>The Zombie Challenge ends after 21 days.  Points that you earn go towards your DHC Points Total.</p><h4>TIPS:</h4>Set aside some time each day for a walk. Choose a time that's convenient for you, such as after dinner. Find a place where you will enjoy walking, like around your neighbourhood or in a local park. You may also want to ask a friend or family member to be your \"walking buddy\".</p><p>Consider purchasing a pedometer to measure how many steps you take and how far you travelled.  Pedometers are very inexpensive - some will even estimate how many calories you have burned during your walk or run.</p>",
+    "bodyContentHelpLabel": "What to do when I'm stuck",
+    "bodyContentHelpDescription": "<p>On days when you don't feel like going for a walk, just remember that getting started is often the biggest hurdle. Just slip on your shoes and head out the door. And remember, the zombies are catching up!</p>",
+    "trackersTitle": "How I'm doing?",
+    "trackers": {
+        "label": "How I'm Doing Compared to Others Like Me",
+        "trackerColumns": [
+            "Name",
+            "Group Average Daily",
+            "My Average Daily",
+            "Status",
+            "",
+            "Detail"
+        ],
+        "trackerRows": [{
+            "id": "tracker0001",
+            "name": "Average Daily Distance Walked",
+            "targetValue": "3km",
+            "currentValue": "2.2km",
+            "command": {
+                "name": "View Detail",
+                "action": "stopTracker"
+            },
+            "evaluation": {
+                "icon": "_assets/img/u113.png",
+                "message": "Can Improve",
+                "css": "color:red"
+            },
+            "detail": true
+        }]
+    },
+    "bottomCommands": [],
+    "modal": false
+}

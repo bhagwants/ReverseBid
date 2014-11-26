@@ -1,0 +1,535 @@
+{
+    "changePassword":{
+        "title":"Change my password",
+        "id":"changePassword-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+            {
+                "type": "password",
+                "id": "OldPasswordId",
+                "name": "OldPasswordId",
+                "label": "To change your password, enter your old password *",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            }, {
+                "type": "password",
+                "id": "EnterPasswordId",
+                "name": "EnterPasswordId",
+                "label": "Enter your new password here *",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            },
+            {
+                "type": "password",
+                "id": "reEnterPasswordId",
+                "name": "reEnterPasswordId",
+                "label": "Re-enter your new password *",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            }
+        ],
+        "bodyContent": "Your password must be at least 8 characters long and include at least one number, one uppercase letter, and one lowercase letter. Your password must also be different from the previous 5 passwords you have used. ",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": false
+    },
+    "changeEmail":{
+        "title":"",
+        "id":"changeEmail-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+            {
+                "type": "email",
+                "id": "Oldemail",
+                "name": "OldPasswordId",
+                "label": "My email address",
+                "text": null,
+                "value": "myEmail@provider.XXX",
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            }, {
+                "type": "email",
+                "id": "newEmail",
+                "name": "newEmail",
+                "label": "To change your contact email address, enter your new address here. *",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            },
+            {
+                "type": "email",
+                "id": "renewEmail",
+                "name": "newEmail",
+                "label": "Re-enter your new email address here. ",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            }
+        ],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": false
+    },
+    "sendRegistration":{
+        "title":"Add a new patient",
+        "id":"addnew-xxxx",
+        "text": "",
+        "questionItems":[
+            {
+                "type": "email",
+                "id": "sendemail",
+                "name": "sendemail",
+                "label": "Your patient email address:",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": true,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            }
+        ],
+        "bodyContent": "Please enter a valid patient email address, and Digital Health Coach will send a message with the procedure to follow.",
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": false
+    },
+    "changeSecurityQuestions":{
+        "title":"Change My Security Questions",
+        "id":"changesecutity-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+            {
+                "id": "securityQuestion1",
+                "name": "securityQuestion1",
+                "type": "securityQuestionChange",
+                "changeCommand":"Change",
+                "label":"Question #1: <question text>",
+                "questionComponents": [
+                    {
+                        "type": "input",
+                        "id": "question1",
+                        "name": null,
+                        "label": "Enter new Security Question 1*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+                    {
+                        "type": "input",
+                        "id": "answer1",
+                        "name": null,
+                        "label": "Enter new Answer*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+                    {
+                        "type": "input",
+                        "id": "hint1",
+                        "name": null,
+                        "label": "Enter New Hint*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    }
+                ],
+                "additionalProperties": {}
+            },
+            {
+                "id": "securityQuestion2",
+                "name": "securityQuestion2",
+                "type": "securityQuestionChange",
+                "changeCommand":"Change",
+                "label":"Question #2: <question text>",
+                "questionComponents": [
+                    {
+                        "type": "input",
+                        "id": "question2",
+                        "name": null,
+                        "label": "Enter new Security Question 2*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+                    {
+                        "type": "input",
+                        "id": "answer2",
+                        "name": null,
+                        "label": "Enter new Answer*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+                    {
+                        "type": "input",
+                        "id": "hint2",
+                        "name": null,
+                        "label": "Enter New Hint*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    }
+                ],
+                "additionalProperties": {}
+            },
+            {
+                "id": "securityQuestion3",
+                "name": "securityQuestion3",
+                "type": "securityQuestionChange",
+                "changeCommand":"Change",
+                "label":"Question #3: <question text>",
+                "questionComponents": [
+                    {
+                        "type": "input",
+                        "id": "question3",
+                        "name": null,
+                        "label": "Enter new Security Question 3*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+                    {
+                        "type": "input",
+                        "id": "answer3",
+                        "name": null,
+                        "label": "Enter new Answer*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+                    {
+                        "type": "input",
+                        "id": "hint3",
+                        "name": null,
+                        "label": "Enter New Hint*",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    }
+                ],
+                "additionalProperties": {}
+            }
+        ],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Submit","action":"submit"}],
+        "modal": false
+    },
+    "changeLanguage":{
+        "title":"Change My Language",
+        "id":"changeLanguage-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+            {
+                "id":"1003",
+                "type":"radio",
+                "label": "",
+                "options": [{"text":"English","value":0}, {"text":"Spanish","value":1}]
+            }
+
+        ],
+        "bodyContent": "All the pages text will be changed to &lt;language chosen&gt;. Confirm you want to change your page language.",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Change Language","action":"submit"}],
+        "modal": false
+    },
+    "addLicense":{
+        "title":"Add License",
+        "id":"addLicense-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+        	{
+                        "type": "input",
+                        "id": "licensenumb",
+                        "name": null,
+                        "label": "License Number",
+                        "text": null,
+                        "value": null,
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+            {
+                "id":"1003",
+                "type":"select",
+                "label": "Select province",
+                "value":"-select-",
+                "options": ["-select-","Alberta","British Columbia","Manitoba","New Brunswick","Newfoundland and Labrador","Nova Scotia","Northwest Territories","Ontario","Prince Edward Island","Quebec","Saskatchewan","Yukon"]
+            }
+
+
+
+
+
+        ],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Save","action":"save"}],
+        "modal": false
+    },
+    "editLicense":{
+        "title":"Add License",
+        "id":"addLicense-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+        	{
+                        "type": "input",
+                        "id": "licensenumb",
+                        "name": null,
+                        "label": "License Number",
+                        "text": null,
+                        "value": "AB123456",
+                        "checked": false,
+                        "tooltip": null,
+                        "placeholder": null,
+                        "hint": null,
+                        "css": null,
+                        "data": [],
+                        "showLabel": null,
+                        "required": true,
+                        "hidden": null,
+                        "disabled": null,
+                        "additionalProperties": {}
+                    },
+            {
+                "id":"1003",
+                "type":"select",
+                "label": "Select province",
+                "value":"Alberta",
+                "options": ["-select-","Alberta","British Columbia","Manitoba","New Brunswick","Newfoundland and Labrador","Nova Scotia","Northwest Territories","Ontario","Prince Edward Island","Quebec","Saskatchewan","Yukon"]
+            }
+
+
+
+
+
+        ],
+        "bodyContent": "",
+        "trackers": [],
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Save","action":"save"}],
+        "modal": false
+    },
+    "deactivateAccount":{
+        "title":"Deactivate My <application> Account",
+        "id":"deactivateAccount-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+        ],
+        "bodyContent": "<p>Once you deactivate your Digital Health Coach account, you will no longer be able to log in to Digital Health Coach and access the records you have stored in your account. Make sure to save your health records before you deactivate your account.</p><strong>Please confirm you wish to deactivate your <app name> account.</strong>",
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Deactivate My Account","action":"submit"}],
+        "modal": false
+    },
+    "manageMySubscriptions":{
+        "title":"Change My Subscriptions",
+        "id":"changeSubscription-xxxx",
+        "text": "",
+        "topCommands": [],
+        "questionItems":[
+            {
+                "type": "checkbox",
+                "id": "receiveInformation",
+                "name": null,
+                "label": "I wish ro receivevaluable information and offers from <app name>",
+                "text": null,
+                "value": null,
+                "checked": false,
+                "tooltip": null,
+                "placeholder": null,
+                "hint": null,
+                "css": null,
+                "data": [],
+                "showLabel": null,
+                "required": false,
+                "hidden": null,
+                "disabled": null,
+                "additionalProperties": {}
+            }
+        ],
+        "bodyContent": "",
+        "bottomCommands":[{"text":"Cancel","action":"cancel"},{"text":"Save changes","action":"submit"}],
+        "hint":"Please allow 24 hours for this to take effect.",
+        "modal": false
+    }
+
+
+
+    }
+
+
+
+
+

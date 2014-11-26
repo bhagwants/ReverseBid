@@ -1,0 +1,13 @@
+{
+
+    "myProfile": {
+        "id": "",
+        "name": "",
+        "title": "My Profile",
+        "descBoldText": "A health information summary about me.",
+        "descText": "",
+        "subTitle": "",
+        "message":"",
+        "mainCommand": {"text":"Add new","image":"_assets/img/u37.png","action":"action"}
+    }
+}

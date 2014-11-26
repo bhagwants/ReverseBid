@@ -1,0 +1,162 @@
+[{
+    "id": "",
+    "name": "",
+    "label": "Recommended Actions",
+    "items": [
+        {
+            "id": "action-101",
+            "name": "action-101",
+            "desc": "Get a blood sugar monitor from my local pharmacy and ask my pharmacist how to use it.",
+            "recommIcon": "_assets/img/u18.png",
+            "command": {
+                "text": "Do It",
+                "badge": "",
+                "action": "readinessQuestionnaire"
+            },
+            "previewTitle": "Why it matters",
+            "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+            "previewTextLimit": 200,
+            "previewTextCommand": {
+                "text": "View Detail",
+                "action": "viewDetail"
+            },
+            "primaryCTACommands" : [
+                {
+                    "text": "Do it",
+                    "action": "actionCheckin",
+                    "badge": "",
+                    "icon": "",
+                    "status": ""
+                }
+            ],
+            "previewCommands": [
+                {
+                    "text": "Add Reminder",
+                    "action": "actionReminder",
+                    "badge": "",
+                    "icon": "iconAdd",
+                    "status": ""
+                },
+                {
+                    "text": "Add to My Achievements ",
+                    "action": "masterAction",
+                    "badge": "",
+                    "icon": "iconAdd",
+                    "status": ""
+                },
+                {
+                    "text": "Remove",
+                    "action": "removeAction",
+                    "badge": "",
+                    "icon": "iconDelete",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "id": "action-102",
+            "name": "action-102",
+            "desc": "Write the carb count and portion size on my favourite snack.",
+            "recommIcon": "_assets/img/u18.png",
+            "command": {
+                "text": "Do It",
+                "badge": "",
+                "action": "readinessQuestionnaire"
+            },
+            "previewTitle": "Why it matters",
+            "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+            "previewTextLimit": 200,
+            "previewTextCommand": {
+                "text": "View Detail",
+                "action": "viewDetail"
+            },
+            "primaryCTACommands" : [
+                {
+                    "text": "Do it",
+                    "action": "actionCheckin",
+                    "badge": "",
+                    "icon": "",
+                    "status": ""
+                }
+            ],
+            "previewCommands": [
+                {
+                    "text": "Add Reminder",
+                    "action": "actionReminder",
+                    "badge": "",
+                    "icon": "iconAdd",
+                    "status": ""
+                },
+                {
+                    "text": "Add to My Achievements ",
+                    "action": "masterAction",
+                    "badge": "",
+                    "icon": "iconAdd",
+                    "status": ""
+                },
+                {
+                    "text": "Remove",
+                    "action": "removeAction",
+                    "badge": "",
+                    "icon": "iconDelete",
+                    "status": ""
+                }
+            ]
+        },
+        {
+            "id": "action-103",
+            "name": "action-103",
+            "desc": "Make 3 emergency snack packs and put one in my bag, one in my car, and one in my office desk. ",
+            "recommIcon": "_assets/img/u18.png",
+            "command": {
+                "text": "Do It",
+                "badge": "",
+                "action": "readinessQuestionnaire"
+            },
+            "previewTitle": "Why it matters",
+            "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+            "previewTextLimit": 200,
+            "previewTextCommand": {
+                "text": "View Detail",
+                "action": "viewDetail"
+            },
+            "primaryCTACommands" : [
+                {
+                    "text": "Do it",
+                    "action": "actionCheckin",
+                    "badge": "",
+                    "icon": "",
+                    "status": ""
+                }
+            ],
+            "previewCommands": [
+                {
+                    "text": "Add Reminder",
+                    "action": "actionReminder",
+                    "badge": "",
+                    "icon": "iconAdd",
+                    "status": ""
+                },
+                {
+                    "text": "Add to My Achievements ",
+                    "action": "masterAction",
+                    "badge": "",
+                    "icon": "iconAdd",
+                    "status": ""
+                },
+                {
+                    "text": "Remove",
+                    "action": "removeAction",
+                    "badge": "",
+                    "icon": "iconDelete",
+                    "status": ""
+                }
+            ]
+        }
+    ],
+    "command": {
+        "status": true,
+        "action": "showMoreRecommendedAction",
+        "text": "Show more"
+    }
+}]

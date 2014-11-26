@@ -1,0 +1,165 @@
+{
+    "title1": "Building My Plan With Digital Health Coach",
+    "title2": "",
+    "text": "Based on the information you provided, Digital Health Coach has chosen the top health topics for you. Which health topic interests you or motivates you the most? Click the “Start Coaching” button next to your selected health topic and Digital Health Coach will provide a list of recommended Goals to work on. Digital Health Coach suggests focusing on one topic at a time.",
+    "topicList": {
+        "label": "Recommended Topics",
+        "items": [
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "_assets/img/u18.png",
+                "statusIcon": "iconAlertHigh",
+                "statusLabel": "High",
+                "desc": "Diabetes",
+                "command": {
+                    "text": "Start Coaching",
+                    "action": "goalList"
+                },
+                "evaluation": {
+                    "icon": "_assets/img/u1009.png",
+                    "message": "Doing Great",
+                    "css": "color:green"
+                },
+                "teaser": "",
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "Start Coaching",
+                    "badge": "",
+                    "action": "goalList"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "statusIcon": "iconAlertMedium",
+                "statusLabel": "Moderate",
+                "desc": "Healthy Eating",
+                "command": {
+                    "text": "Start Coaching",
+                    "action": "goalList"
+                },
+                "teaser": "",
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Start Coaching",
+                    "badge": "",
+                    "action": "goalList"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "statusIcon": "iconAlertMedium",
+                "statusLabel": "Moderate",
+                "desc": "Physical Activity",
+                "command": {
+                    "text": "Start Coaching",
+                    "action": "startCoaching"
+                },
+                "teaser": "",
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Stop Coaching",
+                    "badge": "",
+                    "action": "goalList"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "statusIcon": "iconAlertLow",
+                "statusLabel": "Low",
+                "desc": "Stress",
+                "command": {
+                    "text": "Start Coaching",
+                    "action": "startCoaching"
+                },
+                "teaser": "",
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Stop Coaching",
+                    "badge": "",
+                    "action": "stopCoaching"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "statusIcon": "iconAlertLow",
+                "statusLabel": "Low",
+                "desc": "Sleep",
+                "command": {
+                    "text": "Start Coaching",
+                    "action": "startCoaching"
+                },
+                "teaser": "",
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Stop Coaching",
+                    "badge": "",
+                    "action": "stopCoaching"
+                }]
+            },
+            {
+                "id": "idddd",
+                "name": "name",
+                "recommIcon": "",
+                "statusIcon": "iconAlertLow",
+                "statusLabel": "Low",
+                "desc": "Depression",
+                "command": {
+                    "text": "Start Coaching",
+                    "action": "startCoaching"
+                },
+                "teaser": "",
+                "previewTitle": "Why it matters",
+                "previewText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                "previewTextLimit": 200,
+                "previewTextCommand": {
+                    "text": "View Detail",
+                    "action": "viewDetail"
+                },
+                "previewCommands": [{
+                    "text": "CTA - Stop Coaching",
+                    "badge": "",
+                    "action": "stopCoaching"
+                }]
+            }
+        ]
+    }
+}

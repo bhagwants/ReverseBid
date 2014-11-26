@@ -1,0 +1,104 @@
+{
+ "HH_HEALTHY_EATING":
+    [{  "title":"Articles",
+    	"items":[{"title":"Knowing Your A1C","link":"http://www.cornerstones4care.com/tracking/what-to-know/knowing-your-a1c.html"},
+				{"title":"Why Tracking Matters","link":"http://www.cornerstones4care.com/tracking/what-to-know/why-tracking-matters.html"},
+				{"title":"Make Tracking Routine","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/make-tracking-routine.html"},
+				{"title":"Getting Help With Your Plan","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/getting-help-with-your-plan.html"},
+				{"title":"Low Blood Sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/low-blood-sugar-hypoglycemia.html"},
+				{"title":"High Blood Sugar (Hyperglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/high-blood-sugar-hyperglycemia.html"},
+				{"title":"Downloadable Fact Sheet: High blood sugar (Hyperglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/HighBloodSugar.pdf"},
+				{"title":"Downloadable Fact Sheet: Low blood sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/LowBloodSugar.pdf"}
+				]
+     },
+     {
+     	"title":"videos",
+    	"items":[{"title":"The Diabetes Download: Holiday eating"	,"link":"http://youtu.be/wmVRsC3L8Bk"}
+    	
+    	]
+     }
+    ],
+ "HH_BEING_ACTIVE":
+    [{  "title":"Articles",
+    	"items":[{"title":"Knowing Your A1C","link":"http://www.cornerstones4care.com/tracking/what-to-know/knowing-your-a1c.html"},
+				{"title":"Why Tracking Matters","link":"http://www.cornerstones4care.com/tracking/what-to-know/why-tracking-matters.html"},
+				{"title":"Make Tracking Routine","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/make-tracking-routine.html"},
+				{"title":"Getting Help With Your Plan","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/getting-help-with-your-plan.html"},
+				{"title":"Low Blood Sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/low-blood-sugar-hypoglycemia.html"},
+				{"title":"High Blood Sugar (Hyperglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/high-blood-sugar-hyperglycemia.html"},
+				{"title":"Downloadable Fact Sheet: High blood sugar (Hyperglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/HighBloodSugar.pdf"},
+				{"title":"Downloadable Fact Sheet: Low blood sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/LowBloodSugar.pdf"}
+				]
+     },
+     {
+     	"title":"videos",
+    	"items":[{"title":"The Diabetes Download: Tracking your diabetes numbers","link":"http://youtu.be/4aZOBns4zJo"}
+    	
+    	]
+     }
+    ],
+ "HH_TAKING_CHARGE":
+ 	[{  "title":"Articles",
+    	"items":[{"title":"If Your Blood Sugar Is Not Controlled","link":"http://www.cornerstones4care.com/medicine/medicine/what-to-do/uncontrolled-blood-sugar.htm"},
+    			{"title":"Following Your Diabetes Care Plan","link":"http://www.cornerstones4care.com/medicine/how-to-stay-on-track/following-your-diabetes-plan.html"},
+    			{"title":"One Day at a Time","link":"http://www.cornerstones4care.com/about-diabetes/managing-diabetes/one-day-at-a-time.html"},
+    			{"title":"Downloadable Fact Sheet: Diabetes, depression, and stress","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/diabetes/Diabetes_Depression_Stress.pdf"},
+    			{"title":"Downloadable Fact Sheet: Type 2 diabetes changes: How and why","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/diabetes/Type2Diabetes_Changes_How_and_Why.pdf"},
+    			{"title":"Getting Help With Your Plan","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/getting-help-with-your-plan.html"},
+    			{"title":"Taking Your Insulin","link":"http://www.cornerstones4care.com/medicine/what-to-know/taking-your-insulin.html"},
+    			{"title":"Following Your Diabetes Care Plan","link":"http://www.cornerstones4care.com/medicine/how-to-stay-on-track/following-your-diabetes-plan.html"}
+				
+				]
+     },
+     {
+     	"title":"videos",
+    	"items":[{"title":"The Diabetes Download: Emotional side of diabetes","link":"http://youtu.be/dYe6J9KXXK8"},
+    			{"title":"The Diabetes Download: Helping your doctor help you","link":"http://youtu.be/CK8VsZoyA_M"},
+    			{"title":"The Diabetes Download: Dining out and diabetes","link":"http://youtu.be/UbP9xMxDG5w"}
+    	
+    	]
+     }
+    ],
+ "HH_MANAGING_MEDICINES":
+	[{  "title":"Articles",
+    	"items":[{"title":"Traveling with Diabetes","link":"http://www.cornerstones4care.com/about-diabetes/making-your-care-plan-work/traveling-with-diabetes.html"},
+				{"title":"Downloadable Fact Sheet: Traveling safely with diabetes","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/diabetes/Travel.pdf"},
+				{"title":"About Diabetes Medicines","link":"http://www.cornerstones4care.com/medicine/what-to-know/about-diabetes-medicines.html"},
+				{"title":"Following Your Diabetes Care Plan","link":"http://www.cornerstones4care.com/medicine/how-to-stay-on-track/following-your-diabetes-plan.html"},
+				{"title":"Your Insulin Plan","link":"http://www.cornerstones4care.com/medicine/how-to-stay-on-track/your-insulin-plan.html"},
+				{"title":"If Your Blood Sugar Is Not Controlled","link":"http://www.cornerstones4care.com/medicine/medicine/what-to-do/uncontrolled-blood-sugar.html"},
+				{"title":"Diabetes Changes Over Time","link":"http://www.cornerstones4care.com/about-diabetes/managing-diabetes/diabetes-changes-over-time.html"},
+				{"title":"Low Blood Sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/low-blood-sugar-hypoglycemia.html"},
+				{"title":"Downloadable Fact Sheet: Low blood sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/LowBloodSugar.pdf"}
+				]
+     },
+     {
+     	"title":"videos",
+    	"items":[{"title":"Levemir &reg; FlexTouch &reg;  IFU video","link":"http://www.levemir.com/video-library/levemir-flextouch/"},
+    			{"title":"Ronald's Journey to Blood Sugar Control video","link":"http://www.levemir.com/video-library/ronalds-story/"},
+    			{"title":"NovoLog &reg; FlexPen &reg;  video","link":"http://www.novolog.com/ToolsResources/VideoLibrary.aspx"},
+    			{"title":"\"Meet Rudy\" video","link":"http://www.novolog.com/ToolsResources/VideoLibrary.aspx"}
+    	]
+     }
+    ],
+
+ "HH_MANAGING_DIABETES": 
+    [{  "title":"Articles",
+    	"items":[{"title":"Knowing Your A1C","link":"http://www.cornerstones4care.com/tracking/what-to-know/knowing-your-a1c.html"},
+				{"title":"Why Tracking Matters","link":"http://www.cornerstones4care.com/tracking/what-to-know/why-tracking-matters.html"},
+				{"title":"Make Tracking Routine","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/make-tracking-routine.html"},
+				{"title":"Getting Help With Your Plan","link":"http://www.cornerstones4care.com/tracking/sticking-with-it/getting-help-with-your-plan.html"},
+				{"title":"Low Blood Sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/low-blood-sugar-hypoglycemia.html"},
+				{"title":"High Blood Sugar (Hyperglycemia)","link":"http://www.cornerstones4care.com/tracking/what-to-know/high-blood-sugar-hyperglycemia.html"},
+				{"title":"Downloadable Fact Sheet: High blood sugar (Hyperglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/HighBloodSugar.pdf"},
+				{"title":"Downloadable Fact Sheet: Low blood sugar (Hypoglycemia)","link":"http://www.cornerstones4care.com/content/dam/nni/cornerstones4care/pdf/content/Tracking/LowBloodSugar.pdf"}
+				]
+     },
+     {
+     	"title":"videos",
+    	"items":[{"title":"The Diabetes Download: Tracking your diabetes numbers","link":"http://youtu.be/4aZOBns4zJo"}
+    	
+    	]
+     }
+    ]
+}

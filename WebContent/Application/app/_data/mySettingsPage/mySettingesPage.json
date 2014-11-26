@@ -1,0 +1,63 @@
+{
+    "type":"appintro",
+    "id":"iddd",
+    "name":"iddd",
+    "appId":"mymessages",
+    "title":"My Settings",
+
+    "subTitle":"",
+    "desc": "",
+    "image":"",
+    "text":"",
+    "modal":false,
+    "contents":[
+        {
+            "id": "",
+            "name": "",
+            "label": "Account Settings",
+
+            "settingItems":[
+
+                {
+                    "id": "changePassword",
+                    "label": "Change My Password",
+                    "templateName": "changePassword"
+
+                },
+                {
+                    "id": "changeEmail",
+                    "label": "Change My Email Address",
+                    "templateName": "changeEmail"
+
+                },
+                {
+                    "id": "changeSecurityQuestions",
+                    "label": "Change My Security Questions",
+                    "templateName": "changeSecurityQuestions"
+
+                },
+                {
+                    "id": "changeLanguage",
+                    "label": "Change My Language",
+                    "templateName": "changeLanguage"
+
+                },
+                {
+                    "id": "deactivateAccount",
+                    "label": "Deactivate My Account",
+                    "templateName": "deactivateAccount"
+
+                },
+                {
+                    "id": "manageMySubscriptions",
+                    "label": "Manage My Subscriptions",
+                    "templateName": "manageMySubscriptions"
+
+                }
+
+            ]
+
+        }
+    ]
+
+}

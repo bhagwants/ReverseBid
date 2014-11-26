@@ -1,0 +1,26 @@
+{
+    "id": "id00",
+    "name": "",
+    "title": "Challenge Check In",
+    "subTitle": "Escape the zombies by walking every day for 21 days",
+    "questions": [
+        {
+            "id": 1001,
+            "type": "input",
+            "desc": "",
+            "label": "In kilometers, enter your new entry for distance:",
+            "options": [],
+            "hint": "Want to check your previous values entry?"
+        }
+    ],
+    "commands": [
+        {
+            "text": "Cancel",
+            "action": "cancel"
+        },
+        {
+            "text": "Save",
+            "action": "submitChallengeCheckin"
+        }
+    ]
+}

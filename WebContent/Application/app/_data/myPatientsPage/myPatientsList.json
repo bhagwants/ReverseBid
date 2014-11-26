@@ -1,0 +1,78 @@
+{
+    "id": "",
+    "name": "",
+    "label": "My Patients",
+    "patientsColumns": [
+        "Last Name",
+        "First Name",
+        "Date of Birth",
+        "Telephone",
+        "Patient Id",
+        "Detail"
+    ],
+    "patientRows": [
+        {
+            "id": "patient0001",
+            "lastName": "Jones",
+            "firstName": "Janet",
+            "dateOfBirth": "11/01/1957",
+            "telephone":"614-248-3005",
+            "patientId":"34"
+        },
+        {
+            "id": "patient0002",
+            "lastName": "O'Neil",
+            "firstName": "Grainne",
+            "dateOfBirth": "18/04/1963",
+            "telephone":"101010101",
+            "patientId":"17"
+        },
+        {
+            "id": "patient0002",
+            "lastName": "Patient",
+            "firstName": "Name",
+            "dateOfBirth": "Birth Day",
+            "telephone":"phone nb",
+            "patientId":"00"
+        },
+        {
+            "id": "patient0002",
+            "lastName": "Patient",
+            "firstName": "Name",
+            "dateOfBirth": "Birth Day",
+            "telephone":"phone nb",
+            "patientId":"00"
+        },
+        {
+            "id": "patient0002",
+            "lastName": "Patient",
+            "firstName": "Name",
+            "dateOfBirth": "Birth Day",
+            "telephone":"phone nb",
+            "patientId":"00"
+        },
+        {
+            "id": "patient0002",
+            "lastName": "Patient",
+            "firstName": "Name",
+            "dateOfBirth": "Birth Day",
+            "telephone":"phone nb",
+            "patientId":"00"
+        },
+        {
+            "id": "patient0002",
+            "lastName": "Patient",
+            "firstName": "Name",
+            "dateOfBirth": "Birth Day",
+            "telephone":"phone nb",
+            "patientId":"00"
+        }
+
+    ],
+    "messageCommand": {
+        "status": true,
+        "action": "showMoreMessages",
+        "text": "Show more"
+    }
+
+}

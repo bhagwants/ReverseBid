@@ -1,0 +1,162 @@
+{"Stepaction":{
+		"uniqueIdentifier": "ACTION_REMINDER",
+    	"text1": "<p><strong>Great!</strong> To work on this action, go to My Actions in the Dashboard.</p><p>The Diabetes Health Coach digital program recommends setting a reminder to do this action. Do you want to set a reminder?</p>"
+	},
+"Steptracker":{
+		"uniqueIdentifier": "TRACKER_REMINDER",
+    	"text1": "<p><strong>Great!</strong> To work on this tracker, go to My Trackers in the Dashboard.</p><p>The Diabetes Health Coach digital program recommends setting a reminder to do this tracker. Do you want to set a reminder?</p>"
+	},
+
+"Step1": {
+    "uniqueIdentifier": "ACTION_REMINDER",
+    "text1": "<p>The Diabetes Health Coach digital program recommends setting up a reminder to track your progress. Check the boxes to set up reminders by text message and/or e-mail.</p>",
+    "title": "<img src='_assets/img/novo/bell.jpg'>Add Reminder",
+    "subTitle": "",
+    "items": [
+        {
+            "id": "setTextReminder",
+            "type": "checkbox",
+            "label": "text reminder"
+        },
+        {
+            "id": "howOften",
+            "type": "select",
+            "label": "Remind Me:",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": ""
+                },
+                {
+                    "text": "Daily",
+                    "value": 1
+                },
+                {
+                    "text": "Weekly",
+                    "value": 2
+                },
+                {
+                    "text": "On the First of Each Month",
+                    "value": 3
+                },
+                {
+                    "text": "Every 3 Months",
+                    "value": 4
+                },
+                {
+                    "text": "Every 6 Months",
+                    "value": 5
+                },
+                {
+                    "text": "Once a Year",
+                    "value": 6
+                },
+                {
+                    "text": "Once",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "id": "day",
+            "type": "select",
+            "label": "Day:",
+            "options": [
+                {
+                    "text": "- Select -",
+                    "value": ""
+                },
+                {
+                    "text": "Monday",
+                    "value": 1
+                },
+                {
+                    "text": "Tuesday",
+                    "value": 2
+                },
+                {
+                    "text": "Wednesday",
+                    "value": 3
+                },
+                {
+                    "text": "Thursday",
+                    "value": 4
+                },
+                {
+                    "text": "Friday",
+                    "value": 5
+                },
+                {
+                    "text": "Saturday",
+                    "value": 6
+                },
+                {
+                    "text": "Sunday",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "type": "time",
+            "id": "timer",
+            "value": "2014-08-02T12:00:54.933Z",
+            "label": "Time"
+        },
+         {	"type":"calendar",
+         	"id":"date",
+         	"name":"dateText",
+         	"label":"Choose a Reminder Start Date:",
+         	"text":null,
+         	 "value":null,
+         	 "checked":false
+         },
+        
+        {
+            "id": "setEmailReminder",
+            "type": "checkbox",
+            "label": "email reminder"
+        }
+    ],
+    "errorMessage": "Please select how often you take it"
+},
+    "Step2": {
+        "uniqueIdentifier":"ACTION_REMINDER",
+        "title": "<img src='_assets/img/novo/bell.jpg'>Add Reminder",
+        "items":[],
+        "items2": [
+            {
+                "id": "agreeReceiveMarketingText",
+                "type": "checkbox",
+                "label": "By checking this box, I AGREE to receive automatically sent text message reminders from Novo Nordisk Inc. as part of its Diabetes Health Coach program at the mobile number below."
+            },
+            {
+                "type": "note",
+                "label": "<p>I understand that I am not required to provide my consent as a condition of participation in the Diabetes Health Coach program.</p><br><p>You will receive text messages as frequently as you choose.</p><p>Message and data rates may apply.</p><p>For more information about our Terms of Use go to <a>Terms of Use</a>.</p><p>To view Novo Nordisk's Privacy Policy go to <a>Privacy Policy</a>.</p><br><p>To unsubscribe, go to <a>My Preferences</a> to manage your reminders.</p><p>For help, visit <a>Contact Us</a></p><br><br><p>Please print for your records.</p>"
+            },
+            {
+                "id": "telephone",
+                "type": "telephone",
+                "label": "My mobile phone number:",
+                "value1": "",
+                "value2": "",
+                "value3": ""
+            }
+
+        ]
+    },
+    "Step3": {
+        "uniqueIdentifier":"ACTION_REMINDER",
+        "text11": "Your Reminder text will be sent to ",
+        "title": "Add reminder",
+        "text12": ". To change your mobile phone number for text messages or reminders, please go to <a href='#myProfile' target='_blank'>My Preferences</a>."
+        
+    },
+    "Step4": {
+        "uniqueIdentifier":"ACTION_REMINDER",
+        "text1": "Your Reminder e-mail will be sent to: [email@email.com]. Remember to add customercarecenter@cornerstones4care.com to your contacts list so your reminders do not end up in your spam folder. To change your reminders, go to <a href='#myProfile'>My Preferences</a>. ",
+        "title": "<img src='_assets/img/novo/bell.jpg'>Add Reminder"
+    }
+
+}
+
+

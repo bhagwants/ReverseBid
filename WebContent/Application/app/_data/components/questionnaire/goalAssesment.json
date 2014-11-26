@@ -1,0 +1,837 @@
+{
+ "HH_HEALTHY_EATING":
+    {"title":"Healthy Eating",
+    	"formSections":[
+    	{
+    	"desc": "",
+    	"items": [
+        	{
+            "type": "note",
+            "label": "<h4>I'd like to eat healthier, but...</h4>"
+        	},
+        	{
+            "id": "12001",
+            "type": "select",
+            "label": "1- I'm finding it hard to cut back on my favorite foods.",
+            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 120011
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 120012
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 120013
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 120014
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 120015
+	                }
+	            ]
+        	},
+        	{
+	            "id": "12002",
+	            "type": "select",
+	            "label": "2- I'm confused about carbs and carb counting.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 120021
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 120022
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 120023
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 120024
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 120025
+	                }
+	            ]
+	        },
+	        {
+	            "id": "12003",
+	            "type": "select",
+	            "label": "3- I'm not sure which foods to choose.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 120031
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 120032
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 120033
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 120034
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 120035
+	                }
+	            ]
+	        },
+	        {
+	            "id": "12004",
+	            "type": "select",
+	            "label": "4- I find it hard to eat healthy at social events or in restaurants.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 120041
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 120042
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 120043
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 120044
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 120045
+	                }
+	            ]
+	        },
+	        {
+	            "id": "12005",
+	            "type": "select",
+	            "label": "5- I don't have the support I need from my family, friends, or co-workers to help me eat healthy.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 120051
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 120052
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 120053
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 120054
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 120055
+	                }
+	            ]
+	        }
+	        
+     	 ]
+     	} 
+    ]
+    },
+ "HH_TAKING_CHARGE":
+    {"title":"Taking Charge",
+	"formSections":[
+    	{
+    	"desc": "",
+    	"items": [
+        	{
+            "type": "note",
+            "label": "<h4>How do you feel about taking a more active role in your diabetes care?</h4>"
+        	},
+        	{
+            "id": "13001",
+            "type": "select",
+            "label": "1- I feel motivated to do this.",
+            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 130011
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 130012
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 130013
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 130014
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 130015
+	                }
+	            ]
+        	},
+        	{
+	            "id": "13002",
+	            "type": "select",
+	            "label": "2- I know where to start.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 130021
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 130022
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 130023
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 130024
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 130025
+	                }
+	            ]
+	        },
+	        {
+	            "id": "13003",
+	            "type": "select",
+	            "label": "3- I have a strong support network of family and friends to help me.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 130031
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 130032
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 130033
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 130034
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 130035
+	                }
+	            ]
+	        },
+	        {
+	            "id": "13004",
+	            "type": "select",
+	            "label": "4- I have been able to stick with it.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 130041
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 130042
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 130043
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 130044
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 130045
+	                }
+	            ]
+	        }
+	        
+     	 ]
+     	} 
+    ]
+	},
+ "HH_BEING_ACTIVE":
+ 	{"title":"Being Active",
+	"formSections":[
+    	{
+    	"desc": "",
+    	"items": [
+        	{
+            "type": "note",
+            "label": "<h4>I'd like to be more active, but...</h4>"
+        	},
+        	{
+            "id": "16001",
+            "type": "select",
+            "label": "1- I don't have the time...",
+            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 160011
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 160012
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 160013
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 160014
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 160015
+	                }
+	            ]
+        	},
+        	{
+	            "id": "16002",
+	            "type": "select",
+	            "label": "2- It's too expensive.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 160021
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 160022
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 160023
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 160024
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 160025
+	                }
+	            ]
+	        },
+	        {
+	            "id": "16003",
+	            "type": "select",
+	            "label": "3- I find exercise boring.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 160031
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 160032
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 160033
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 160034
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 160035
+	                }
+	            ]
+	        },
+	        {
+	            "id": "16004",
+	            "type": "select",
+	            "label": "4- I'm not sure how much or what kind of physical activity to do.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 160041
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 160042
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 160043
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 160044
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 160045
+	                }
+	            ]
+	        },
+	        {
+	            "id": "16005",
+	            "type": "select",
+	            "label": "5- I've tried to get active before but I have trouble sticking to it.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 160051
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 160052
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 160053
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 160054
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 160055
+	                }
+	            ]
+	        },
+	        {
+	            "id": "16006",
+	            "type": "select",
+	            "label": "6- I'm concerned about having low blood sugar when I'm being active.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 160061
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 160062
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 160063
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 160064
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 160065
+	                }
+	            ]
+	        }
+	
+	        
+     	 ]
+     	} 
+    ]
+	},
+ "HH_MANAGING_MEDICINES":
+	{"title":"Managing Medicine",
+	"formSections":[
+    	{
+    	"desc": "",
+    	"items": [
+        	{
+            "type": "note",
+            "label": "<h4>How do you feel about your diabetes medicine?</h4>"
+        	},
+        	{
+            "id": "15001",
+            "type": "select",
+            "label": "1- I'm not sure why I have to take this medicine for my diabetes.",
+            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 150011
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 150012
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 150013
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 150014
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 150015
+	                }
+	            ]
+        	},
+        	{
+	            "id": "15002",
+	            "type": "select",
+	            "label": "2- I'm concerned about giving myself an injection",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 150021
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 150022
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 150023
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 150024
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 150025
+	                }
+	            ]
+	        },
+	        {
+	            "id": "15003",
+	            "type": "select",
+	            "label": "3- I sometimes forget to take my diabetes medicine.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 150031
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 150032
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 150033
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 150034
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 150035
+	                }
+	            ]
+	        },
+	        {
+	            "id": "15004",
+	            "type": "select",
+	            "label": "4- I'm concerned about having low blood sugar because of my medication.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 150041
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 150042
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 150043
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 150044
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 150045
+	                }
+	            ]
+	        },
+	        {
+	            "id": "15005",
+	            "type": "select",
+	            "label": "5- I'm not sure how to tell if my diabetes medicine is working.",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Strongly agree",
+	                    "value": 150051
+	                },
+	                {
+	                    "text": "Agree",
+	                    "value": 150052
+	                },
+	                {
+	                    "text": "Neutral",
+	                    "value": 150053
+	                },
+	                {
+	                    "text": "Disagree",
+	                    "value": 150054
+	                },
+	                {
+	                    "text": "Strongly Disagree",
+	                    "value": 150055
+	                }
+	            ]
+	        }
+	
+	        
+     	 ]
+     	} 
+    ]
+	},
+
+ "HH_MANAGING_DIABETES": 
+    {"title":"Managing Diabetes",
+    "formSections":[
+    	{
+    	"desc": "How do you feel about taking a more active role in your diabetes care?",
+    	"items": [
+        	{
+            "type": "note",
+            "label": "<h4>How comfortable are you with...</h4>"
+        	},
+        	{
+            "id": "14001",
+            "type": "select",
+            "label": "1- Checking your blood sugar",
+            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Not at all",
+	                    "value": 140011
+	                },
+	                {
+	                    "text": "A little",
+	                    "value": 140012
+	                },
+	                {
+	                    "text": "Moderately",
+	                    "value": 140013
+	                },
+	                {
+	                    "text": "Very",
+	                    "value": 140014
+	                }
+	            ]
+        	},
+        	{
+	            "id": "14002",
+	            "type": "select",
+	            "label": "2- Knowing what to do about high blood sugar",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Not at all",
+	                    "value": 140021
+	                },
+	                {
+	                    "text": "A little",
+	                    "value": 140022
+	                },
+	                {
+	                    "text": "Moderately",
+	                    "value": 140023
+	                },
+	                {
+	                    "text": "Very",
+	                    "value": 140024
+	                }
+	            ]
+	        },
+	        {
+	            "id": "14003",
+	            "type": "select",
+	            "label": "3- Knowing what to do about low blood sugar",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Not at all",
+	                    "value": 140031
+	                },
+	                {
+	                    "text": "A little",
+	                    "value": 140032
+	                },
+	                {
+	                    "text": "Moderately",
+	                    "value": 140033
+	                },
+	                {
+	                    "text": "Very",
+	                    "value": 140034
+	                }
+	            ]
+	        },
+	        {
+	            "id": "14004",
+	            "type": "select",
+	            "label": "4- Knowing and understanding your target numbers (eg, blood sugar, A1C, cholesterol, and blood pressure)",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Not at all",
+	                    "value": 140041
+	                },
+	                {
+	                    "text": "A little",
+	                    "value": 140042
+	                },
+	                {
+	                    "text": "Moderately",
+	                    "value": 140043
+	                },
+	                {
+	                    "text": "Very",
+	                    "value": 140044
+	                }
+	            ]
+	        },
+	        {
+	            "id": "14005",
+	            "type": "select",
+	            "label": "5- Knowing what to do when you're sick",
+	            "options": [
+	                {
+	                    "text": "- Select -",
+	                    "value": ""
+	                },
+	                {
+	                    "text": "Not at all",
+	                    "value": 140051
+	                },
+	                {
+	                    "text": "A little",
+	                    "value": 140052
+	                },
+	                {
+	                    "text": "Moderately",
+	                    "value": 140053
+	                },
+	                {
+	                    "text": "Very",
+	                    "value": 140054
+	                }
+	            ]
+	        }
+	
+	        
+     	 ]
+     	} 
+    ]
+    
+    }
+}

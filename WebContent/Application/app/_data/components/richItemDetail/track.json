@@ -1,0 +1,95 @@
+{
+    "id": "track-xxxx",
+    "name": "Track",
+    "title": "Blood sugar tracker",
+    "subTitle":"How am I doing?",
+    "topCommands": [
+        {
+            "name": "Edit Reminder",
+            "action": "editReminder",
+            "badge": "",
+            "icon": "iconSwitch",
+            "status": ""
+        },
+        {
+            "name": "Remove Tracker  ",
+            "action": "removeTracker",
+            "badge": "",
+            "icon": "iconDelete",
+            "status": ""
+        }
+    ],
+    "primaryCTACommands": [{
+        "name":"Check In",
+        "action":"actionCheckin",
+        "badge":"",
+        "icon":"",
+        "status":""
+    }],
+    "graphs": [],
+    "bodyContent": "",
+    "bodyContentWhyLabel": "Why it matters",
+    "bodyContentWhyDescription": "<p>Tracking your blood sugar helps you see how you are doing with your diabetes care plan. Looking at the numbers can help you notice patterns in how medicines, food, and physical activity affect your blood sugar.</p>",
+    "bodyContentTipsLabel": "Tips for doing it",
+    "bodyContentTipsDescription": "<p>Test your blood sugar as often as your doctor recommends, and enter the results in the tracker. Then, print your results and bring them to your doctor's visit.</p>",
+    "bodyContentHelpLabel": "What to do when I'm stuck",
+    "bodyContentHelpDescription": "<p>If you forget to check your blood sugar or enter the results in the tracker, don't worry! Just check it at the next recommended time and enter the results at this time.</p><p>If your blood sugar results are often above the targets recommended by your doctor, talk to your doctor about what you can do to get them on target. Print your results and bring them to your doctor's visit.</p>",
+
+    "trackersTitle": "Model Tracker's details values",
+    "trackers": {
+        "label": "My Trackers",
+        "trackerColumns": [
+            "Name",
+            "Target Value",
+            "Current Value",
+            "Status",
+            " ",
+            " "
+        ],
+        "trackerRows": [
+            {
+                "id": "tracker0001",
+                "name": "Weight",
+                "targetValue": 55,
+                "currentValue": 61,
+                "command": {
+                    "name": "Stop",
+                    "action": "stopTracker"
+                },
+                "evaluation": {
+                    "icon": "_assets/img/u1009.png",
+                    "message": "Doing Great",
+                    "css": "color:green"
+                },
+                "detail": {
+                    "text": "CTA - Track",
+                    "action": "track"
+                }
+            },
+            {
+                "id": "tracker0002",
+                "name": "Height",
+                "targetValue": " ",
+                "currentValue": " ",
+                "command": {
+                    "name": "Checkin",
+                    "action": "actionCheckin"
+                },
+                "evaluation": {
+                    "icon": "_assets/img/u108.png",
+                    "message": "Missing",
+                    "css": "color:grey"
+                },
+                "detail": {
+                    "text": "CTA - Track",
+                    "action": "track"
+                }
+            }
+        ]
+    },
+
+    "graph":true,
+    "zombieGraph":false,
+    "bottomCommands": [],
+    "modal": false
+}

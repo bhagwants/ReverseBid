@@ -1,0 +1,74 @@
+[
+{
+"id": "message0004",
+"title": "<item Title>",
+"date": "dd/mm/yyyy",
+"sender": "Dr Name",
+"status":"Read",
+"bold":false
+},
+{
+"id": "message0005",
+"title": "<item Title>",
+"date": "dd/mm/yyyy",
+"sender": "Dr Name",
+"status":"Not Read",
+"bold":true
+},
+{
+"id": "message0006",
+"title": "<item Title>",
+"date": "dd/mm/yyyy",
+"sender": "Dr Name",
+"status":"Read",
+"bold":false
+},
+    {
+        "id": "message0004",
+        "title": "<item Title>",
+        "date": "dd/mm/yyyy",
+        "sender": "Dr Name",
+        "status":"Read",
+        "bold":false
+    },
+    {
+        "id": "message0005",
+        "title": "<item Title>",
+        "date": "dd/mm/yyyy",
+        "sender": "Dr Name",
+        "status":"Not Read",
+        "bold":true
+    },
+    {
+        "id": "message0006",
+        "title": "<item Title>",
+        "date": "dd/mm/yyyy",
+        "sender": "Dr Name",
+        "status":"Read",
+        "bold":false
+    },
+    {
+        "id": "message0004",
+        "title": "<item Title>",
+        "date": "dd/mm/yyyy",
+        "sender": "Dr Name",
+        "status":"Read",
+        "bold":false
+    },
+    {
+        "id": "message0005",
+        "title": "<item Title>",
+        "date": "dd/mm/yyyy",
+        "sender": "Dr Name",
+        "status":"Not Read",
+        "bold":true
+    },
+    {
+        "id": "message0006",
+        "title": "<item Title>",
+        "date": "dd/mm/yyyy",
+        "sender": "Dr Name",
+        "status":"Read",
+        "bold":false
+    }
+]

@@ -1,0 +1,57 @@
+<div class="container-detail container-complex-tracker" ng-model="currentPage" ng-init="currentPage=1">
+    <button class="button-dismiss2" ng-click="$parent.execute('cancel')" style="float:right">x</button>
+    
+    <div ng-include="'_assets/isi/novolog-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOG'"></div>
+    <div ng-include="'_assets/isi/novolog7030-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030'"></div>
+    <div ng-include="'_assets/isi/victoza-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_VICTOZA'"></div>
+    <div ng-include="'_assets/isi/levemir-left.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR'"></div>
+    <form style="float:left;width:495px">
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOG'">
+            <p>Please <a href="http://www.novo-pi.com/novolog.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030'">
+            <p>Please <a href="http://www.novo-pi.com/novologmix7030.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_VICTOZA'">
+            <p>Please <a href="http://www.novo-pi.com/victoza.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-inner" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR'">
+            <p>Please <a href="http://www.novo-pi.com/levemir.pdf" target="_blank">click here</a> for full Prescribing Information.</p>
+        </div>
+        <div class="container-detail-header">
+            <h2 class="title-detail" ng-bind-html="pageContent.title | unsafe"></h2>
+        </div>
+
+        <div class="container-detail-inner">
+            <div ng-bind-html="pageContent.text1 | unsafe"></div>
+            <p ng-if="pageContent.subTitle"><strong>{{pageContent.subTitle}}</strong></p>
+            <div class="divider-complex-tracker"></div>
+            <label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in pageContent.items"></label>
+            <div class="clearfix"></div>
+
+            <label input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in pageContent.timers" ng-if="$index < answers['howOften']"></label>
+            <div class="clearfix"></div>
+
+            <div ng-if="currentPage==2" ng-repeat="reminder in reminderOptions" style="margin-bottom:10px">
+                <p>{{reminder.label | date:'shortTime'}}</p>
+                <span input-Component-Dir item="item" ng-model="questions.answers" ng-repeat="item in reminder.items"></span>
+            </div>
+
+            <div ng-bind-html="pageContent.text2 | unsafe" ng-if="answers['howOften'] && pageContent.text2"></div>
+            <div class="alert-danger top" ng-if="pageContent.showMessage">{{pageContent.errorMessage}}</div>
+        </div>
+    </form>
+     
+    <div class="container-cta">
+        <button class="button cancel" ng-click="$parent.execute('cancel')">Cancel</button>
+        <button type="submit" class="button" ng-click="fetchPage()" ng-if="currentPage < 5">Submit</button>
+        <button class="button" ng-click="execute({})" ng-if="currentPage == 5">Submit</button>
+    </div>
+   
+    <div ng-include="'_assets/isi/novolog-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOG'"></div>
+    <div ng-include="'_assets/isi/novolog7030-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_NOVOLOGMIX7030'"></div>
+    <div ng-include="'_assets/isi/victoza-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_VICTOZA'"></div>
+    <div ng-include="'_assets/isi/levemir-bottom.html'" ng-if="pageContent.uniqueIdentifier=='ECS_T1_MEDICINE_TRACKER_LEVEMIR'"></div>
+</div>
+
+

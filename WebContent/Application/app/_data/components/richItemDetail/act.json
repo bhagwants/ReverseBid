@@ -1,0 +1,100 @@
+{
+    "id": "action-xxxx",
+    "name": "Take Action",
+    "title": "Make a carb-counting meal plan using my favourite restaurant's menu.",
+    "subTitle":"How am I doing?",
+    "topCommands": [
+        {
+            "name": "Edit Reminder",
+            "action": "reminder",
+            "badge": "",
+            "icon": "iconSwitch",
+            "status": ""
+        },
+        {
+            "name": "Add to My Achievements ",
+            "action": "masterAction",
+            "badge": "",
+            "icon": "iconAdd",
+            "status": ""
+        },
+        {
+            "name": "Remove Action",
+            "action": "removeAction",
+            "badge": "",
+            "icon": "iconDelete",
+            "status": ""
+        }
+    ],
+    "primaryCTACommands": [{
+        "name":"Check In",
+        "action":"actionCheckin",
+        "badge": "",
+        "icon": "",
+        "status": ""
+    }],
+    "graphs": [],
+    "bodyContent": "",
+    "bodyContentWhyLabel": "Why it matters",
+    "bodyContentWhyDescription": "<p>Planning ahead and knowing what is safe for you will make your dining experience much more enjoyable.</p>",
+    "bodyContentTipsLabel": "Tips for doing it",
+    "bodyContentTipsDescription": "<p>Sometimes it\u2019s hard to know where restaurants hide their sugars, so look out for sauces and salad dressings. You may even want to bring your own salad dressing!</p>",
+    "bodyContentHelpLabel": "What to do when I'm stuck",
+    "bodyContentHelpDescription": "<p>You can start by calling and asking to talk to managers or cooking staff. If you let them know you have diabetes and want to eat your favourite meal, they may be able to give suggestions to make it more diabetes friendly.</p>",
+    "trackersTitle": "How Are You Doing?",
+    "trackers": {
+        "label": "My Trackers",
+        "trackerColumns": [
+            "Name",
+            "Target Value",
+            "Current Value",
+            "Status",
+            " ",
+            " "
+        ],
+        "trackerRows": [
+            {
+                "id": "tracker0001",
+                "name": "Weight",
+                "targetValue": 55,
+                "currentValue": 61,
+                "command": {
+                    "name": "Stop",
+                    "action": "stopTracker"
+                },
+                "evaluation": {
+                    "icon": "_assets/img/u1009.png",
+                    "message": "Doing Great",
+                    "css": "color:green"
+                },
+                "detail": {
+                    "text": "CTA - Track",
+                    "action": "track"
+                }
+            },
+            {
+                "id": "tracker0002",
+                "name": "Height",
+                "targetValue": " ",
+                "currentValue": " ",
+                "command": {
+                    "name": "Checkin",
+                    "action": "actionCheckin"
+                },
+                "evaluation": {
+                    "icon": "_assets/img/u108.png",
+                    "message": "Missing",
+                    "css": "color:grey"
+                },
+                "detail": {
+                    "text": "CTA - Track",
+                    "action": "track"
+                }
+            }
+        ]
+    },
+    "graph":true,
+    "zombieGraph":false,
+    "bottomCommands": [],
+    "modal": false
+}

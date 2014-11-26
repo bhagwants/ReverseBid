@@ -1,0 +1,70 @@
+<div ng-model="currentQuestion">
+	<!--Header-->
+	
+	<!-- Cancel request message  -->
+	<div class="container-detail" ng-if="showCancelMessage">
+        <button class="button-dismiss2 pull-right" ng-click="cancelRequest()">x</button>
+        <div class="container-detail-header">
+            <h2 class="title-detail" style="text-transform: none;">{{title}}</h2>
+        </div>
+        <div class="divider2"></div>
+		<div class="container-detail-inner" style="padding-left:40px;padding-right:40px;">
+            <h3 style="font-family:'font1bold';font-weight: bold;font-size:24px;color:#0a8546;">Are you sure you would like to leave the PEAQ? </h3>
+            <p>You have not yet completed your dgdfgfkhg Health Abilities Profile. If you exit the application now, your responses cannot be saved and you will not receive your PEAQ score.</p>
+			<p>You can always return and retake the PEAQ Health Abilities Profile whenever you'd like.</p>
+			<div class="container-cta" >
+                <button class="button" ng-click="$parent.execute('cancel')" class="button">Yes</button>
+                <button class="button" ng-click="cancelRequest()" class="button">No</button>
+			</div>
+		</div>		
+	</div>
+	<!-- End Cancel request message  -->
+	<!-- main questionnaire part -->
+	<div class="container-detail" ng-if="!showCancelMessage">
+        <button class="button-dismiss2 pull-right" ng-click="cancelRequest()">x</button>
+        <div class="container-detail-header">
+            <h2 class="title-detail" style="text-transform: none;">{{title}}</h2>
+        </div>
+        <div class="divider2"></div>
+        <div class="container-detail-inner" style="margin-top: -32px;">
+            <div style="float: left;width:187px;">
+                <img src="_assets/img/manulife/peaq-questionnaire-aside.png" alt="" ng-if="!showClose">
+            </div>
+            <div style="float: left;width:525px;padding-top:35px;" ng-if="!showClose">Great, it should take under 5 minutes for you to choose whether you agree or disagree with a series of 21 statements. Your responses will create your Health Personality Profile and reveal not just where you struggle with managing your health - but also where you're strongest.</div>
+            <div style="width:100%;padding:70px 40px 106px 40px;" ng-if="showClose">{{subTitle}}</div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div ng-if="item && !showCancelMessage">
+        <div class="container-detail-inner">
+            <div class="breadcrumb" style="margin-top:49px;border-bottom:1px dotted #cecece;padding-bottom:7px;padding-top:49px;padding-left:20px;font-family: 'font1semibold';font-size:16px;color:#a19d9d;">
+                <span style="padding-right:18px">Question:</span>
+                <span ng-repeat="i in content.items" >
+                    <strong ng-if="$index == currentQuestion" style="padding-right:12px;font-size:14px;color:#0a8546;">{{$index+1}}</strong>
+                    <span ng-if="$index != currentQuestion" style="padding-right:12px;font-size:14px;">{{$index+1}}</span>
+                </span>
+            </div>
+
+            <h3 style="font-family:'font1bold';font-weight: bold;font-size:24px;color:#0a8546;padding-left:40px;">{{item.label}}</h3>
+            <div class="row">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4 text-left">
+                    <div ng-repeat="option in item.options"  ng-init="$parent.answers=item.value">
+                        <input type="radio" ng-value="option.value" ng-model="$parent.$parent.answers" ng-click="$emit('Input',item.id,option.value)" class="radio-default">
+                        <label>{{option.text}}</label>
+                    </div>
+                    <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+        </div>
+        <div class="container-cta">
+            <button class="button cancel" ng-click="cancelRequest()" class="cancel">Cancel</button>
+            <button class="button " ng-click="fetchNextQuestion(option.value,item.id)" class="button">Next</button>
+        </div>
+    </div>
+    <div class="container-cta" ng-if="showClose">
+        <button class="button" ng-click="closePage()" class="button">Show My PEAQ Score</button>
+    </div>
+    <!-- End of main questionnaire part -->
+</div>

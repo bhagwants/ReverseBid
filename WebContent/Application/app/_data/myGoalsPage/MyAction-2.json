@@ -1,0 +1,57 @@
+[
+        {
+            "id":"",
+            "name":"",
+            "label":"My Actions" ,
+            "items":[
+                {
+                    "id":"action-001",
+                    "name":"action-001",
+                    "desc":"Go to the market and hunt 3 types of snacks that contain about 15 grams of carb per serving",
+                    "recommIcon":"_assets/img/u18.png",
+                    "command":{"text":"Check In","badge":false,"action":"actionCheckin"},
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":{"text":"View Detail","action":"viewDetail"},
+                    "previewCommands":[{"text":"Checkin","action":"actionCheckin", "badge":6},
+                        {"text":"Reminder","action":"actionReminder"},
+                        {"text":"Master Action","action":"masterAction"},
+                        {"text":"Remove Action","action":"removeAction"}
+                    ]
+                },
+                {
+                    "id":"action-002",
+                    "name":"action-002",
+                    "desc":"On my next 3 market visits, find a new, different food I've never tried and check the label to see if it would fit into my eating plan",
+                    "command":{"text":"Check in","badge":false,"action":"actionCheckin"},
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":{"text":"View Detail","action":"viewDetail"},
+                    "previewCommands":[{"text":"CTA-Checkin","action":"actionCheckin"},
+                        {"text":"Reminder","action":"actionReminder"},
+                        {"text":"Master Action","action":"masterAction"},
+                        {"text":"Remove Action","action":"removeAction"}
+                    ]
+                },
+                {
+                    "id":"action-003",
+                    "name":"action-003",
+                    "desc":"Practice my measuring skills and for one day this week, weighting and ...",
+                    "command":{"text":"CTA- Remove action","badge":false,"action":"removeAction"},
+                    "previewTitle":"Why it matters",
+                    "previewText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci...",
+                    "previewTextLimit":200,
+                    "previewTextCommand":{"text":"View Detail","action":"viewDetail"},
+                    "previewCommands":[{"text":"Checkin","action":"actionCheckin", "badge":6},
+                        {"text":"Reminder","action":"actionReminder"},
+                        {"text":"Master Action","action":"masterAction"},
+                        {"text":"Remove Action","action":"removeAction"}
+                    ]
+                }
+            ],
+            "command":{"status":true, "action":"showMoreMyAction","text":"Show more"}
+        }
+
+]

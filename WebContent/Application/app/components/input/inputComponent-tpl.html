@@ -1,0 +1,339 @@
+<span ng-switch on="item.type" ng-model="answer" class="container-registration">
+    <div class="row">
+        <div class="col-xs-12">
+
+            <div ng-switch-default>
+                <div class="pull-left" ng-if="item.label" ng-bind-html="item.label | unsafe"></div>
+                
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+
+                <input type="text" ng-if="item.disabled" disabled ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                <input type="text" ng-if="!item.disabled" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+
+            <div ng-switch-when="input">
+
+                <div class="row">
+                    <div class="col-xs-12" ng-if="item.note">
+                        <label class="pull-left h2actionlabel" ng-if="item.note">{{item.note}}</label>
+                    </div>
+                    <div ng-if="item.label">
+                        <div ng-if="item.label=='PLEASE LOG IN TO ACCESS ACCOUNT'">
+                            <div class="col-xs-12">
+                                <label class="pull-left" style="line-height: 3"><strong>{{item.label}}</strong></label>
+                            </div>
+                            <div class="col-xs-12">
+                                <input type="text" ng-if="item.disabled" disabled ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                                <input type="text" ng-if="!item.disabled" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                            </div>
+                        </div>
+                        <div ng-if="item.label!='PLEASE LOG IN TO ACCESS ACCOUNT'">
+                            <div class="col-xs-5">
+                                <label class="pull-left" style="line-height: 3">{{item.label}}</label>
+                                <label ng-if="item.required" class="right" style="line-height: 3">
+                                    {{content.requiredNotification.symbol}}
+                                    <span class="iconHelp hide"></span>
+                                </label>
+                            </div>
+                            <div class="col-xs-5">
+                                <input type="text" ng-if="item.disabled" disabled ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                                <input type="text" ng-if="!item.disabled" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div ng-if="!item.label">
+                        <div class="col-xs-10">
+                            <input type="text" ng-if="item.disabled" disabled ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                            <input type="text" ng-if="!item.disabled" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                        </div>
+                    </div>
+                    <div class="col-xs-2"></div>
+                    <aside ng-if="item.hint">{{item.hint}}</aside>
+                    <div class="col-xs-12">
+                        <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div ng-switch-when="text">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <div class="clearfix"></div>
+
+                <input type="text" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}}</div>
+            </div>
+
+            <div ng-switch-when="email">
+                <div ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <div class="clearfix"></div>
+
+                <input type="email"  ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}}</div>
+            </div>
+
+			<div ng-switch-when="telephone">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <div class="clearfix"></div>
+				<input   ng-model="item.value1" style="width:75px"  value="item.value1" min="100" max="999" placeholder="123" ng-change="$emit('Input',item.id,item.value1+'-'+item.value2+'-'+item.value3)"><span> - </span>
+				<input  ng-model="item.value2" style="width:75px" value="item.value2" min="100" max="999" placeholder="456" ng-change="$emit('Input',item.id,item.value1+'-'+item.value2+'-'+item.value3)"><span> - </span>
+				<input  ng-model="item.value3" style="width:75px" value="item.value3" min="1000" max="9999" placeholder="7890" ng-change="$emit('Input',item.id,item.value1+'-'+item.value2+'-'+item.value3)">               
+                
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}}</div>
+            </div>
+
+			<div ng-switch-when="selectDefault">
+            
+				<form name="myForm">
+	    			<select ng-options="color for color in ['red', 'blue', 'yellow']" ng-model="color1">
+	        			<option value="" selected>--Select--</option>
+	    			</select>
+				</form>
+			</div>
+            <div ng-switch-when="tel">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <div class="clearfix"></div>
+
+                <input type="tel" ng-if="item.disabled" disabled ng-model="part.value" name="{{item.name}}" value="{{item.value}}" placeholder="{{item.placeholder}}">
+                <input type="tel" ng-if="!item.disabled" ng-model="part.value" name="{{item.name}}" value="{{item.value}}" placeholder="{{item.placeholder}}">
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}}</div>
+            </div>
+
+            <div ng-switch-when="password">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+
+                <input type="password" ng-model="item.value"  ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}">
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+
+            <div ng-switch-when="textarea">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+
+                <textarea name="textarea" ng-model="item.value" ng-value="item.value" ng-change="$emit('Input',item.id,item.value)"></textarea>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+
+			<div ng-switch-when="time">
+				<div class="pull-left" ng-if="item.label">{{item.label}}</div>
+				<div class="form-group">
+                    <div ng-controller="ReminderConfigurationCtrl" style="clear:both" class="container-timepicker">
+                        <timepicker ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" style="width:200px" minute-step="30" ng-init="setTime()"></timepicker>
+                    </div>
+                    
+                </div>
+
+			</div>
+
+
+
+            <div ng-switch-when="height-weight">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div ng-repeat="part in item.parts" class="col-xs-6">
+                        <input type="text" ng-if="part.disabled" disabled ng-model="part.value" ng-change="$emit('Input',part.id,part.value)" placeholder="{{part.placeholder}}">
+                        <input type="text" ng-if="!part.disabled" ng-model="part.value" ng-change="$emit('Input',part.id,part.value)" placeholder="{{part.placeholder}}">
+                        <div class="alert-danger top" ng-if="part.errorMessage">{{part.errorMessage}} <a ng-click="part.errorMessage=''" class="pointer">[close]</a></div>
+                    </div>
+                </div>
+            </div>
+			
+			<div ng-switch-when="checkBoxGroup" ng-init="$emit('Input',item.id,'')">
+				{{item.label}}
+                <div  style="margin-top:10px;" ng-repeat="it in item.options"><input type="checkbox" class="pull-left" ng-model="it.value"  ng-change="$emit('Input',it.id,it.value)"> {{it.text}}</div>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>	
+            <div ng-switch-when="select" ng-init="initSelect()">
+                <span class="pull-left" ng-if="item.label">{{item.label}}</span>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <div class="clearfix"></div>
+                <select ng-model="answer" ng-init="answer=(item.value)?item.value:item.options[0]" ng-options="option.text for option in item.options" ng-change="$emit('Input',item.id,answer.value)">
+                	
+                </select>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}}</div>
+            </div>
+            <div ng-switch-when="selectNovo" >
+                <span class="pull-left" ng-if="item.label">{{item.label}}</span>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <div class="clearfix"></div>
+                <select ng-model="answer" ng-init="answer=(item.value)?item.value:item.options[0]" ng-options="option.text for option in item.options" ng-change="$emit('Input',item.id,answer.value)">
+                	
+                </select>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}}</div>
+            </div>
+            
+			<div ng-switch-when="calendar" class="datepicker" ng-init="initDate(item,dt)">
+			    <label class="pull-left" ng-if="item.label" style="color: #363636;">{{item.label}}</label>
+                <p class="input-group">
+                    <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="dt" is-open="opened" datepicker-options="dateOptions" show-button-bar=false show-weeks=false date-disabled="disabled( mode)" ng-change="sendDate(item,dt)" />
+                    
+                </p>
+
+			  	<div class="alert-danger top" ng-if="option.errorMessage">{{option.errorMessage}} <a ng-click="option.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+            <div ng-switch-when="date" >
+                
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                {{part}}
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+                <span ng-repeat="part in item.dateComponents">
+                    <select ng-model="answer" ng-init="answer = part.value" ng-options="option for option in part.options" ng-change="$parent.$parent.part[$index]=answer;$emit('Input',item.id,$parent.part)"></select>
+                    <div class="alert-danger top" ng-if="part.errorMessage">{{part.errorMessage}} <a ng-click="part.errorMessage=''" class="pointer">[close]</a></div>
+                    
+
+                    
+                </span>
+            </div>
+
+            <div ng-switch-when="checkbox">
+                <div ng-if="item.label" style="margin-top:10px;"><input type="checkbox" class="pull-left" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" ng-checked="item.value=='true'"> {{item.label}}</div>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+            
+            <div ng-switch-when="note">
+                <div ng-bind-html="item.label | unsafe"></div>
+            </div>
+            
+            <div ng-switch-when="checkboxSet">
+                <div ng-if="item.label" style="margin-top:10px;">{{item.label}}</div>
+                <div ng-repeat="option in item.options">
+                	<div ng-if="option.text" style="margin-top:10px;"><input type="checkbox" class="pull-left" ng-model="item.value" ng-change="$emit('Input',it.uniqueIdentifier,it.value)"> {{option.text}}</div>
+                	<div class="alert-danger top" ng-if="option.errorMessage">{{option.errorMessage}} <a ng-click="option.errorMessage=''" class="pointer">[close]</a></div>
+                </div>	
+            </div>
+
+
+
+
+            <div ng-switch-when="radiohrz">
+                <div ng-if="item.label!=null"><span ng-if="item.label" ng-bind-html="item.label | unsafe"></span></div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+                <div class="row" ng-init="$parent.answers=item.value">
+                    <div ng-repeat="it in item.options" class="col-xs-12">
+                        <input type="radio" ng-value="it.value" ng-model="$parent.$parent.answers" ng-click="$emit('Input',item.name,it.value)" class="radio-default">
+                        <label>{{it.text}}</label>
+                    </div>
+                </div>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+
+            <div ng-switch-when="radio">
+                <div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div ng-repeat="it in item.options" class="col-xs-12">
+                        <input type="radio" ng-if="!item.disabled" ng-value="it.value" ng-model="$parent.answer" ng-click="$emit('Input',item.id,it.value)" class="radio-default">
+                        <input type="radio" ng-if="item.disabled" ng-value="it.value" ng-model="$parent.answer" ng-click="$emit('Input',item.id,it.value)" class="radio-default disabled" disabled>
+                        <label>{{it.text}}</label>
+                    </div>
+                </div>
+                <div class="alert-danger top" ng-if="it.errorMessage">{{it.errorMessage}} <a ng-click="it.errorMessage=''" class="pointer">[close]</a></div>
+
+            </div>
+
+            <div ng-switch-when="securityQuestionCheck">
+                securityQuestionCheck<div class="pull-left" ng-if="item.label">{{item.label}}</div>
+                <span ng-if="item.required">
+                    {{content.requiredNotification.symbol}}
+                    <span class="iconHelp hide"></span>
+                </span>
+                <aside ng-if="item.hint">{{item.hint}}</aside>
+                <div class="clearfix"></div>
+
+                <input type="text" ng-model="item.value" ng-change="$emit('Input',item.id,item.value)" placeholder="{{item.placeholder}}"><br>
+                <a ng-click="showHint=!showHint" ng-show="!showHint">{{item.hintText}}</a> <span ng-show="showHint">{{item.questionHint}}</span>
+                <div class="alert-danger top" ng-if="item.errorMessage">{{item.errorMessage}} <a ng-click="item.errorMessage=''" class="pointer">[close]</a></div>
+            </div>
+
+            <div ng-switch-when="securityQuestion">
+                <div ng-repeat="part in item.questionComponents">
+                    <div class="pull-left" ng-if="part.label">{{part.label}}</div>
+                    <span ng-if="part.required">
+                        {{content.requiredNotification.symbol}}
+                        <span class="iconHelp hide"></span>
+                    </span>
+                    <aside ng-if="part.hint">{{part.hint}}</aside>
+                    <div class="clearfix"></div>
+
+                    <input type="text" ng-model="part.value" ng-change="$emit('Input',part.id,part.value)" placeholder="{{part.placeholder}}">
+                    <div class="alert-danger top" ng-if="part.errorMessage">{{part.errorMessage}} <a ng-click="part.errorMessage=''" class="pointer">[close]</a></div>
+                </div>
+            </div>
+
+            <div ng-switch-when="securityQuestionChange">
+                <a ng-click="showQuestionAnswerHint=true">{{item.changeCommand}}</a>
+                <div ng-show="showQuestionAnswerHint">
+                    <div ng-repeat="part in item.questionComponents">
+                        securityQuestionChange<div class="pull-left" ng-if="part.label">{{part.label}}</div>
+                        <span ng-if="part.required">
+                            {{content.requiredNotification.symbol}}
+                            <span class="iconHelp hide"></span>
+                        </span>
+                        <aside ng-if="part.hint">{{part.hint}}</aside>
+                        <div class="clearfix"></div>
+
+                        <input type="text" ng-model="part.value" ng-change="$emit('Input',part.id,part.value)" placeholder="{{part.placeholder}}">
+                        <div class="alert-danger top" ng-if="part.errorMessage">{{part.errorMessage}} <a ng-click="part.errorMessage=''" class="pointer">[close]</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</span>

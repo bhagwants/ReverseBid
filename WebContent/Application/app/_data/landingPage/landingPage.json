@@ -1,0 +1,13 @@
+{
+    "type": "appintro",
+    "id": "iddd",
+    "name": "iddd",
+    "appId": "mygoals",
+    "title": "My Goals",
+    "desc": "<p><strong>Why should I build a plan with Digital Health Coach?</strong> Like any good coach, Digital Health Coach wants to help you be your best and do your best! Digital Health Coach will build a plan that’s focused on your personal health needs and prioritize the Goals you should be working on.</p>",
+    "image": "_assets/img/manulife/goals-preview.jpg",
+    "imageAlt": "Thumbnail preview",
+    "text": "<h3>Ready to build a plan with Digital Health Coach? </h3>With your customized Digital Health Coach plan, you will:<p><p><strong>LEARN</strong> practical, useful information about improving your health</p><p><strong>TAKE ACTION</strong>  and practice skills that will become lifelong healthy habits</p><p><strong>TRACK</strong> important health measurements as well as your overall progress on your Goals</p><p><p>And like any good coach, Digital Health Coach will support you every step of the way with tips, reminders, and other ways to help you stay motivated!</p></p></p>",
+    "command": {"name": "Get Started"},
+    "modal": false
+}
