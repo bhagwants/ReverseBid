@@ -1,6 +1,9 @@
 package com.reversebid.domain.configurable;
 
+import java.util.List;
+
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="users")
@@ -17,7 +20,8 @@ public class User {
 	
 	String phoneNumber;
 	
-	String roleId;
+	@DBRef
+	private List<Role> roles;
 
 	public String getId() {
 		return id;
@@ -59,12 +63,12 @@ public class User {
 		this.phoneNumber = phoneNumber;
 	}
 
-	public String getRoleId() {
-		return roleId;
+	public List<Role> getRoles() {
+		return roles;
 	}
 
-	public void setRoleId(String roleId) {
-		this.roleId = roleId;
+	public void setRoles(List<Role> roles) {
+		this.roles = roles;
 	}
 
 }

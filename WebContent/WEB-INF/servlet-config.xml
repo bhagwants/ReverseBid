@@ -22,6 +22,8 @@
     <mvc:annotation-driven />
     <mvc:default-servlet-handler />
     
+    <import resource="security-management.xml" />
+    
     <mongo:mongo host="127.0.0.1" port="27017" />
 	<mongo:db-factory dbname="reversebid" />
  

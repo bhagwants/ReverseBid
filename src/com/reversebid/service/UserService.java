@@ -26,7 +26,7 @@ public class UserService implements I_Service{
 		user.setEmail(registerUserForm.getEmail());
 		user.setPhoneNumber(registerUserForm.getPhoneNumber());
 		Role role = roleDao.getRoleByName(registerUserForm.getRole());
-		user.setRoleId(role != null? role.getId() : null);
+		//user.setRoleId(role != null? role.getId() : null);
 		userDao.createUser(user);
 		
 		return user.getId();
