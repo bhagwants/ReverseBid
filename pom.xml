@@ -123,11 +123,12 @@
 		</dependency>
 
 		<!-- Servlet -->
-		<dependency>
+		<!--  <dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-servlet_3.0_spec</artifactId>
 			<version>1.0</version>
 		</dependency>
+		 -->
 		<!-- <dependency> -->
 		<!-- <groupId>javax.servlet.jsp</groupId> -->
 		<!-- <artifactId>jsp-api</artifactId> -->
@@ -180,7 +181,7 @@
 			<version>3.1</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>net.wimpi</groupId>
 			<artifactId>telnetd-x</artifactId>
 			<version>2.1.1</version>
@@ -194,7 +195,6 @@
 					<groupId>ch.qos.logback</groupId>
 					<artifactId>logback-classic</artifactId>
 				</exclusion>
-				<!-- Exclude Groovy because of classpath issue -->
 				<exclusion>
 					<groupId>org.codehaus.groovy</groupId>
 					<artifactId>groovy</artifactId>
@@ -202,6 +202,8 @@
 			</exclusions>
 			<version>1.0.0.RELEASE</version>
 		</dependency>
+		
+ -->
 
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
@@ -227,11 +229,11 @@
 			<version>0.0.8</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 			<version>1.0.0.RELEASE</version>
-		</dependency>
+		</dependency>  -->
 	
 		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -257,7 +259,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <!-- <version>3.1</version> -->
+        <version>3.1</version>
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
@@ -265,7 +267,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <!-- <version>2.4</version> -->
+        <version>2.4</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>

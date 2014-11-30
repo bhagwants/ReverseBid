@@ -344,24 +344,13 @@
             <version>${org.apache.velocity}</version>
         </dependency>
 
-        <!-- RabbitMQ -->
-        <dependency>
-            <groupId>com.bluelock</groupId>
-            <artifactId>camel-spring-amqp</artifactId>
-            <version>${com.bluelock}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>${com.rabbitmq}</version>
-        </dependency>
+        
 
-        <dependency>
+        <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <version>1.0.0.RELEASE</version>
-        </dependency>
+        </dependency>  -->
 
         <!-- JSR-303 Validation Implementation -->
         <dependency>

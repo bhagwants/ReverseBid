@@ -18,14 +18,14 @@
 		http://ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring/ehcache-spring-1.1.xsd		
 		">
 
-	<context:property-placeholder properties-ref="deployProperties" />
+	<!-- <context:property-placeholder properties-ref="deployProperties" /> -->
 
 	<bean id="passwordService" class="org.apache.shiro.authc.credential.DefaultPasswordService"/>
 	<bean id="passwordMatcher" class="org.apache.shiro.authc.credential.PasswordMatcher">
 		<property name="passwordService" ref="passwordService"/>
 	</bean>
 	
-	<bean id="myRealm" class="com.mediresource.security.secure.realm.MongoRealm">
+	<bean id="myRealm" class="com.reversebid.service.security.MongoRealm">
 		<property name="credentialsMatcher" ref="passwordMatcher"/>
 	</bean>
 		
@@ -61,9 +61,9 @@
 		<property name="keySize" value="256"></property>
 	</bean>
 	
-	<bean id="cryptoBean" class="com.mediresource.security.crypto.SymmetricCryptoService">
+	<!--  <bean id="cryptoBean" class="com.mediresource.security.crypto.SymmetricCryptoService">
 		<property name="cipherService" ref="AESCipher"/>
-	</bean>
+	</bean> -->
 	
 	<!--  Old: KeyManager based on file-->
 	<!-- <bean id="keyManagerBean" class="com.mediresource.security.keymanager.LocalKeyManager">
@@ -71,25 +71,25 @@
 	</bean> -->
 	
 	<!--  New: KeyManager based on Mongo-->
-	<bean id="mongoKeyManagerBean" class="com.mediresource.security.keymanager.MongoKeyManager">
+	<!-- <bean id="mongoKeyManagerBean" class="com.mediresource.security.keymanager.MongoKeyManager"> -->
 		<!--  PASSWORD MUST BE PROVIDED RUNTIME OR IN CRYPTOMANAGER CONFIG -->
 		<!--  The only lenght supported is 32 characters-->
 		<!--  constructor-arg type="String"><value>01234567012345670123456701234567</value></constructor-arg -->
-	</bean>
+	<!-- </bean> -->
 	
 
 	<!--  User only for Tests -->
-	<bean id="keyManagerDAO" class="com.mediresource.security.keymanager.dao.KeyManagerDAO">
-	</bean>
+	<!-- <bean id="keyManagerDAO" class="com.mediresource.security.keymanager.dao.KeyManagerDAO">
+	</bean>  -->
 	
-	<bean id="acl" class="com.mediresource.security.secure.service.ACLService">
+	<!-- <bean id="acl" class="com.mediresource.security.secure.service.ACLService">
 		<property name="deliveryService" ref="deliveryBean"/>
-	</bean>
+	</bean>   -->
 	
 	<!-- The manager must be always provided -->
 	<!--  bean id="cryptoManager" class="com.mediresource.security.crypto.CryptoManager"/ -->
 	
-	<bean id="cryptoManager" class="com.mediresource.security.crypto.CryptoManager" init-method="activate">
+	<!--<bean id="cryptoManager" class="com.mediresource.security.crypto.CryptoManager" init-method="activate">
 	
 		<constructor-arg type="String"><value>${secret.path}</value></constructor-arg>
 		
@@ -97,10 +97,8 @@
 		<property name="keyManagerService" ref="mongoKeyManagerBean"/>
 		<property name="anonProfile" value="true"/>
 		
-	</bean>
+	</bean>  -->
 	
-	<!-- Service for initializing MongoDB with sample data using MongoTemplate -->
-	<!-- bean id="initMongoService" class="com.mediresource.authentication.secure.service.InitMongoService" init-method="init"/ -->
-	<bean id="initMongoService" class="com.mediresource.security.secure.service.InitMongoService"/>
+	
 
 </beans>

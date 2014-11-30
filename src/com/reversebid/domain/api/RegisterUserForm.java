@@ -4,10 +4,9 @@ import javax.annotation.Generated;
 
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonPropertyOrder;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-
-@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonSerialize
 @Generated("org.jsonschema2pojo")
 @JsonPropertyOrder({
 "name",
