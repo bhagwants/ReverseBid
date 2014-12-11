@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+{ margin: 0; padding: 0; }
+
+html { 
+        background: url('/ReverseBid/api/multimedia/1.0/image/Sagal1') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+</style>
+<body>
+	<form method="POST" enctype="multipart/form-data"
+		action="/ReverseBid/api/multimedia/1.0/upload">
+		File to upload: <input type="file" name="file"><br /> Name: <input
+			type="text" name="name"><br /> <br /> <input type="submit"
+			value="Upload"> Press here to upload the file!
+	</form>
+	 <!-- <img src="/ReverseBid/api/multimedia/1.0/image/Sagal1" height="250" width="250"/>  --> 
+	<video width="400" controls >
+	  <source src="/ReverseBid/api/multimedia/1.0/image/DSCF0622.mp4" type="video/mp4"/>
+	  <source src="/ReverseBid/api/multimedia/1.0/image/DSCF0622.mp4" type="video/ogg"/>
+	  Your browser does not support the video tag.
+	</video>
+</body>
+</html>
