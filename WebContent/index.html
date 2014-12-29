@@ -65,7 +65,6 @@
 	        	// STOP LOADING SPINNER
 	        }
 	    });
-	  alert(44)
 	  return
       var ff = new FormData($('form#uploadform')[0]);
       $("#progressbar").html('<div id="prog"><progress></progress></div>')
@@ -106,7 +105,8 @@
                   </button>
                   <a class="navbar-brand" style="padding-top:0px" href="#">
                        <!--add me-->
-                       <img width="50px" src="/media/background/crowdlogo.png" style="float:left"><span style="font-size:25px;color:#a12626;float:left;font-family:'Old Standard TT', serif;font-weight: bold;vertical-align:bottom;padding-top:14px">ROWD-IN</span>
+                       <img width="50px" src="Application/app/_assets/img/crowdlogo.png" style="float:left">
+                       <span style="font-size:25px;color:#a12626;float:left;font-family:'Old Standard TT', serif;font-weight: bold;vertical-align:bottom;padding-top:14px">ROWD-IN</span>
                        <!--finish-->
                   </a>
              </div>
@@ -134,47 +134,16 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-	<p>
-       <!--  <img src="/media/background/back.jpg" width=100% style="opacity:50%">  -->
+      	<div class="media">
+		 <img src="Application/app/_assets/img/back.jpg" class="media-center">  
        
-       <div >
-                         <div class="well"  >
-                             <div class="uploadPlaceHolder"></div>
-                             <div id='progressbar' style="clear:both;margin:auto;width:100%"></div>
+		  <div class="media-body">
+		           Crowd-In is a reversed auction platform for renovation business. you can hire a professional to do your contract work at a fraction of the cost. you can announce jobs within minutes, browse through hundreds of experts who are hearing from you.</p>
 
-
-                            <p style="font-size:medium; text-align:justify;margin-top:10px"><a href="#" onclick="item_upload();return false" class="btn btn-primary">Add video, audio, or picture</a>
-                            	<a href="#" onclick="$('#detailed').show();return false"><img src="/media/1_009.png"></a>
-                        	</p>
-                        <div id="detailed" style="display:none;font-size:medium;text-align:justify;margin-top:10px">
-                            You can upload multimedia files or get it on the fly. For the latter here is the procedure:<br>
-                            <ul>
-                             <li>Login into your account <a href="http://www.crowd-in.com" target="_blank">crowd-in</a> from your smartphone or notepad</li>
-                             <li>Navigate to: Current> Add multimedia> Add video, audio, or picture button</li>
-                             <li>Start to record using your camera, camcorder or sound recorder</li>
-                             <li>And that's it, we take care of the rest. Your project is now enriched with multimedia content!</li>
-                             </ul>
-                            <a href="#" onclick="$('#detailed').hide();return false">Hide details </a>
-                            <br> <br>
-                        </div>
-       			</div>
-       	</div>
+		  </div>
+		</div>
        
-       
-       
-       
-       
-       
-<br>	
-        Crowd-In is a reversed auction platform for renovation business. you can hire a professional to do your contract work at a fraction of the cost. you can announce jobs within minutes, browse through hundreds of experts who are hearing from you.</p>
-        
-        <p>
-        	<!--<form action="/signup/" method="POST" accept-charset="utf-8">
-			{% csrf_token %}
-        		<input type="submit" class="btn btn-primary btn-lg" role="button" value="Start a project now »">
-   		</form>-->
 		<a href="/signup/" class="btn btn-primary btn-lg" role="button">Start a new project »</a>
-        </p>
       </div>
     </div>
 
