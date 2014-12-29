@@ -1,13 +1,72 @@
 'use strict';
 
-var chart
-$('body').hide();
-var CRD = angular.module('crdApp', [
-    'inputComponentDir',
-    'ngRoute',
-    'ui.bootstrap',
-    'ui.bootstrap.timepicker'
-]);
+function item_upload(ss){
+	    $(".uploadPlaceHolder").html("<form id ='uploadform' action='/detail/' method='POST' enctype='multipart/form-data'><input id='FLS'   type='file' name='files[]' accept='audio/*|video/*|image/*' multiple onchange='Checkitem();return false'><input id='service' type='text' style='display:none' name='service' value='"+ss+"'><input type='file' accept='image/*' capture='camera' id='capture' style='display:none' ><input name='task' value='multimedia'  style='display:none' ><input type='submit' style='display:none'></form>");
+	    $('#FLS').trigger('click');
+
+	}
+var crd = angular.module('crd',
+	    [
+	        'ngRoute',
+	        'ui.bootstrap',
+	        'ui.bootstrap.timepicker'
+	    ]);
+
+function Checkitem(){
+	  var data = new FormData($('form#uploadform')[0]);
+	  
+	    $.ajax({
+	        url: '/ReverseBid/api/multimedia/1.0/upload',
+	        type: 'POST',
+	        data: data,
+	        cache: false,
+	        dataType: 'json',
+	        processData: false, // Don't process the files
+	        contentType: false, // Set content type to false as jQuery will tell the server its a query string request
+	        success: function(data, textStatus, jqXHR)
+	        {
+	        	if(typeof data.error === 'undefined')
+	        	{
+	        		// Success so call function to process the form
+	        		submitForm(event, data);
+	        		console.log('success')
+	        	}
+	        	else
+	        	{
+	        		// Handle errors here
+	        		console.log('ERRORS: ' + data.error);
+	        	}
+	        },
+	        error: function(jqXHR, textStatus, errorThrown)
+	        {
+	        	// Handle errors here
+	        	console.log('ERRORS: ' + textStatus);
+	        	// STOP LOADING SPINNER
+	        }
+	    });
+	  return
+    var ff = new FormData($('form#uploadform')[0]);
+    $("#progressbar").html('<div id="prog"><progress></progress></div>')
+    Flag=1;
+    
+        $.ajax({url: '/detail/',
+            type: 'POST',
+            xhr: function() {
+                myXhr = $.ajaxSettings.xhr();
+                if(myXhr.upload){myXhr.upload.addEventListener('progress',progressHandlingFunction, false);}
+                return myXhr;
+            },
+            data:ff,
+            cache: false,
+            contentType: false,
+            processData: false
+        }).success(function(data){$('#prog').empty();$('#progressbar').empty();
+        			alert("works")
+        })
+        
+        }
+
+
 var varWindowClass = 'animated fadeIn';
 
 function checkLogin(data,dummy) {
@@ -24,7 +83,7 @@ function checkLogin(data,dummy) {
 
 }
 
-dhcApp.config(['$routeProvider',
+crd.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider.
         when('/mySettings', {template: '<div my-Settings-Page-Dir ng-init="init('+"'mySettings'"+')"></div>'}).
@@ -42,12 +101,12 @@ dhcApp.config(['$routeProvider',
         when('/faq', {template: '<div faq-Dir ng-init="init('+"'faq'"+')"></div>'}).
         when('/privacyPolicy', {template: '<div privacy-Policy-Dir ng-init="init('+"'privacyPolicy'"+')"></div>'}).
         otherwise({
-            redirectTo: '/myGoals'
+            redirectTo: '/'
         });
     }]);
 
 
-dhcApp.filter('truncate', function () {
+crd.filter('truncate', function () {
     return function (input, length) {
         return (input.length > length ? input.substring(0, length) : input );
     };
@@ -56,7 +115,7 @@ var ModalInstanceCtrl = function () {
     //this is not required now but can be used later on
 };
 
-dhcApp.controller('mainMenu', function ($scope, $modal, $http, $anchorScroll, $templateCache,$location) {
+crd.controller('mainMenu', function ($scope, $modal, $http, $anchorScroll, $templateCache,$location) {
     //$templateCache.removeAll();
 	$scope.updateLeftMenu=function(){
 				$http.get(leftMenuUrl).then(function(res){
@@ -179,7 +238,7 @@ dhcApp.controller('mainMenu', function ($scope, $modal, $http, $anchorScroll, $t
  *
  * TODO: This filter should be moved to a utility module.
  */
-dhcApp.filter('cut', function () {
+crd.filter('cut', function () {
     return function (value, wordwise, max, tail) {
         if (!value) return '';
 
@@ -199,13 +258,13 @@ dhcApp.filter('cut', function () {
     };
 });
 
-dhcApp.filter('unsafe', function ($sce) {
+crd.filter('unsafe', function ($sce) {
     return function (val) {
         return $sce.trustAsHtml(val);
     };
 });
 
-dhcApp.directive('ngEnter', function () {
+crd.directive('ngEnter', function () {
     return function (scope, element, attrs) {
         element.bind("keydown keypress", function (event) {
             if (event.which === 13) {
@@ -237,6 +296,6 @@ $(function () {
             dhcAppNavTrickPosition();
         }
     }
-    serviceFinder();
-    $("#logout").attr("href", address + appName + "/api/logout/1.0")
+    //serviceFinder();
+    //$("#logout").attr("href", address + appName + "/api/logout/1.0")
 })

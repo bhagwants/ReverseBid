@@ -27,72 +27,13 @@
     <![endif]-->
    
   <script type="text/javascript">
-  
-  function item_upload(ss){
-	    $(".uploadPlaceHolder").html("<form id ='uploadform' action='/detail/' method='POST' enctype='multipart/form-data'><input id='FLS'   type='file' name='files[]' accept='audio/*|video/*|image/*' multiple onchange='Checkitem();return false'><input id='service' type='text' style='display:none' name='service' value='"+ss+"'><input type='file' accept='image/*' capture='camera' id='capture' style='display:none' ><input name='task' value='multimedia'  style='display:none' ><input type='submit' style='display:none'></form>");
-	    $('#FLS').trigger('click');
 
-	}
-  function Checkitem(){
-	  var data = new FormData($('form#uploadform')[0]);
-	  
-	    $.ajax({
-	        url: '/ReverseBid/api/multimedia/1.0/upload',
-	        type: 'POST',
-	        data: data,
-	        cache: false,
-	        dataType: 'json',
-	        processData: false, // Don't process the files
-	        contentType: false, // Set content type to false as jQuery will tell the server its a query string request
-	        success: function(data, textStatus, jqXHR)
-	        {
-	        	if(typeof data.error === 'undefined')
-	        	{
-	        		// Success so call function to process the form
-	        		submitForm(event, data);
-	        		console.log('success')
-	        	}
-	        	else
-	        	{
-	        		// Handle errors here
-	        		console.log('ERRORS: ' + data.error);
-	        	}
-	        },
-	        error: function(jqXHR, textStatus, errorThrown)
-	        {
-	        	// Handle errors here
-	        	console.log('ERRORS: ' + textStatus);
-	        	// STOP LOADING SPINNER
-	        }
-	    });
-	  return
-      var ff = new FormData($('form#uploadform')[0]);
-      $("#progressbar").html('<div id="prog"><progress></progress></div>')
-      Flag=1;
-      
-          $.ajax({url: '/detail/',
-              type: 'POST',
-              xhr: function() {
-                  myXhr = $.ajaxSettings.xhr();
-                  if(myXhr.upload){myXhr.upload.addEventListener('progress',progressHandlingFunction, false);}
-                  return myXhr;
-              },
-              data:ff,
-              cache: false,
-              contentType: false,
-              processData: false
-          }).success(function(data){$('#prog').empty();$('#progressbar').empty();
-          			alert("works")
-          })
-          
-          }
-  
 	
   </script> 
     
   </head>
 
-  <body>
+  <body ng-app="crd">
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -178,8 +119,12 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="Application/app/_vendor/angular-1.2.16/angular.min.js"></script>
+	<script type="text/javascript" src="Application/app/_vendor/angular-1.2.16/angular-route.min.js"></script>
+	<script type="text/javascript" src="Application/app/_vendor/ui-bootstrap-0-10-0/ui-bootstrap-tpls-0.10.0.min.js"></script>
+	
     <script src="Application/app/_assets/js/jquery.js"></script>
     <script src="Application/app/_assets/js/bootstrap.js"></script>
-  
+  	<script src="Application/app/application.js"></script>
 
 </body></html>
