@@ -1,6 +1,5 @@
 package com.reversebid.domain.api;
 
-import java.io.InputStream;
 import java.io.Serializable;
 
 import javax.annotation.Generated;

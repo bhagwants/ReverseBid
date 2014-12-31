@@ -55,5 +55,24 @@ public class MultimediaController {
         return ("Failed to get image by name " + name).getBytes();
         
     }
+	
+	@RequestMapping(value = "/api/multimedia/1.0/media/{name}")
+    public @ResponseBody byte[] showVideo(@PathVariable String name) {
+        byte[] b;
+        try {
+        	GridFSDBFile file = service.getByFileName(name);
+            if(file != null) {
+            	b = IOUtils.toByteArray(file.getInputStream());
+            	return b;
+            }
+        } catch(Exception ex) {
+        	return ("Failed to get video by name " + name).getBytes();
+        }
+        
+        return ("Failed to get video by name " + name).getBytes();
+        
+    }
+	
+	
 
 }
