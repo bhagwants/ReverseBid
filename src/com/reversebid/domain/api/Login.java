@@ -5,8 +5,6 @@ import java.util.Map;
 
 import javax.annotation.Generated;
 
-import org.codehaus.jackson.annotate.JsonAnyGetter;
-import org.codehaus.jackson.annotate.JsonAnySetter;
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonPropertyOrder;
@@ -26,54 +24,24 @@ public class Login {
 	private String password;
 	@JsonIgnore
 	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-	
-	/**
-	* 
-	* @return
-	* The name
-	*/
-	@JsonProperty("name")
 	public String getName() {
-	return name;
+		return name;
 	}
-
-	/**
-	* 
-	* @param name
-	* The name
-	*/
-	@JsonProperty("name")
 	public void setName(String name) {
-	this.name = name;
+		this.name = name;
 	}
-
-	/**
-	* 
-	* @return
-	* The password
-	*/
-	@JsonProperty("password")
 	public String getPassword() {
-	return password;
+		return password;
 	}
-
-	/**
-	* 
-	* @param password
-	* The password
-	*/
-	@JsonProperty("password")
 	public void setPassword(String password) {
-	this.password = password;
+		this.password = password;
 	}
-
-	@JsonAnyGetter
 	public Map<String, Object> getAdditionalProperties() {
-	return this.additionalProperties;
+		return additionalProperties;
 	}
+	public void setAdditionalProperties(Map<String, Object> additionalProperties) {
+		this.additionalProperties = additionalProperties;
+	}
+	
 
-	@JsonAnySetter
-	public void setAdditionalProperty(String name, Object value) {
-	this.additionalProperties.put(name, value);
-	}
 }
