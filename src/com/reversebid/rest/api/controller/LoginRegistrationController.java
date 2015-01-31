@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.reversebid.domain.api.IJSONNodeEntity;
 import com.reversebid.domain.api.Login;
 import com.reversebid.domain.api.RegisterUserForm;
 import com.reversebid.domain.api.Response;
@@ -27,8 +26,8 @@ public class LoginRegistrationController {
 	
 	@RequestMapping(value = "/api/login/1.0", method = RequestMethod.POST,
 			consumes={"application/json"})
-	public @ResponseBody IJSONNodeEntity login(@RequestBody Login loginForm) {
-		return userService.authenticate(loginForm);
+	public String login(@RequestBody Login loginForm) {
+		return loginForm.getName() + ":" + loginForm.getPassword();
 	}
 	
 	@RequestMapping(value = "/api/register/1.0", method = RequestMethod.POST,
