@@ -60,45 +60,5 @@
 	<bean id="AESCipher" class="org.apache.shiro.crypto.AesCipherService">
 		<property name="keySize" value="256"></property>
 	</bean>
-	
-	<!--  <bean id="cryptoBean" class="com.mediresource.security.crypto.SymmetricCryptoService">
-		<property name="cipherService" ref="AESCipher"/>
-	</bean> -->
-	
-	<!--  Old: KeyManager based on file-->
-	<!-- <bean id="keyManagerBean" class="com.mediresource.security.keymanager.LocalKeyManager">
-		<constructor-arg type="String"><value>pwd</value></constructor-arg>
-	</bean> -->
-	
-	<!--  New: KeyManager based on Mongo-->
-	<!-- <bean id="mongoKeyManagerBean" class="com.mediresource.security.keymanager.MongoKeyManager"> -->
-		<!--  PASSWORD MUST BE PROVIDED RUNTIME OR IN CRYPTOMANAGER CONFIG -->
-		<!--  The only lenght supported is 32 characters-->
-		<!--  constructor-arg type="String"><value>01234567012345670123456701234567</value></constructor-arg -->
-	<!-- </bean> -->
-	
-
-	<!--  User only for Tests -->
-	<!-- <bean id="keyManagerDAO" class="com.mediresource.security.keymanager.dao.KeyManagerDAO">
-	</bean>  -->
-	
-	<!-- <bean id="acl" class="com.mediresource.security.secure.service.ACLService">
-		<property name="deliveryService" ref="deliveryBean"/>
-	</bean>   -->
-	
-	<!-- The manager must be always provided -->
-	<!--  bean id="cryptoManager" class="com.mediresource.security.crypto.CryptoManager"/ -->
-	
-	<!--<bean id="cryptoManager" class="com.mediresource.security.crypto.CryptoManager" init-method="activate">
-	
-		<constructor-arg type="String"><value>${secret.path}</value></constructor-arg>
-		
-		<property name="cryptoService" ref="cryptoBean"/>
-		<property name="keyManagerService" ref="mongoKeyManagerBean"/>
-		<property name="anonProfile" value="true"/>
-		
-	</bean>  -->
-	
-	
 
 </beans>
